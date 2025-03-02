@@ -9,13 +9,13 @@ export const About = () => {
   return (
     <Layout breadcrumbTitle={"About Us"} breadcrumbSubtitle={"About Us"}>
       {/* about */}
-      <AboutFive />
+      {/* <AboutFive /> */}
 
       {/* history */}
       <HistoryOne />
 
       {/* team */}
-      <TeamFour />
+      {/* <TeamFour /> */}
 
       {/* brand */}
       <BrandTwo />

@@ -18,13 +18,14 @@ export const ContactFour = () => {
                           <img
                             className="w-100"
                             src={bgImage}
-                            alt="London office"
+                            alt="dubai office"
                           />
                         </div>
                       </div>
 
                       <div className="col-xl-5 col-lg-6 col-md-6 col-sm-7">
                         <div className="td-contact-4-content">
+                        {/* <h3 className="td-contact-4-title mb-30">Address</h3> */}
                           <h3 className="td-contact-4-title mb-30">Dubai</h3>
                           <ul>
                             <li>
@@ -32,27 +33,12 @@ export const ContactFour = () => {
                                 className="td-contact-4-email"
                                 href="mailto:info@adina-design.com"
                               >
-                               Dubai Airport Freezone, Dubai, UAE
+                                Building 9WA - 138 - SO - 23
+                                Dubai Airport Freezone
+                                Dubai, UAE
+
                               </a>
                             </li>
-                            {/* <li className="mb-10">
-                              <a
-                                className="td-contact-4-phone"
-                                href="tel:+(123)45678900"
-                              >
-                                +(123) 456 789 00
-                              </a>
-                            </li>
-                            <li>
-                              <a
-                                className="td-contact-4-addres"
-                                href="https://www.google.com/maps/@41.6758525,-86.2531698,18.17z"
-                                target="_blank"
-                              >
-                                2938 Bingamon Branch Road Highland Park, IL
-                                60035
-                              </a>
-                            </li> */}
                           </ul>
                         </div>
                       </div>
@@ -86,18 +72,21 @@ export const ContactFour = () => {
                             <li className="mb-10">
                               <a
                                 className="td-contact-4-phone"
-                                href="tel:+(123)45678900"
+                                href="tel:+(971)501361586"
+                                target="_blank"
+                                rel="noreferrer"
+
                               >
-                                 +971-XXX-XXXX
+                                +971 50 136 1586
                               </a>
                             </li>
                             <li>
                               <a
                                 className="td-contact-4-addres"
-                                href="mailto:info@therehapie.com"
+                                href="mailto:abdul.rahiman@therehapie.com"
                                 target="_blank"
                               >
-                     info@therehapie.com
+                                abdul.rahiman@therehapie.com
                               </a>
                             </li>
                           </ul>

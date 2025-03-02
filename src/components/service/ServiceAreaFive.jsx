@@ -8,13 +8,13 @@ export const ServiceAreaFive = () => {
         <div className="row">
           <div className="col-lg-12">
             <div className="td-service-5-title-wrap mb-70 text-center">
-              <span className="td-section-title-pre mb-10">Our Business</span>
+              <span className="td-section-title-pre mb-10">Our Services</span>
               <h2 className="td-section-title">Explore our services</h2>
             </div>
           </div>
         </div>
         <div className="row gx-0 row-cols-xl-5 row-cols-lg-3 justify-content-center align-items-center">
-          <div className="col sm-flex">
+          <div className="col sm-flex ">
             <div
               className="td-service-5-wrap text-center mb-50 wow fadeInUp"
               data-wow-delay=".3s"
@@ -61,9 +61,9 @@ export const ServiceAreaFive = () => {
               </div>
               <div className="td-service-5-content">
                 <h2 className="td-service-5-title mb-20">
-                  <Link to="/service-details">Home Insurance</Link>
+                  <Link to="/service-details">Manufacturers</Link>
                 </h2>
-                <p>Protect your most valuable asset with our thing.</p>
+                <p>Expanding Market Reach & Increasing Sales.</p>
               </div>
             </div>
           </div>
@@ -122,9 +122,9 @@ export const ServiceAreaFive = () => {
               </div>
               <div className="td-service-5-content">
                 <h2 className="td-service-5-title mb-20">
-                  <Link to="/service-details">Auto Insurance</Link>
+                  <Link to="/service-details">Distributors</Link>
                 </h2>
-                <p>Drive with confidence knowing you're covered</p>
+                <p> Building a Strong Portfolio & Maximizing Profits.</p>
               </div>
             </div>
           </div>
@@ -203,13 +203,13 @@ export const ServiceAreaFive = () => {
               </div>
               <div className="td-service-5-content">
                 <h2 className="td-service-5-title mb-20">
-                  <Link to="/service-details">Life Insurance</Link>
+                  <Link to="/service-details">Healthcare Providers</Link>
                 </h2>
-                <p>Protect your most valuable asset with our thing.</p>
+                <p>Cost-Effective Rehabilitation & Physio Solutions.</p>
               </div>
             </div>
           </div>
-          <div className="col sm-flex">
+          {/* <div className="col sm-flex">
             <div
               className="td-service-5-wrap item-4 text-center mb-50 wow fadeInUp"
               data-wow-delay=".6s"
@@ -268,8 +268,8 @@ export const ServiceAreaFive = () => {
                 <p>Prioritize your well-being with our tailored health</p>
               </div>
             </div>
-          </div>
-          <div className="col sm-flex">
+          </div> */}
+          {/* <div className="col sm-flex">
             <div
               className="td-service-5-wrap item-5 text-center mb-50 wow fadeInUp"
               data-wow-delay=".7s"
@@ -321,9 +321,9 @@ export const ServiceAreaFive = () => {
                 <p>Protect your business from risks with business</p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
-        <div className="row">
+        {/* <div className="row">
           <div className="col-12">
             <div className="td-service-5-bottom-para">
               <p>
@@ -332,7 +332,7 @@ export const ServiceAreaFive = () => {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
