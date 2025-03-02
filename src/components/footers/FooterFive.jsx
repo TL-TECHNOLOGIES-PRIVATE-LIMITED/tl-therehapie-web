@@ -22,7 +22,7 @@ export const FooterFive = () => {
                         </a>
                       </li>
                       <li className="mb-20">
-                        <a href="tel:+(123)45678900">+(123) 456 789 00</a>
+                        <a href="tel:+(971)501361586">+(123) 456 789 00</a>
                       </li>
                       <li>
                         <a
@@ -38,7 +38,7 @@ export const FooterFive = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-4 col-sm-6">
+              {/* <div className="col-lg-3 col-md-4 col-sm-6">
                 <div className="td-footer-5-widget mb-45 ml-20">
                   <h2 className="td-footer-5-widget-title mb-45">Sub Office</h2>
                   <div className="td-footer-5-widget-content">
@@ -49,7 +49,7 @@ export const FooterFive = () => {
                         </a>
                       </li>
                       <li className="mb-20">
-                        <a href="tel:+(123)45678900">+(123) 456 789 00</a>
+                        <a href="tel:+(971)501361586">+(123) 456 789 00</a>
                       </li>
                       <li>
                         <a
@@ -64,7 +64,7 @@ export const FooterFive = () => {
                     </ul>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className="col-lg-2 col-md-4 col-sm-6">
                 <div className="td-footer-5-widget mb-45 ml-40">
                   <h2 className="td-footer-5-widget-title mb-45">Essential</h2>
@@ -112,18 +112,18 @@ export const FooterFive = () => {
                   <h2 className="td-footer-5-widget-title mb-45">Follow Us</h2>
                   <div className="td-footer-5-widget-content td-footer-5-widget-content-link">
                     <ul>
-                      <li>
+                      {/* <li>
                         <a href="#">Facebook</a>
-                      </li>
+                      </li> */}
                       <li>
-                        <a href="#">LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/abdul-rahiman-beyaram-kunhali-698a971b6/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"  >LinkedIn</a>
                       </li>
-                      <li>
+                      {/* <li>
                         <a href="#">Twitter</a>
                       </li>
                       <li>
                         <a href="#">YouTube</a>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                 </div>

@@ -45,46 +45,52 @@ export const BlogTwo = () => {
   const blogPosts = [
     {
       imgSrc: img01,
-      tag: "Business",
+      author: "heREHApie Consultants",
       date: "June 21, 2024",
       href: "/blog-details",
-      title: "Making strategies for outstanding future results",
+      title: "The Future of Rehabilitation",
+      tagline: " How Technology is Transforming Patient Recovery"
     },
     {
       imgSrc: img02,
-      tag: "Business",
-      date: "June 21, 2024",
+      author: "heREHApie Consultants",
+      date: "March 5, 2024",
       href: "/blog-details",
-      title: "Our business thrives to contribute global initiatives",
+      title: "Choosing the Right Rehabilitation Equipment",
+     tagline: " A Buyer’s Guide for Healthcare Providers "
     },
     {
       imgSrc: img03,
-      tag: "Business",
-      date: "June 21, 2024",
+      author: "heREHApie Consultants",
+      date: "March 10, 2024",
       href: "/blog-details",
-      title: "Innovative ideas for small businesses",
+      title: "The Middle East: A Growing Market for Rehabilitation Technology",
+     tagline: "Unlocking Opportunities: Navigating the Middle East Rehab Tech Market "
     },
     {
       imgSrc: img04,
-      tag: "Business",
-      date: "June 21, 2024",
+      author: "heREHApie Consultants",
+      date: "March 15, 2024",
       href: "/blog-details",
-      title: "Discover a better way of redefining company",
+      title: "How to Optimize Your Rehabilitation Product Distribution Strategy",
+     tagline: " Maximizing Reach, Enhancing Care: Optimize Your Rehab Product Distribution"
     },
     {
       imgSrc: img05,
-      tag: "Business",
-      date: "June 21, 2024",
+      author: "heREHApie Consultants",
+      date: "March 20, 2024",
       href: "/blog-details",
-      title: "The new way to keep track of all the projects",
+      title: "Overcoming Challenges in the Rehabilitation Industry",
+     tagline: " A Manufacturer’s Perspective "
     },
-    {
-      imgSrc: img06,
-      tag: "Business",
-      date: "June 21, 2024",
-      href: "/blog-details",
-      title: "The essential steps for business success",
-    },
+    // {
+    //   imgSrc: img06,
+    //   author: "heREHApie Consultants",
+    //   date: "June 21, 2024",
+    //   href: "/blog-details",
+    //   title: "The essential steps for business success",
+    //  tagline: " "
+    // },
   ];
 
   return (
@@ -98,8 +104,8 @@ export const BlogTwo = () => {
               data-wow-delay=".3s"
               data-wow-duration="1s"
             >
-              <span className="td-section-title-pre mb-10">Insights</span>
-              <h2 className="td-section-title mb-30">Latest news coming</h2>
+              <span className="td-section-title-pre mb-10">Our Blogs</span>
+              <h2 className="td-section-title mb-30">Insights That Matter</h2>
             </div>
           </div>
 
@@ -124,13 +130,16 @@ export const BlogTwo = () => {
                               />
                             </div>
                             <div className="td-blog-meta-2 mb-15">
-                              <span className="td-blog-2-tag">{post.tag}</span>
+                              <span className="td-blog-2-tag">{post.author}</span>
                               <span className="dvdr">/</span>
                               <span>{post.date}</span>
                             </div>
-                            <h3 className="td-blog-title td-blog-title-2">
+                            <h2 className="td-blog-title td-blog-title-2">
                               <Link to={post.href}>{post.title}</Link>
-                            </h3>
+                            </h2>
+                            <p className="td-blog-tagline">
+                              <Link to={post.href}>{post.tagline}</Link>
+                            </p>
                           </div>
                         </div>
                       </SwiperSlide>

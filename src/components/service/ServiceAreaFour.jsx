@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logoImage from "../../assets/img/logo/logo.png";
+import logoImage from "../../assets/img/logo/logo.jpg";
 
 export const ServiceAreaFour = () => {
   return (
@@ -13,10 +13,10 @@ export const ServiceAreaFour = () => {
                 <div className="col-lg-12">
                   <div className="td-service-title-wrap text-center mb-100">
                     <span className="td-section-title-pre mb-10">
-                      Our Business
+                    Why Choose Us ?
                     </span>
                     <h2 className="td-section-title mb-30">
-                      Explore our services
+                    Manufacturer Challenges
                     </h2>
                   </div>
                 </div>
@@ -70,11 +70,11 @@ export const ServiceAreaFour = () => {
                         </div>
                         <div className="td-service-4-content">
                           <h3 className="td-service-4-title">
-                            <Link to="/service-details">Market analysis</Link>
+                            <Link to="/service-details"> Market Misalignment</Link>
                           </h3>
                           <p>
-                            From strategy to delivery, we are here to make sure
-                            your business succeeds.
+                          Inaccurate insights and unrealistic expectations create uncertainty.
+
                           </p>
                         </div>
                       </div>
@@ -129,11 +129,10 @@ export const ServiceAreaFour = () => {
                         </div>
                         <div className="td-service-4-content">
                           <h3 className="td-service-4-title">
-                            <Link to="/service-details">Online business</Link>
+                            <Link to="/service-details"> Distributor & Communication Gaps</Link>
                           </h3>
                           <p>
-                            From strategy to delivery, we are here to make sure
-                            your business succeeds.
+                          Limited priority, time zone differences, and work schedule mismatches hinder growth.
                           </p>
                         </div>
                       </div>
@@ -182,11 +181,10 @@ export const ServiceAreaFour = () => {
                         </div>
                         <div className="td-service-4-content">
                           <h3 className="td-service-4-title">
-                            <Link to="/service-details">HR researches</Link>
+                            <Link to="/service-details">Regulatory & Competitive Hurdles</Link>
                           </h3>
                           <p>
-                            From strategy to delivery, we are here to make sure
-                            your business succeeds.
+                          Complex approvals, compliance issues, and pricing pressures.
                           </p>
                         </div>
                       </div>
@@ -243,11 +241,10 @@ export const ServiceAreaFour = () => {
                         </div>
                         <div className="td-service-4-content">
                           <h3 className="td-service-4-title">
-                            <Link to="/service-details">Business strategy</Link>
+                            <Link to="/service-details">Lack of Local Presence</Link>
                           </h3>
                           <p>
-                            From strategy to delivery, we are here to make sure
-                            your business succeeds.
+                          High costs prevent on-ground support, leading to missed opportunities.
                           </p>
                         </div>
                       </div>

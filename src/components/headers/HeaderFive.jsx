@@ -2,7 +2,7 @@ import React from "react";
 import { useHeaderSticky } from "./useHeader";
 import { Navbar } from "./Navbar";
 import { Link } from "react-router-dom";
-import LOGO from "../../assets/img/logo/logo.png";
+import LOGO from "../../assets/img/logo/logo.jpg";
 import { NavImgGallery } from "./NavImgGallery";
 
 export const HeaderFive = () => {
@@ -20,16 +20,16 @@ export const HeaderFive = () => {
                   <div className="td-header-5-info-wrap">
                     <ul>
                       <li className="borders">
-                        <a href="mailto:info@adina.com">
+                        <a href="mailto:abdul.rahiman@therehapie.com" target="_blank" rel="noreferrer">
                           <i className="fa-regular fa-envelope-open"></i>
                           <div className="td-header-5-info">
-                            <p>info@adina.com</p>
+                            <p>abdul.rahiman@therehapie.com</p>
                             <span>Drop us a line</span>
                           </div>
                         </a>
                       </li>
                       <li>
-                        <a href="tel:+(123)45678900">
+                        <a href="tel:+(971)501361586" target="_blank" rel="noreferrer">
                           <i className="fa-regular fa-phone-flip"></i>
                           <div className="td-header-5-info">
                             <p>+(123) 456 789 00</p>
@@ -43,7 +43,7 @@ export const HeaderFive = () => {
                 <div className="col-xl-3 col-lg-2 d-none d-lg-block">
                   <div className="td-header-5-logo ml-40">
                     <Link to="/">
-                      <img src={LOGO} alt="logo" />
+                      <img src={LOGO} alt="logo" width={250} />
                     </Link>
                   </div>
                 </div>

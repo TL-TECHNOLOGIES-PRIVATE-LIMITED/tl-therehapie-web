@@ -63,7 +63,7 @@ export const FooterThree = () => {
                         <a href="mailto:info@adina-design.com">
                           info@adina-design.com
                         </a>
-                        <a href="tel:+(123)45678900">+(123) 456 789 00</a>
+                        <a href="tel:+(971)501361586">+(123) 456 789 00</a>
                       </div>
                     </div>
                     <div className="td-footer-3-widget">

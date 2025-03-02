@@ -30,7 +30,7 @@ export const Breadcrumb = ({ title, subtitle, bottomText }) => {
         className="td-breadcrumb-big-text pt-60"
         data-parallax='{"x": -100, "smoothness": 10}'
       >
-        <h2>{bottomText || "Adina.Business"}</h2>
+        <h2>{bottomText || "theREHApie"}</h2>
       </div>
     </div>
   );

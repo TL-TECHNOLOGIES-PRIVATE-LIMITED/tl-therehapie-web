@@ -35,7 +35,7 @@ export const HomeFive = () => {
       <CtaOne />
 
       {/* team */}
-      <TeamThree />
+      {/* <TeamThree /> */}
 
       {/* portfolio */}
       {/* <PortfolioFour /> */}

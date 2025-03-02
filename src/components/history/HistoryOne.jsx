@@ -3,10 +3,10 @@ import $ from "jquery";
 
 export const HistoryOne = () => {
   const historyItems = [
-    { id: "1", year: "1972", title: "Journey Was Started" },
-    { id: "2", year: "2000", title: "100+ worldwide base" },
-    { id: "3", year: "2022", title: "500+ projects done" },
-    { id: "4", year: "2024", title: "archive 1000+ awards" },
+    { id: "1", year: "1972", title: "For Manufacturers", content:"We help you expand your market reach, identify the right distributors, and navigate complex regulations" },
+    { id: "2", year: "2000", title: "For Distributors",content:" We connect you with leading manufacturers, optimize your product portfolio, and help you establish a strong foothold in the market." },
+    { id: "3", year: "2022", title: " For Healthcare Providers",content:"We assist hospitals, clinics, and rehab centers in acquiring cost-effective, high-quality rehabilitation solutions tailored to their needs." },
+    // { id: "4", year: "2024", title: "archive 1000+ awards" },
   ];
 
   useEffect(() => {
@@ -26,8 +26,15 @@ export const HistoryOne = () => {
                 Started From 1972
               </span>
               <h2 className="td-section-title">
-                Our business is taking care of your business.
+              What We Do
               </h2>
+              <p>
+              At theREHApie Consultants, we connect manufacturers, distributors, and healthcare providers with cutting-edge rehabilitation technology in the Middle East. From market entry strategies to regulatory compliance, distribution management, and sales optimization, we help businesses expand, grow, and thrive in the rehab industry.
+              </p>
+              <p>
+              By bridging the gap between innovation and accessibility, we ensure that patients receive the best rehabilitation solutions, while businesses maximize their market potential and profitability. 
+
+              </p>
             </div>
           </div>
 
@@ -52,12 +59,10 @@ export const HistoryOne = () => {
                   id={item.id}
                   className="td-history-item mb-80"
                 >
-                  <h2 className="td-history-year mb-35">{item.year}</h2>
+                  {/* <h2 className="td-history-year mb-35">{item.year}</h2> */}
                   <h4 className="td-history-title mb-20">{item.title}</h4>
                   <p>
-                    We are constantly rethinking the future by creating the next
-                    generation of products, brands and services from a hybrid
-                    perspective.
+                 {item.content}
                   </p>
                 </div>
               ))}

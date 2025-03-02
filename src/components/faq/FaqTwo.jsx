@@ -15,7 +15,7 @@ export const FaqTwo = () => {
               data-wow-delay=".3s"
               data-wow-duration="1s"
             >
-              <span className="td-section-title-pre mb-10">Impressions</span>
+              <span className="td-section-title-pre mb-10">Faq's</span>
               <h2 className="td-section-title">Fun fact about company</h2>
             </div>
             <div className="td-faq-wrapper">
@@ -37,7 +37,7 @@ export const FaqTwo = () => {
                       aria-expanded="true"
                       aria-controls="digital__collapse_one"
                     >
-                      How can your agency help my business grow?
+                      What types of rehabilitation equipment do you provide?
                       <span className="accordion-btn">
                         <b className="td-btn-group p-relative">
                           <i className="fa-solid fa-arrow-up-long fa-fw td-up"></i>
@@ -54,12 +54,7 @@ export const FaqTwo = () => {
                   >
                     <div className="accordion-body td-faq-para">
                       <p>
-                        Our focus is on delivering superior value to our clients
-                        for company modification. Providing sustainable
-                        strategies that will upgrade their business. From
-                        strategy to delivery, we are here to make sure your
-                        business succeeds. Thinking, writing and planning with
-                        brand for more than 50 years.
+                        We offer a wide range of cutting-edge rehabilitation solutions, including physiotherapy devices, mobility aids, neurotherapy equipment, and AI-powered rehab technology tailored to different patient needs.
                       </p>
                     </div>
                   </div>
@@ -78,7 +73,7 @@ export const FaqTwo = () => {
                       aria-expanded="false"
                       aria-controls="digital__collapse_two"
                     >
-                      What industries does your agency specialize in?
+                      How do you help manufacturers expand into the Middle East market?
                       <span className="accordion-btn">
                         <b className="td-btn-group p-relative">
                           <i className="fa-solid fa-arrow-up-long fa-fw td-up"></i>
@@ -95,12 +90,7 @@ export const FaqTwo = () => {
                   >
                     <div className="accordion-body td-faq-para">
                       <p>
-                        Our focus is on delivering superior value to our clients
-                        for company modification. Providing sustainable
-                        strategies that will upgrade their business. From
-                        strategy to delivery, we are here to make sure your
-                        business succeeds. Thinking, writing and planning with
-                        brand for more than 50 years.
+                        We assist manufacturers with market research, distributor partnerships, regulatory compliance, pricing strategies, and ongoing sales support to ensure successful market entry and sustained growth.
                       </p>
                     </div>
                   </div>
@@ -119,8 +109,7 @@ export const FaqTwo = () => {
                       aria-expanded="false"
                       aria-controls="digital__collapse_three"
                     >
-                      How do you approach developing a marketing strategy for
-                      clients?
+                      Do you provide training and technical support for healthcare providers?
                       <span className="accordion-btn">
                         <b className="td-btn-group p-relative">
                           <i className="fa-solid fa-arrow-up-long fa-fw td-up"></i>
@@ -137,12 +126,8 @@ export const FaqTwo = () => {
                   >
                     <div className="accordion-body td-faq-para">
                       <p>
-                        Our focus is on delivering superior value to our clients
-                        for company modification. Providing sustainable
-                        strategies that will upgrade their business. From
-                        strategy to delivery, we are here to make sure your
-                        business succeeds. Thinking, writing and planning with
-                        brand for more than 50 years.
+                        Yes, we offer comprehensive product training, installation guidance, and technical support to ensure healthcare professionals can maximize the benefits of our rehabilitation equipment.
+
                       </p>
                     </div>
                   </div>
@@ -161,8 +146,8 @@ export const FaqTwo = () => {
                       aria-expanded="false"
                       aria-controls="digital__collapse_four"
                     >
-                      Can you provide successful projects your agency has
-                      completed?
+                      What makes theREHApie Consultants different from other rehab consultants?
+
                       <span className="accordion-btn">
                         <b className="td-btn-group p-relative">
                           <i className="fa-solid fa-arrow-up-long fa-fw td-up"></i>
@@ -179,12 +164,8 @@ export const FaqTwo = () => {
                   >
                     <div className="accordion-body td-faq-para">
                       <p>
-                        Our focus is on delivering superior value to our clients
-                        for company modification. Providing sustainable
-                        strategies that will upgrade their business. From
-                        strategy to delivery, we are here to make sure your
-                        business succeeds. Thinking, writing and planning with
-                        brand for more than 50 years.
+                        Our deep market expertise, strong industry connections, and commitment to personalized support help us provide tailored solutions that bridge the gap between innovation and real-world patient care.
+
                       </p>
                     </div>
                   </div>
