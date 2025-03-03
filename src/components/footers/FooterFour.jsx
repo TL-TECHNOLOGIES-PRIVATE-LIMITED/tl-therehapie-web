@@ -40,13 +40,15 @@ export const FooterFour = () => {
                   <h2 className="td-footer-3-widget-title mb-40">Find us</h2>
                   <div className="td-footer-4-link">
                     <a href="mailto:info@adina-design.com">
-                      <i className="fa-sharp fa-regular fa-location-dot"></i>71
-                      South Los Carneros Road, California
+                      <i className="fa-sharp fa-regular fa-location-dot"></i>
+                      Building 9WA - 138 - SO - 23
+                      Dubai Airport Freezone
+                      Dubai, UAE
                     </a>
                     <a href="mailto:info@adina-design.com">
-                      <i className="fa-regular fa-envelope"></i>adina@mail.com
+                      <i className="fa-regular fa-envelope"></i>abdul.rahiman@therehapie.com
                     </a>
-                    <a href="tel:+51174705812">
+                    <a href="tel:+971 50 136 1586">
                       <span>
                         <svg
                           width="20"
@@ -63,7 +65,7 @@ export const FooterFour = () => {
                           </g>
                         </svg>
                       </span>
-                      +51 174 705 812
+                      +971 50 136 1586
                     </a>
                   </div>
                 </div>
@@ -143,9 +145,8 @@ export const FooterFour = () => {
                   <div className="row">
                     <div className="col-lg-6 col-md-5">
                       <div className="td-footer-3-bottom-copyright mb-10">
-                        <p>
-                          © 2024 <Link to="/">Example</Link>, All rights
-                          reserved.
+                      <p>
+                          © 2025 <a href="https://www.tltechnologies.net/" style={{color:"red"}}>TL Technologies</a>, All rights reserved.
                         </p>
                       </div>
                     </div>

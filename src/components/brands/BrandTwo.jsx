@@ -1,10 +1,14 @@
 import React from "react";
-import mapImg from "../../assets/img/brands/map.png";
-import brand01Img from "../../assets/img/brands/01.png";
-import brand02Img from "../../assets/img/brands/02.png";
-import brand03Img from "../../assets/img/brands/03.png";
-import brand04Img from "../../assets/img/brands/04.png";
-import brand05Img from "../../assets/img/brands/05.png";
+import mapImg from "../../assets/img/map/bg-map.png";
+import BAHRAIN from "../../assets/img/map/BAHRAIN.jpg";
+import UAE from "../../assets/img/map/UAE.jpg";
+import EGYPT from "../../assets/img/map/EGYPT.jpg";
+import QATAR from "../../assets/img/map/QATAR.jpg";
+import OMAN from "../../assets/img/map/OMAN.jpg";
+import KUWAIT from "../../assets/img/map/KUWAIT.jpg";
+import SOUDIARABIA from "../../assets/img/map/SOUDI ARABIA.jpg";
+import TURKEY from "../../assets/img/map/Turkey.jpg";
+
 
 export const BrandTwo = () => {
   return (
@@ -36,8 +40,8 @@ export const BrandTwo = () => {
                   <a href="#">
                     <img
                       className="td-brand-logo-2"
-                      src={brand01Img}
-                      alt="brand"
+                      src={UAE}
+                      alt="brand" height={250}
                     />
                   </a>
                   <span className="td-brand-shape td-brand-shape-position">
@@ -59,8 +63,9 @@ export const BrandTwo = () => {
                   <a href="#">
                     <img
                       className="td-brand-logo-2"
-                      src={brand02Img}
+                      src={BAHRAIN}
                       alt="brand"
+                      height={250}
                     />
                   </a>
                   <span className="td-brand-shape td-brand-shape-position-2">
@@ -81,8 +86,9 @@ export const BrandTwo = () => {
                   <a href="#">
                     <img
                       className="td-brand-logo-2"
-                      src={brand03Img}
+                      src={OMAN}
                       alt="brand"
+                      height={250}
                     />
                   </a>
                   <span className="td-brand-shape td-brand-shape-position">
@@ -104,7 +110,8 @@ export const BrandTwo = () => {
                   <a href="#">
                     <img
                       className="td-brand-logo-2"
-                      src={brand04Img}
+                      src={KUWAIT}
+                      height={250}
                       alt="brand"
                     />
                   </a>
@@ -118,8 +125,9 @@ export const BrandTwo = () => {
                   <a href="#">
                     <img
                       className="td-brand-logo-2"
-                      src={brand05Img}
+                      src={QATAR}
                       alt="brand"
+                      height={250}
                     />
                   </a>
                   <span className="td-brand-shape td-brand-shape-position-2">
@@ -131,6 +139,60 @@ export const BrandTwo = () => {
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 col-sm-6">
+                <div className="td-brand-logo-wrap-2 td-brand-logo-border p-relative text-center">
+                  <a href="#">
+                    <img
+                      className="td-brand-logo-2"
+                      src={EGYPT}
+                      alt="brand"
+                      height={250}
+                    />
+                  </a>
+                  <span className="td-brand-shape td-brand-shape-position-2">
+                    <i className="fa-sharp fa-regular fa-plus fa-fw"></i>
+                  </span>
+                  <span className="td-brand-shape td-brand-shape-position-3">
+                    <i className="fa-sharp fa-regular fa-plus fa-fw"></i>
+                  </span>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6 col-sm-6">
+                <div className="td-brand-logo-wrap-2 td-brand-logo-border p-relative text-center">
+                  <a href="#">
+                    <img
+                      className="td-brand-logo-2"
+                      src={TURKEY}
+                      alt="brand"
+                      height={250}
+                    />
+                  </a>
+                  <span className="td-brand-shape td-brand-shape-position-2">
+                    <i className="fa-sharp fa-regular fa-plus fa-fw"></i>
+                  </span>
+                  <span className="td-brand-shape td-brand-shape-position-3">
+                    <i className="fa-sharp fa-regular fa-plus fa-fw"></i>
+                  </span>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6 col-sm-6">
+                <div className="td-brand-logo-wrap-2 td-brand-logo-border p-relative text-center">
+                  <a href="#">
+                    <img
+                      className="td-brand-logo-2"
+                      src={SOUDIARABIA}
+                      alt="brand"
+                      height={250}
+                    />
+                  </a>
+                  <span className="td-brand-shape td-brand-shape-position-2">
+                    <i className="fa-sharp fa-regular fa-plus fa-fw"></i>
+                  </span>
+                  <span className="td-brand-shape td-brand-shape-position-3">
+                    <i className="fa-sharp fa-regular fa-plus fa-fw"></i>
+                  </span>
+                </div>
+              </div>
+              {/* <div className="col-lg-3 col-md-6 col-sm-6">
                 <div className="td-brand-logo-wrap-2 td-brand-logo-wrap-space td-brand-logo-border p-relative text-center">
                   <div className="td-brand-counter">
                     <h2 className="td-brand-counter-title">
@@ -154,7 +216,7 @@ export const BrandTwo = () => {
                     <i className="fa-sharp fa-regular fa-plus fa-fw"></i>
                   </span>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

@@ -28,10 +28,10 @@ export const HistoryOne = () => {
               <h2 className="td-section-title">
               What We Do
               </h2>
-              <p>
+              <p style={{lineHeight:"1.8",fontSize:"18px"}}>
               At theREHApie Consultants, we connect manufacturers, distributors, and healthcare providers with cutting-edge rehabilitation technology in the Middle East. From market entry strategies to regulatory compliance, distribution management, and sales optimization, we help businesses expand, grow, and thrive in the rehab industry.
               </p>
-              <p>
+              <p style={{lineHeight:"1.8",fontSize:"18px"}}>
               By bridging the gap between innovation and accessibility, we ensure that patients receive the best rehabilitation solutions, while businesses maximize their market potential and profitability. 
 
               </p>
