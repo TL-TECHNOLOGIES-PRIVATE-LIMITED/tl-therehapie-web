@@ -3,6 +3,8 @@ import { useHeaderLang, useHeaderSticky } from "./useHeader";
 import { Navbar } from "./Navbar";
 import { Link } from "react-router-dom";
 import LOGO_WHITE from "../../assets/img/logo/logo-white.png";
+import LOGO from "../../assets/img/logo/logo.jpg";
+
 
 export const HeaderThree = () => {
   useHeaderLang();
@@ -40,7 +42,7 @@ export const HeaderThree = () => {
                     <div className="col-xl-1 col-lg-2 col-6">
                       <div className="td-header-logo mr-90">
                         <Link to="/">
-                          <img src={LOGO_WHITE} alt="logo" />
+                      <img src={LOGO} alt="logo" width={200} />
                         </Link>
                       </div>
                     </div>

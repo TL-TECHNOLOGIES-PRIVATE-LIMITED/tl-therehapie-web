@@ -25,10 +25,10 @@ export const MobileNavbar = () => {
           </div>
           <div className="tdoffcanvas__social">
             <div className="social-icon">
-              <a href="#">
-                <i className="fab fa-twitter"></i>
+              <a href="https://www.linkedin.com/in/abdul-rahiman-beyaram-kunhali-698a971b6/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" >
+                <i className="fab fa-linkedin"></i>
               </a>
-              <a href="#">
+              {/* <a href="#">
                 <i className="fab fa-instagram"></i>
               </a>
               <a href="#">
@@ -36,7 +36,7 @@ export const MobileNavbar = () => {
               </a>
               <a href="#">
                 <i className="fab fa-pinterest-p"></i>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

@@ -2289,6 +2289,11 @@ input[type="color"] {
     display: none;
   }
 }
+.td-brand-title {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.16;
+}
 .td-section-title-pre {
   color: var(--td-grey-2);
   display: inline-block;

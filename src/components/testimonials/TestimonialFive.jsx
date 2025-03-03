@@ -1,16 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import brand01 from "../../assets/img/brands/01.png";
-import brand02 from "../../assets/img/brands/02.png";
-import brand03 from "../../assets/img/brands/03.png";
-import brand04 from "../../assets/img/brands/04.png";
-import brand05 from "../../assets/img/brands/05.png";
-import testimonial01 from "../../assets/img/testimonial/tes5/01.png";
-import testimonial02 from "../../assets/img/testimonial/tes5/02.png";
+import brand01 from "../../assets/img/brands/flag1.jpg";
+import brand02 from "../../assets/img/brands/flag2.jpg";
+import brand03 from "../../assets/img/brands/flag3.jpg";
+import brand04 from "../../assets/img/brands/flag4.jpg";
+import brand05 from "../../assets/img/brands/flag5.jpg";
+import brand06 from "../../assets/img/brands/flag6.jpg";
+import brand07 from "../../assets/img/brands/flag7.jpg";
+import brand08 from "../../assets/img/brands/flag8.jpg";
+import testimonial03 from "../../assets/img/testimonial/tes5/tes1.jpg";
+import testimonial02 from "../../assets/img/testimonial/tes5/tes2.jpg";
+import testimonial01 from "../../assets/img/testimonial/tes5/tes3.jpg";
 import { Swiper, SwiperSlide } from "../swiper/SwiperRoot";
 
 export const TestimonialFive = () => {
-  const brandLogos = [brand01, brand02, brand03, brand04, brand05, brand03];
+  const brandLogos = [brand01, brand02, brand03, brand04, brand05,brand06,brand07,brand08, brand03];
 
   const swiper_settings_brand = {
     spaceBetween: 100,
@@ -43,14 +47,14 @@ export const TestimonialFive = () => {
       image: testimonial02,
       quote:
         "Providing sustainable strategies that will upgrade their business. From strategy to delivery, we are here to make sure your business succeeds.",
-      name: "Alonso D. Dowson",
+      name: "Clera D. Dowson",
       designation: "CEO",
     },
     {
-      image: testimonial01,
+      image: testimonial03,
       quote:
         "Providing sustainable strategies that will upgrade their business. From strategy to delivery, we are here to make sure your business succeeds.",
-      name: "Emila P. Parker",
+      name: "John P. Parker",
       designation: "Founder",
     },
   ];
@@ -90,7 +94,7 @@ export const TestimonialFive = () => {
               data-wow-duration="1s"
             >
               <span className="td-section-title-pre mb-10">Our Testimonials</span>
-              <h2 className="td-section-title">Meet our advisors</h2>
+              <h2 className="td-section-title">What Our Clients Say</h2>
             </div>
           </div>
 
@@ -140,7 +144,7 @@ export const TestimonialFive = () => {
                           <div className="row">
                             <div className="col-lg-4 col-md-4">
                               <div className="td-testimonial-5-thumb mt-10">
-                                <img src={x.image} alt="" />
+                                <img src={x.image} alt="" width={200} />
                               </div>
                             </div>
                             <div className="col-lg-8 col-md-8">
@@ -176,7 +180,18 @@ export const TestimonialFive = () => {
           </div>
 
           <div className="col-12">
+            
             <div className="td-testimonial-5-brands">
+            <div className="col-lg-12">
+            <div
+              className="td-testimonial-5-title-wrap text-center mb-75 wow fadeInUp"
+              data-wow-delay=".3s"
+              data-wow-duration="1s"
+            >
+              {/* <span className="td-section-title-pre mb-10">Our Testimonials</span> */}
+              <h2 className="td-brand-title">Our Global Presence</h2>
+            </div>
+          </div>
               <div className="row justify-content-center">
                 <div className="col-lg-10">
                   <div className="swiper-container td-testimonial-profile-slide">

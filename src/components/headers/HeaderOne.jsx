@@ -24,7 +24,7 @@ export const HeaderOne = () => {
                           <div className="td-header-top-menu">
                             <ul>
                               <li>
-                                <a href="#">About</a>
+                                <a href="#">Aboutttt</a>
                               </li>
                               <li>
                                 <a href="#">Latest</a>
