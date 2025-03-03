@@ -10,7 +10,7 @@ export const BlogLayout = ({ children }) => {
             <div className="col-xl-9 col-lg-8 mb-40">{children}</div>
 
             {/* sidebar */}
-            <BlogSidebar />
+            {/* <BlogSidebar /> */}
           </div>
         </div>
       </div>
