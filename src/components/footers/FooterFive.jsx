@@ -17,21 +17,24 @@ export const FooterFive = () => {
                   <div className="td-footer-5-widget-content">
                     <ul>
                       <li>
-                        <a href="mailto:info@adina-design.com">
-                          info@adina-design.com
+                        <a href="mailto:abdul.rahiman@therehapie.com">
+                        abdul.rahiman@therehapie.com
                         </a>
                       </li>
                       <li className="mb-20">
-                        <a href="tel:+(971)501361586">+(123) 456 789 00</a>
+                        <a href="tel:+(971)501361586"> +971 50 136 1586</a>
                       </li>
                       <li>
                         <a
                           href="https://www.google.com/maps/@41.6758525,-86.2531698,18.17z"
                           target="_blank"
                         >
-                          2938 Bingamon Branch Road
+              Building 9WA - 138 - SO - 23
+
                           <br />
-                          Highland Park, IL 60035
+                          Dubai Airport Freezone
+                          <br/>
+                          Dubai, UAE
                         </a>
                       </li>
                     </ul>
@@ -139,9 +142,9 @@ export const FooterFive = () => {
             <div className="row">
               <div className="col-12">
                 <div className="td-footer-5-bottom-content text-center">
-                  <p>
-                    © 2024 <Link to="/">Example</Link>, All rights reserved.
-                  </p>
+                <p>
+                          © 2025 <a href="https://www.tltechnologies.net/" style={{color:"red"}}>TL Technologies</a>, All rights reserved.
+                        </p>
                 </div>
               </div>
             </div>

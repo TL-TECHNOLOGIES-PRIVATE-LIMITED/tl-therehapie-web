@@ -98,9 +98,9 @@ export const FooterTwo = () => {
                       </form>
                       <div className="td-footer-2-info">
                         <a className="mr-30" href="tel:+(11)2253536677">
-                          +(11) 225 353 6677
+                        +971 50 136 1586
                         </a>
-                        <a href="mailto:adina@example.com">adina@example.com</a>
+                        <a href="mailto:abdul.rahiman@therehapie.com">abdul.rahiman@therehapie.com</a>
                       </div>
                     </div>
                   </div>
@@ -152,17 +152,26 @@ export const FooterTwo = () => {
                           Links
                         </h4>
                         <div className="td-footer-2-location">
-                          <a className="mb-15" href="#">
-                            Careers
+                          <a className="mb-15" href="/blog">
+                            Our Blog
                           </a>
-                          <a className="mb-15" href="#">
-                            About us
+                          <a className="mb-15" href="/privacy">
+                            Privacy Policy
                           </a>
-                          <a className="mb-15" href="#">
-                            FAQ Page
+                          <a className="mb-15" href="/term">
+                          Terms and Condition
+                          </a>
+                          <a className="mb-15" href="/policy">
+                            Cookie's Policy
                           </a>
                           <a className="mb-15" href="#">
                             Our Services
+                          </a>
+                          <a className="mb-15" href="/faq">
+                            FAQ
+                          </a>
+                          <a className="mb-15" href="/contact">
+                            Contact
                           </a>
                         </div>
                       </div>
@@ -179,9 +188,9 @@ export const FooterTwo = () => {
             <div className="row">
               <div className="col-lg-4 col-md-5">
                 <div className="td-footer-bottom-copyright mb-20">
-                  <p>
-                    © 2024 <a href="#">Example</a>, All rights reserved.
-                  </p>
+                <p>
+                          © 2025 <a href="https://www.tltechnologies.net/" style={{color:"red"}}>TL Technologies</a>, All rights reserved.
+                        </p>
                 </div>
               </div>
               <div className="col-lg-8 col-md-7">

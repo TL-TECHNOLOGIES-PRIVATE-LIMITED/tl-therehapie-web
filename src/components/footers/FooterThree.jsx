@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import LOGO_WHITE from "../../assets/img/logo/logo-white.png";
+import LOGO_WHITE from "../../assets/img/logo/logo.jpg";
 
 export const FooterThree = () => {
   return (
@@ -20,7 +20,7 @@ export const FooterThree = () => {
                 <div className="td-footer-3-top-content">
                   <p>
                     Looking for collaboration? Send an email to
-                    <a href="mailto:adina@mail.com">adina@mail.com</a> for
+                    <a href="mailto:abdul.rahiman@therehapie.com">abdul.rahiman@therehapie.com</a> for
                     valuable enquires and collaborations.
                   </p>
                 </div>
@@ -45,11 +45,14 @@ export const FooterThree = () => {
                       <h2 className="td-footer-3-widget-title mb-20">Menu</h2>
                       <ul>
                         <li>
-                          <a href="#">Company</a>
-                          <a href="#">Careers</a>
-                          <a href="#">Press Media</a>
-                          <a href="#">Our Blog</a>
-                          <a href="#">Privacy Policy</a>
+                         
+                          <a href="/blog">Our Blog</a>
+                          <a href="/privacy">Privacy Policy</a>
+                          <a href="/term">Terms and Condition</a>
+                          <a href="/cookies">Cookie's Policy</a>
+                          <a href="/service">Service</a>
+                          <a href="/faq">FAQ</a>
+                          <a href="/contact">Contact</a>
                         </li>
                       </ul>
                     </div>
@@ -60,10 +63,10 @@ export const FooterThree = () => {
                         Contact Us
                       </h2>
                       <div className="td-footer-3-link">
-                        <a href="mailto:info@adina-design.com">
-                          info@adina-design.com
+                        <a href="mailto:abdul.rahiman@therehapie.com">
+                        abdul.rahiman@therehapie.com
                         </a>
-                        <a href="tel:+(971)501361586">+(123) 456 789 00</a>
+                        <a href="tel: +971 50 136 1586"> +971 50 136 1586</a>
                       </div>
                     </div>
                     <div className="td-footer-3-widget">
@@ -75,9 +78,11 @@ export const FooterThree = () => {
                           href="https://www.google.com/maps/@41.6758525,-86.2531698,18.17z"
                           target="_blank"
                         >
-                          2938 Bingamon Branch Road
-                          <br />
-                          Highland Park, IL 60035
+                                Building 9WA - 138 - SO - 23
+                                <br />
+                                Dubai Airport Freezone
+                                <br/>
+                                Dubai, UAE
                         </a>
                       </div>
                     </div>
@@ -96,7 +101,7 @@ export const FooterThree = () => {
                     <div className="col-lg-6 mb-15">
                       <div className="td-footer-3-bottom-copyright">
                         <p>
-                          © 2024 <a href="#">Example</a>, All rights reserved.
+                          © 2025 <a href="https://www.tltechnologies.net/" style={{color:"red"}}>TL Technologies</a>, All rights reserved.
                         </p>
                       </div>
                     </div>

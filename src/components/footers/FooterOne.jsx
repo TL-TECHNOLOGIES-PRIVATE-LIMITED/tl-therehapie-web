@@ -79,9 +79,9 @@ export const FooterOne = () => {
                       <li>
                         <Link to="/cookie-policy">Cookie Policy</Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link to="/careers">Careers</Link>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                 </div>
@@ -121,9 +121,9 @@ export const FooterOne = () => {
                       </li>
                     </ul>
                     <div className="td-footer-bottom-copyright">
-                      <p>
-                        © 2024 <Link to="/">Example</Link>, All rights reserved.
-                      </p>
+                    <p>
+                          © 2025 <a href="https://www.tltechnologies.net/" style={{color:"red"}}>TL Technologies</a>, All rights reserved.
+                        </p>
                     </div>
                   </div>
                 </div>
@@ -144,7 +144,7 @@ export const FooterOne = () => {
                             className="td-footer-bottom-phone"
                             href="tel:+51174705812"
                           >
-                            +51 174 705 812
+                             +971 50 136 1586
                           </a>
                         </span>
                       </div>
