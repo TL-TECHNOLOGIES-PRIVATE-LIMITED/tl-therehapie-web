@@ -30,7 +30,7 @@ export const Navbar = ({ hidePortfolio = false }) => {
           
         </li>
 
-        <li className="has-dropdown">
+        {/* <li className="has-dropdown">
           <a href="#">Pages</a>
           <ul className="td-submenu submenu">
            
@@ -51,7 +51,7 @@ export const Navbar = ({ hidePortfolio = false }) => {
               <Link to="/error">Error</Link>
             </li>
           </ul>
-        </li>
+        </li> */}
         
         <li className="has-dropdown">
           <Link to="/blog">Blog</Link>
@@ -66,6 +66,10 @@ export const Navbar = ({ hidePortfolio = false }) => {
         </li>
 
         <li className="has-dropdown">
+          <Link to="/service"> Service</Link>
+          
+        </li>
+        {/* <li className="has-dropdown">
           <Link to="/service">Featured</Link>
           <ul className="td-submenu submenu">
             <li>
@@ -75,7 +79,7 @@ export const Navbar = ({ hidePortfolio = false }) => {
               <Link to="/service-details">Service Details</Link>
             </li>
           </ul>
-        </li>
+        </li> */}
         <li className="has-dropdown">
           <Link to="/faq"> Faq</Link>
           

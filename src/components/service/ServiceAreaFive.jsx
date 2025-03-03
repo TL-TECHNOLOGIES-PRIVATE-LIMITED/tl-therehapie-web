@@ -1,5 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import icon1 from "../../assets/img/icon/icon1.png";
+import icon2 from "../../assets/img/icon/icon2.png";
+import icon3 from "../../assets/img/icon/icon3.png";
 
 export const ServiceAreaFive = () => {
   return (
@@ -22,7 +25,7 @@ export const ServiceAreaFive = () => {
             >
               <div className="td-service-5-icon mb-50">
                 <span>
-                  <svg
+                  {/* <svg
                     width="60"
                     height="60"
                     viewBox="0 0 60 60"
@@ -56,7 +59,9 @@ export const ServiceAreaFive = () => {
                         <rect width="60" height="60" fill="white" />
                       </clipPath>
                     </defs>
-                  </svg>
+                  </svg> */}
+                  <img src={icon1} alt="icon" width="60"
+                    height="60" />
                 </span>
               </div>
               <div className="td-service-5-content">
@@ -74,7 +79,7 @@ export const ServiceAreaFive = () => {
               data-wow-duration="1s"
             >
               <div className="td-service-5-icon mb-50">
-                <span>
+                {/* <span>
                   <svg
                     width="60"
                     height="60"
@@ -118,7 +123,9 @@ export const ServiceAreaFive = () => {
                       </clipPath>
                     </defs>
                   </svg>
-                </span>
+                </span> */}
+                     <img src={icon2} alt="icon" width="60"
+                    height="60" />
               </div>
               <div className="td-service-5-content">
                 <h2 className="td-service-5-title mb-20">
@@ -135,7 +142,7 @@ export const ServiceAreaFive = () => {
               data-wow-duration="1s"
             >
               <div className="td-service-5-icon mb-50">
-                <span>
+                {/* <span>
                   <svg
                     width="60"
                     height="60"
@@ -199,7 +206,9 @@ export const ServiceAreaFive = () => {
                       </clipPath>
                     </defs>
                   </svg>
-                </span>
+                </span> */}
+                          <img src={icon3} alt="icon" width="60"
+                    height="60" />
               </div>
               <div className="td-service-5-content">
                 <h2 className="td-service-5-title mb-20">

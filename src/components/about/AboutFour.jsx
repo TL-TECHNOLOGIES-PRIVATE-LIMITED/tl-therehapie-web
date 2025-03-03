@@ -2,9 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/img/testimonial/logo.png";
 import aboutA from "../../assets/img/about/about4/a.png";
-import aboutBg2 from "../../assets/img/about/about4/bg2.jpg";
-import aboutBg from "../../assets/img/about/about4/bg.jpg";
-import aboutPattern from "../../assets/img/about/about4/pattern.png";
+import aboutBg2 from "../../assets/img/about/about4/img2.jpg";
+import aboutBg from "../../assets/img/about/about4/img1.jpg";
+import aboutPattern from "../../assets/img/about/about4/img5.png";
 
 export const AboutFour = () => {
   return (
@@ -32,7 +32,7 @@ export const AboutFour = () => {
                 </div>
               </div>
               <div className="td-about-4-thumb-2">
-                <img src={aboutBg2} alt="thumb" />
+                <img src={aboutBg2} alt="thumb" width={300} />
               </div>
               <div className="td-about-4-thumb">
                 <img className="w-100" src={aboutBg} alt="thumb" />

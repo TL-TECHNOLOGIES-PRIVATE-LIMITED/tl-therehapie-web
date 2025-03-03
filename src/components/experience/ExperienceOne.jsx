@@ -115,21 +115,18 @@ export const ExperienceOne = () => {
                   <div className="row">
                     <div className="col-lg-6 mb-30">
                       <div className="td-expreance-content">
-                        <p className="td-expreance-title-pre">
+                        {/* <p className="td-expreance-title-pre">
                           Business, Finance <span>/</span> June 21, 2024
-                        </p>
+                        </p> */}
                         <h3 className="td-expreance-title">
-                          <span>01</span>Startup investment
+                          <span>01</span>Our Mission 
                         </h3>
                       </div>
                     </div>
                     <div className="col-lg-6 mb-30">
                       <div className="td-expreance-btn-wrap">
                         <p>
-                          Lorem Ipsum is simply dummy text of the printing and
-                          typesetting industry. Lorem Ipsum has been the
-                          industry's standard dummy text ever since the 1500s,
-                          when an unknow.
+                        To revolutionize rehabilitation by making advanced recovery solutions more accessible across the Middle East.
                         </p>
                         <div className="td-expreance-btn">
                           <a href="#">
@@ -174,21 +171,19 @@ export const ExperienceOne = () => {
                   <div className="row">
                     <div className="col-lg-6 mb-30">
                       <div className="td-expreance-content">
-                        <p className="td-expreance-title-pre">
+                        {/* <p className="td-expreance-title-pre">
                           Business, Finance <span>/</span> June 21, 2024
-                        </p>
+                        </p> */}
                         <h3 className="td-expreance-title">
-                          <span>02</span>Cryptocurrency investment
+                          <span>02</span>Our Vision 
                         </h3>
                       </div>
                     </div>
                     <div className="col-lg-6 mb-30">
                       <div className="td-expreance-btn-wrap">
                         <p>
-                          Lorem Ipsum is simply dummy text of the printing and
-                          typesetting industry. Lorem Ipsum has been the
-                          industry's standard dummy text ever since the 1500s,
-                          when an unknow.
+                        To become the #1 trusted rehabilitation solutions provider, connecting innovation, technology, and care to improve patient recovery worldwide.
+
                         </p>
                         <div className="td-expreance-btn">
                           <a href="#">
@@ -220,7 +215,7 @@ export const ExperienceOne = () => {
                 </div>
               </div>
             </div>
-            <div
+            {/* <div
               className="col-lg-12 wow fadeInUp"
               data-wow-delay=".5s"
               data-wow-duration="1s"
@@ -278,8 +273,8 @@ export const ExperienceOne = () => {
                   </div>
                 </div>
               </div>
-            </div>
-            <div
+            </div> */}
+            {/* <div
               className="col-lg-12 wow fadeInUp"
               data-wow-delay=".6s"
               data-wow-duration="1s"
@@ -337,8 +332,8 @@ export const ExperienceOne = () => {
                   </div>
                 </div>
               </div>
-            </div>
-            <div
+            </div> */}
+            {/* <div
               className="col-lg-12 wow fadeInUp"
               data-wow-delay=".7s"
               data-wow-duration="1s"
@@ -396,7 +391,7 @@ export const ExperienceOne = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

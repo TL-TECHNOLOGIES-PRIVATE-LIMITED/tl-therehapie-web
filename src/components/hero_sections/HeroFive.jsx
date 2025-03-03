@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
-import thumbImg from "../../assets/img/hero/hero5/thumb.png";
-import shapeImg from "../../assets/img/hero/hero5/shape.png";
+import thumbImg from "../../assets/img/hero/hero5/thumbimage.png";
+import shapeImg from "../../assets/img/hero/hero5/shapeimage.png";
 import $ from "jquery";
 
 export const HeroFive = () => {
@@ -27,7 +27,8 @@ export const HeroFive = () => {
                   Life your Dream
                 </span> */}
                 <h2 className="td-hero-5-title mb-60">
-                Revolutionizing Rehab, Bridging Innovation & Care.                </h2>
+                Revolutionizing Rehab, Bridging Innovation & Care.                
+                </h2>
                 <div className="td-hero-5-btn">
                   <Link to="/contact" className="td-btn mr-20 td-left-right">
                     View Products

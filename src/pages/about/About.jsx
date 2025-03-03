@@ -4,6 +4,7 @@ import { AboutFive } from "../../components/about/AboutFive";
 import { HistoryOne } from "../../components/history/HistoryOne";
 import { TeamFour } from "../../components/teams/TeamFour";
 import { BrandTwo } from "../../components/brands/BrandTwo";
+import { ExperienceOne } from "../../components/experience/ExperienceOne";
 
 export const About = () => {
   return (
@@ -13,9 +14,7 @@ export const About = () => {
 
       {/* history */}
       <HistoryOne />
-
-      {/* team */}
-      {/* <TeamFour /> */}
+      <ExperienceOne />
 
       {/* brand */}
       <BrandTwo />

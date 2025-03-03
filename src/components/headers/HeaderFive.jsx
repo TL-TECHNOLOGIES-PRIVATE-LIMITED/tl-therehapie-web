@@ -32,7 +32,7 @@ export const HeaderFive = () => {
                         <a href="tel:+(971)501361586" target="_blank" rel="noreferrer">
                           <i className="fa-regular fa-phone-flip"></i>
                           <div className="td-header-5-info">
-                            <p>+(123) 456 789 00</p>
+                            <p>+971 50 136 1586</p>
                             <span>Make a call</span>
                           </div>
                         </a>
