@@ -1,12 +1,12 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "../swiper/SwiperRoot";
 
-import img01 from "../../assets/img/blog/blog2/01.jpg";
-import img02 from "../../assets/img/blog/blog2/02.jpg";
-import img03 from "../../assets/img/blog/blog2/03.jpg";
-import img04 from "../../assets/img/blog/blog2/04.jpg";
-import img05 from "../../assets/img/blog/blog2/05.jpg";
-import img06 from "../../assets/img/blog/blog2/06.jpg";
+import img01 from "../../assets/img/blog/blog2/blg1.jpg";
+import img02 from "../../assets/img/blog/blog2/blg2.jpg";
+import img03 from "../../assets/img/blog/blog2/blg3.jpg";
+import img04 from "../../assets/img/blog/blog2/blg4.jpg";
+import img05 from "../../assets/img/blog/blog2/blg5.jpg";
+import img06 from "../../assets/img/blog/blog2/blg6.jpg";
 import { Link } from "react-router-dom";
 
 export const BlogTwo = () => {
@@ -83,14 +83,14 @@ export const BlogTwo = () => {
       title: "Overcoming Challenges in the Rehabilitation Industry",
      tagline: " A Manufacturer’s Perspective "
     },
-    // {
-    //   imgSrc: img06,
-    //   author: "heREHApie Consultants",
-    //   date: "June 21, 2024",
-    //   href: "/blog-details",
-    //   title: "The essential steps for business success",
-    //  tagline: " "
-    // },
+    {
+      imgSrc: img06,
+      author: "heREHApie Consultants",
+      date: "June 21, 2024",
+      href: "/blog-details",
+      title: "The essential steps for business success",
+     tagline: "Master the fundamentals of business success.Follow these essential steps to grow and thrive! "
+    },
   ];
 
   return (

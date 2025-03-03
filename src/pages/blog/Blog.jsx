@@ -25,8 +25,7 @@ export const Blog = () => {
       userImage: userImage1,
       userName: "Miranda H.",
       date: "November 21, 2024",
-      likes: 22,
-      shares: 8,
+
     },
     {
       src: blogImage2,
@@ -38,8 +37,7 @@ export const Blog = () => {
       userImage: userImage2,
       userName: "Miranda H.",
       date: "November 21, 2024",
-      likes: 22,
-      shares: 8,
+
     },
     {
       src: blogImage3,
@@ -51,8 +49,7 @@ export const Blog = () => {
       userImage: userImage3,
       userName: "Miranda H.",
       date: "November 21, 2024",
-      likes: 22,
-      shares: 8,
+
     },
     {
       src: blogImage4,
@@ -65,8 +62,7 @@ export const Blog = () => {
       userImage: userImage4,
       userName: "Miranda H.",
       date: "November 21, 2024",
-      likes: 22,
-      shares: 8,
+
     },
     {
       src: blogImage5,
@@ -79,8 +75,7 @@ export const Blog = () => {
       userImage: userImage5,
       userName: "Miranda H.",
       date: "November 21, 2024",
-      likes: 22,
-      shares: 8,
+
     },
   ];
 

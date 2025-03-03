@@ -39,7 +39,7 @@ export const BlogSidebar = () => {
       <div className="col-xl-3 col-lg-3">
         <div className="td-blog-sidebar-wrapper ml-20">
           {/* search */}
-          <div className="td-blog-sidebar-widget mb-50">
+          {/* <div className="td-blog-sidebar-widget mb-50">
             <div className="td-blog-sidebar-widget-content">
               <h3 className="td-blog-sidebar-title mb-30">Search Here</h3>
               <div className="td-blog-sidebar-search">
@@ -53,7 +53,7 @@ export const BlogSidebar = () => {
                 </form>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* recent post */}
           <div className="td-blog-sidebar-widget mb-50">
@@ -99,7 +99,7 @@ export const BlogSidebar = () => {
           </div> */}
 
           {/* ads banner */}
-          <div className="td-blog-sidebar-widget">
+          {/* <div className="td-blog-sidebar-widget">
             <div className="td-blog-sidebar-ads">
               <div className="td-blog-sidebar-ads-thumb p-relative">
                 <img className="w-100" src={sidebarImage1} alt="thumb" />
@@ -107,7 +107,7 @@ export const BlogSidebar = () => {
                 <h2 className="td-blog-sidebar-ads-transparent">Adina</h2>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
