@@ -10,14 +10,14 @@ export const BlogItem = ({
   userImage,
   userName,
   date,
-  likes,
-  shares,
+  // likes,
+  // shares,
 }) => {
   return (
     <article className="td-postbox-item mb-60">
       <div className="td-postbox-thumb p-relative mb-40">
         <img className="w-100" src={src} alt="thumb" />
-        <span className="td-postbox-badge">{tag}</span>
+        {/* <span className="td-postbox-badge">{tag}</span> */}
       </div>
       <div className="td-postbox-content">
         <h2 className="td-postbox-title mb-25">
@@ -42,7 +42,7 @@ export const BlogItem = ({
               {date}
             </span>
 
-            <span>
+            {/* <span>
               <a href="#">
                 <i className="fa-regular fa-thumbs-up"></i>
               </a>
@@ -50,14 +50,14 @@ export const BlogItem = ({
                 <i className="fa-sharp fa-regular fa-thumbs-down"></i>
               </a>
               {likes} Likes
-            </span>
+            </span> */}
 
-            <span>
+            {/* <span>
               <a href="#">
                 <i className="fa-solid fa-share"></i>
                 {shares} Share
               </a>
-            </span>
+            </span> */}
           </div>
         </div>
       </div>
