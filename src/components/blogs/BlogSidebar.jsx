@@ -56,7 +56,7 @@ export const BlogSidebar = () => {
           </div> */}
 
           {/* recent post */}
-          <div className="td-blog-sidebar-widget mb-50">
+          {/* <div className="td-blog-sidebar-widget mb-50">
             <div className="td-blog-sidebar-widget-content">
               <h3 className="td-blog-sidebar-title mb-30">Recent Post</h3>
               {recentPosts.map((post, index) => (
@@ -80,7 +80,7 @@ export const BlogSidebar = () => {
                 </div>
               ))}
             </div>
-          </div>
+          </div> */}
 
           {/* popular keyword */}
           {/* <div className="td-blog-sidebar-widget mb-50">
