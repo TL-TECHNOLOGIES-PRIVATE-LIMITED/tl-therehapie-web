@@ -23,7 +23,7 @@ export const ServiceDetails = () => {
   useEffect(() => {
     if (category === "manufactures") {
       setData({
-        title: "Manufacturers: Expanding Market Reach & Increasing Sales",
+        title: " Expanding Market Reach & Increasing Sales",
         img: Manufacture,
         description:
           "Breaking into the Middle Eastern rehabilitation and medical device market can be challenging without the right strategy, local expertise, and reliable partners. At theREHApie Consultants, we bridge this gap by providing end-to-end support to manufacturers looking to establish and scale their presence in this region.",
@@ -52,7 +52,7 @@ export const ServiceDetails = () => {
       });
     } else if (category === "distributors") {
       setData({
-        title: "Distributors: Building a Strong Portfolio & Maximizing Profits",
+        title: "Building a Strong Portfolio & Maximizing Profits",
         img: Distributions,
         description:
           "In the competitive rehabilitation and medical equipment industry, having the right products in your portfolio can make all the difference. At theREHApie Consultants, we empower distributors by connecting them with leading global manufacturers.",
@@ -81,7 +81,7 @@ export const ServiceDetails = () => {
       });
     } else if (category === "healthcareproviders") {
       setData({
-        title: "Healthcare Providers: Cost-Effective Rehabilitation & Physio Solutions",
+        title: " Cost-Effective Rehabilitation & Physio Solutions",
         img: Health,
         description:
           "Providing high-quality rehabilitation and physiotherapy care requires access to the best equipment, training, and support.",
@@ -113,8 +113,8 @@ export const ServiceDetails = () => {
   
   return (
     <Layout
-      breadcrumbTitle={"Tax & Declaration"}
-      breadcrumbSubtitle={"Single Service"}
+      breadcrumbTitle={data.title}
+      breadcrumbSubtitle={"Service Details"}
     >
       <ServiceLayout serviceData={serviceData}>
         <div className="td-service-details-wrap">
