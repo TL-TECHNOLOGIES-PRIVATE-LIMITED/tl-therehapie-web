@@ -2265,6 +2265,9 @@ input[type="color"] {
   font-weight: 500;
   font-size: 64px;
   line-height: 1.16;
+  background: linear-gradient(90deg, #2e7a7f, #9f73b1d1); /* Adjust colors as needed */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .td-section-title {
@@ -9740,7 +9743,7 @@ input[type="color"] {
   width: 100%;
 }
 .td-brand-logo-wrap-2 {
-  padding: 135px 20px;
+  padding: 10px 20px;
   height: 100%;
 }
 .td-brand-logo-wrap-space {

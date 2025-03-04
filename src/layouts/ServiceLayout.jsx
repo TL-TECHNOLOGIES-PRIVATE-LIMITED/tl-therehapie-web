@@ -17,7 +17,7 @@ export const ServiceLayout = ({ children,serviceData }) => {
         </div>
 
         {/*  navigation */}
-        <ServiceNavigation />
+        {/* <ServiceNavigation /> */}
       </div>
     </div>
   );

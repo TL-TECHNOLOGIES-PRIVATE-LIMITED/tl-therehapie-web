@@ -8,10 +8,6 @@ import blogImage3 from "../../assets/img/blog/blogsidebar/blog-3.jpg";
 import blogImage4 from "../../assets/img/blog/blogsidebar/blog-4.jpg";
 import blogImage5 from "../../assets/img/blog/blogsidebar/blog-5.jpg";
 import userImage1 from "../../assets/img/blog/blogsidebar/06.jpg";
-import userImage2 from "../../assets/img/blog/blogsidebar/07.jpg";
-import userImage3 from "../../assets/img/blog/blogsidebar/08.jpg";
-import userImage4 from "../../assets/img/blog/blogsidebar/09.jpg";
-import userImage5 from "../../assets/img/blog/blogsidebar/10.jpg";
 
 export const Blog = () => {
   const blogs = [
@@ -21,7 +17,7 @@ export const Blog = () => {
          userImage: userImage1,
          author: "heREHApie Consultants",
          date: "June 21, 2024",
-         href: "/blog-details",
+         href: "/blog-details/1",
          title: "The Future of Rehabilitation",
          description: " How Technology is Transforming Patient Recovery",
          introduction:"The rehabilitation industry is undergoing a revolution, thanks to cutting-edge advancements in medical technology. From AI-driven therapy solutions to robotic-assisted rehabilitation, technology is making recovery faster and more effective than ever before.",
@@ -41,7 +37,7 @@ export const Blog = () => {
          userImage: userImage1,
          author: "heREHApie Consultants",
          date: "March 5, 2024",
-         href: "/blog-details",
+         href: "/blog-details/2",
          title: "Choosing the Right Rehabilitation Equipment",
         description: " A Buyer’s Guide for Healthcare Providers ",
         introduction:
@@ -62,7 +58,7 @@ export const Blog = () => {
          userImage: userImage1,
          author: "heREHApie Consultants",
          date: "March 10, 2024",
-         href: "/blog-details",
+         href: "/blog-details/3",
          title: "The Middle East: A Growing Market for Rehabilitation Technology",
          description: "Unlocking Opportunities: Navigating the Middle East Rehab Tech Market ",
          introduction:
@@ -83,7 +79,7 @@ export const Blog = () => {
          userImage: userImage1,
          author: "heREHApie Consultants",
          date: "March 15, 2024",
-         href: "/blog-details",
+         href: "/blog-details/4",
          title: "How to Optimize Your Rehabilitation Product Distribution Strategy",
          description: " Maximizing Reach, Enhancing Care: Optimize Your Rehab Product Distribution",
          introduction:
@@ -103,7 +99,7 @@ export const Blog = () => {
          userImage: userImage1,
          author: "heREHApie Consultants",
          date: "March 20, 2024",
-         href: "/blog-details",
+         href: "/blog-details/5",
          title: "Overcoming Challenges in the Rehabilitation Industry",
          description: " A Manufacturer’s Perspective ",
          introduction:
@@ -191,7 +187,7 @@ export const Blog = () => {
     <Layout breadcrumbTitle={"Our Blogs"} breadcrumbSubtitle={"Blog"}>
       <BlogLayout>
         {/* Blogs Section */}
-        <div className="td-postbox-wrapper td-postbox-wrapper-space">
+        <div  className="td-postbox-wrapper td-postbox-wrapper-space flex justify-center">
           {paginatedBlogs.map((blog, index) => (
             <BlogItem key={index} {...blog} />
           ))}
