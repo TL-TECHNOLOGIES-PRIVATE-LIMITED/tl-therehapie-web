@@ -146,7 +146,7 @@ export const FooterFour = () => {
                     <div className="col-lg-6 col-md-5">
                       <div className="td-footer-3-bottom-copyright mb-10">
                       <p>
-                          © 2025 <a href="https://www.tltechnologies.net/" style={{color:"red"}}>TL Technologies</a>, All rights reserved.
+                          © 2025 <a href="https://www.tltechnologies.net/" style={{color:"red"}}>TL TECHNOLOGIES PRIVATE LIMITED</a>, All rights reserved.
                         </p>
                       </div>
                     </div>

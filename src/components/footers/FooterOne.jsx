@@ -122,7 +122,7 @@ export const FooterOne = () => {
                     </ul>
                     <div className="td-footer-bottom-copyright">
                     <p>
-                          © 2025 <a href="https://www.tltechnologies.net/" style={{color:"red"}}>TL Technologies</a>, All rights reserved.
+                          © 2025 <a href="https://www.tltechnologies.net/" style={{color:"red"}}>TL TECHNOLOGIES PRIVATE LIMITED</a>, All rights reserved.
                         </p>
                     </div>
                   </div>

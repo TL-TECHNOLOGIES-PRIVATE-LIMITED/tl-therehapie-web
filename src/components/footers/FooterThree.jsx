@@ -47,12 +47,12 @@ export const FooterThree = () => {
                         <li>
                          
                           <a href="/blog">Our Blog</a>
-                          <a href="/privacy">Privacy Policy</a>
-                          <a href="/term">Terms and Condition</a>
-                          <a href="/cookies">Cookie's Policy</a>
                           <a href="/service">Service</a>
                           <a href="/faq">FAQ</a>
                           <a href="/contact">Contact</a>
+                          <a href="/privacy">Privacy Policy</a>
+                          <a href="/term">Terms and Condition</a>
+                          <a href="/cookies">Cookie's Policy</a>
                         </li>
                       </ul>
                     </div>
@@ -101,7 +101,7 @@ export const FooterThree = () => {
                     <div className="col-lg-6 mb-15">
                       <div className="td-footer-3-bottom-copyright">
                         <p>
-                          © 2025 <a href="https://www.tltechnologies.net/" style={{color:"red"}}>TL Technologies</a>, All rights reserved.
+                          © 2025 <a href="https://www.tltechnologies.net/" style={{color:"red"}}>TL TECHNOLOGIES PRIVATE LIMITED</a>, All rights reserved.
                         </p>
                       </div>
                     </div>
