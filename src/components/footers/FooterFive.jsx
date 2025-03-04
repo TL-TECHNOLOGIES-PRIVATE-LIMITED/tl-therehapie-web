@@ -70,33 +70,16 @@ export const FooterFive = () => {
               </div> */}
               <div className="col-lg-2 col-md-4 col-sm-6">
                 <div className="td-footer-5-widget mb-45 ml-40">
-                  <h2 className="td-footer-5-widget-title mb-45">Essential</h2>
+                  <h2 className="td-footer-5-widget-title mb-45">Our Pages</h2>
                   <div className="td-footer-5-widget-content td-footer-5-widget-content-link">
                     <ul>
                       <li>
                         <Link to="/about">About Us</Link>
                       </li>
-                      {/* <li>
-                        <Link to="/what-we-do">What we do</Link>
-                      </li>
-                      <li>
-                        <Link to="/team">Our Team</Link>
-                      </li> */}
+      
                       <li>
                         <Link to="/contact">Contact us</Link>
                       </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-2 col-md-4 col-sm-6">
-                <div className="td-footer-5-widget mb-45 ml-50">
-                  <h2 className="td-footer-5-widget-title mb-45">Our Pages</h2>
-                  <div className="td-footer-5-widget-content td-footer-5-widget-content-link">
-                    <ul>
-                      {/* <li>
-                        <a href="#">Careers</a>
-                      </li> */}
                       <li>
                         <a href="/faq">FAQ Page</a>
                       </li>
@@ -105,6 +88,32 @@ export const FooterFive = () => {
                       </li>
                       <li>
                         <a href="/service">Our Services</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-2 col-md-4 col-sm-6">
+                <div className="td-footer-5-widget mb-45 ml-50">
+                  <h2 className="td-footer-5-widget-title mb-45">Link Pages</h2>
+                  <div className="td-footer-5-widget-content td-footer-5-widget-content-link">
+                    <ul>
+                      {/* <li>
+                        <a href="#">Careers</a>
+                      </li> */}
+                  
+               
+                      <li>
+                        <a href="/terms">Terms & Condition</a>
+                      </li>
+                      <li>
+                        <a href="/privacy">Privacy Policy</a>
+                      </li>
+                      <li>
+                        <a href="/disclaimer">Disclaimer</a>
+                      </li>
+                      <li>
+                        <a href="/cookies">Cookie Policy</a>
                       </li>
                     </ul>
                   </div>

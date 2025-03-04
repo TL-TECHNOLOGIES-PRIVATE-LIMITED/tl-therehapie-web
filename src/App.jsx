@@ -22,6 +22,11 @@ import { BlogDetails } from "./pages/blog/BlogDetails";
 import { Service } from "./pages/service/Service";
 import { ServiceDetails } from "./pages/service/ServiceDetails";
 import { Contact } from "./pages/contact/Contact";
+// import TermsAndConditions from "./pages/documents/Terms";
+import {Terms} from "./pages/documents/Terms";
+import { PrivacyPolicy } from "./pages/documents/PrivacyPolicy";
+import { Disclaimer } from "./pages/documents/Disclamer";
+import { CookiePolicy } from "./pages/documents/Cookies";
 
 function App() {
   useWow();
@@ -54,6 +59,10 @@ function App() {
         <Route path="/service" element={<Service />} />
         <Route path="/service-details/:category" element={<ServiceDetails />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/terms" element={<Terms />} />
+        <Route path="/privacy" element={<PrivacyPolicy />} />
+        <Route path="/disclaimer" element={<Disclaimer />} />
+        <Route path="/cookies" element={<CookiePolicy />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </>
