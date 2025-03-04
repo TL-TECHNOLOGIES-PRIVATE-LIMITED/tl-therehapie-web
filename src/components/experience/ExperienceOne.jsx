@@ -4,8 +4,8 @@ import thumbImage1 from "../../assets/img/expreance/01.jpg";
 import thumbImage2 from "../../assets/img/expreance/02.jpg";
 import thumbImage3 from "../../assets/img/expreance/03.jpg";
 import thumbImage4 from "../../assets/img/expreance/04.jpg";
-import mission from "../../assets/img/about/about4/mission.jpg";
-import vision from "../../assets/img/about/about4/vision.jpg";
+import mission from "../../assets/img/about/about4/mission1.jpg";
+import vision from "../../assets/img/about/about4/vision1.jpg";
 
 export const ExperienceOne = () => {
   return (
