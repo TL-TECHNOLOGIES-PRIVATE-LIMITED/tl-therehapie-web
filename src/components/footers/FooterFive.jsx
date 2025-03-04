@@ -76,14 +76,14 @@ export const FooterFive = () => {
                       <li>
                         <Link to="/about">About Us</Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link to="/what-we-do">What we do</Link>
                       </li>
                       <li>
                         <Link to="/team">Our Team</Link>
-                      </li>
+                      </li> */}
                       <li>
-                        <Link to="/contact">Contract us</Link>
+                        <Link to="/contact">Contact us</Link>
                       </li>
                     </ul>
                   </div>
@@ -94,17 +94,17 @@ export const FooterFive = () => {
                   <h2 className="td-footer-5-widget-title mb-45">Our Pages</h2>
                   <div className="td-footer-5-widget-content td-footer-5-widget-content-link">
                     <ul>
-                      <li>
+                      {/* <li>
                         <a href="#">Careers</a>
+                      </li> */}
+                      <li>
+                        <a href="/faq">FAQ Page</a>
                       </li>
                       <li>
-                        <a href="#">About us</a>
+                        <a href="/blog">Our Blogs</a>
                       </li>
                       <li>
-                        <a href="#">FAQ Page</a>
-                      </li>
-                      <li>
-                        <a href="#">Our Services</a>
+                        <a href="/service">Our Services</a>
                       </li>
                     </ul>
                   </div>
@@ -143,7 +143,7 @@ export const FooterFive = () => {
               <div className="col-12">
                 <div className="td-footer-5-bottom-content text-center">
                 <p>
-                          © 2025 <a href="https://www.tltechnologies.net/" style={{color:"red"}}>TL Technologies</a>, All rights reserved.
+                          © 2025 <a href="https://www.tltechnologies.net/" style={{color:"red"}}>TL TECHNOLOGIES PRIVATE LIMITED</a>, All rights reserved.
                         </p>
                 </div>
               </div>

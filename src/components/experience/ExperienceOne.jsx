@@ -4,6 +4,8 @@ import thumbImage1 from "../../assets/img/expreance/01.jpg";
 import thumbImage2 from "../../assets/img/expreance/02.jpg";
 import thumbImage3 from "../../assets/img/expreance/03.jpg";
 import thumbImage4 from "../../assets/img/expreance/04.jpg";
+import mission from "../../assets/img/about/about4/mission.jpg";
+import vision from "../../assets/img/about/about4/vision.jpg";
 
 export const ExperienceOne = () => {
   return (
@@ -109,7 +111,7 @@ export const ExperienceOne = () => {
             >
               <div className="td-expreance-content-wrap p-relative">
                 <div className="td-expreance-thumb">
-                  <img className="w-100" src={thumbImage2} alt="thumb" />
+                  <img className="w-100" src={mission} alt="thumb" />
                 </div>
                 <div className="td-expreance-item">
                   <div className="row">
@@ -165,7 +167,7 @@ export const ExperienceOne = () => {
             >
               <div className="td-expreance-content-wrap p-relative">
                 <div className="td-expreance-thumb">
-                  <img className="w-100" src={thumbImage1} alt="thumb" />
+                  <img className="w-100" src={vision} alt="thumb" />
                 </div>
                 <div className="td-expreance-item">
                   <div className="row">

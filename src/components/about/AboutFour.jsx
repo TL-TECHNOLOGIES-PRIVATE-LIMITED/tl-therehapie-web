@@ -1,9 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../../assets/img/testimonial/logo.png";
-import aboutA from "../../assets/img/about/about4/a.png";
-import aboutBg2 from "../../assets/img/about/about4/img2.jpg";
-import aboutBg from "../../assets/img/about/about4/img1.jpg";
+// import logo from "../../assets/img/testimonial/logo.png";
+import aboutA from "../../assets/img/about/about4/about-logo.png";
+import logo from "../../assets/img/about/about4/about2.png";
+// import aboutBg2 from "../../assets/img/about/about4/img2.jpg";
+// import aboutBg from "../../assets/img/about/about4/img1.jpg";
+import aboutBg2 from "../../assets/img/about/about4/large2.jpg";
+import aboutBg from "../../assets/img/about/about4/large.jpg";
 import aboutPattern from "../../assets/img/about/about4/img5.png";
 
 export const AboutFour = () => {
@@ -28,11 +31,12 @@ export const AboutFour = () => {
                     className="td-testimonial-qoute-2"
                     src={aboutA}
                     alt="badge"
+                    width={50}
                   />
                 </div>
               </div>
               <div className="td-about-4-thumb-2">
-                <img src={aboutBg2} alt="thumb" width={300} />
+                <img src={aboutBg2} alt="thumb" width={300} />  {/* large image */}
               </div>
               <div className="td-about-4-thumb">
                 <img className="w-100" src={aboutBg} alt="thumb" />
