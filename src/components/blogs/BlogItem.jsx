@@ -8,7 +8,7 @@ export const BlogItem = ({
   title,
   description,
   userImage,
-  userName,
+  author,
   date,
   // likes,
   // shares,
@@ -32,7 +32,7 @@ export const BlogItem = ({
           <div className="td-postbox-user">
             <a href="#">
               <img src={userImage} alt="uder" />
-              By <span>{userName}</span>
+              By <span>{author}</span>
             </a>
           </div>
 
