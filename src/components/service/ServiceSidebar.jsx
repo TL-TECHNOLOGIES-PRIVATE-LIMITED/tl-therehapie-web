@@ -1,54 +1,28 @@
 import React from "react";
 
-export const ServiceSidebar = () => {
+export const ServiceSidebar = ({ serviceData }) => {
+
   return (
     <>
       <div className="td-service-details-right ml-50">
         {/* our services */}
         <div className="td-service-widget-item mb-30">
-          <h3 className="td-service-widget-title">Our Services</h3>
+          <h3 className="td-service-widget-title">Other Services</h3>
           <ul>
-            <li>
-              <a href="#">
-                Investments
-                <i className="fa-regular fa-arrow-right-long"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                Online Business
-                <i className="fa-regular fa-arrow-right-long"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                Tax & Declaration
-                <i className="fa-regular fa-arrow-right-long"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                Customer Strategy
-                <i className="fa-regular fa-arrow-right-long"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                Private Equality
-                <i className="fa-regular fa-arrow-right-long"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                Corporate Solution
-                <i className="fa-regular fa-arrow-right-long"></i>
-              </a>
-            </li>
+            {serviceData?.map((value) => (
+              <li key={value}>
+                <a href={`/service-details/${value.toLowerCase().replace(/\s+/g, '')}`}>
+                  {value}
+                  <i className="fa-regular fa-arrow-right-long"></i>
+                </a>
+              </li>
+            ))}
+
           </ul>
         </div>
 
         {/* links */}
-        <div className="td-service-widget-pdf mb-30">
+        {/* <div className="td-service-widget-pdf mb-30">
           <ul>
             <li>
               <a href="#">
@@ -69,10 +43,10 @@ export const ServiceSidebar = () => {
               </span>
             </li>
           </ul>
-        </div>
+        </div> */}
 
         {/* contact form */}
-        <div className="td-service-widget-item mb-30">
+        {/* <div className="td-service-widget-item mb-30">
           <h3 className="td-service-widget-title td-service-widget-title-2">
             How can we help you?
           </h3>
@@ -115,7 +89,7 @@ export const ServiceSidebar = () => {
               </button>
             </div>
           </form>
-        </div>
+        </div> */}
       </div>
     </>
   );

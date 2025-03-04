@@ -4,6 +4,7 @@ import icon1 from "../../assets/img/icon/icon1-1.png";
 import icon2 from "../../assets/img/icon/icon2-2.png";
 import icon3 from "../../assets/img/icon/icon3-3.png";
 
+
 export const ServiceAreaSix = () => {
   // const services = [
   //   {
@@ -186,7 +187,7 @@ export const ServiceAreaSix = () => {
   //     className: "ml-30",
   //   },
   // ];
-
+  
   return (
     <div className="td-service-area pt-140 pb-80">
     <div className="container">
@@ -201,7 +202,7 @@ export const ServiceAreaSix = () => {
             </div>
             <div className="td-service-6-content">
               <h3 className="td-service-6-title mb-25">
-                <Link to="/service-details">Manufacturers</Link>
+                <Link to={`/service-details/${"manufactures"}`}>Manufacturers</Link>
               </h3>
               <p>Expanding Market Reach & Increasing Sales.</p>
             </div>
@@ -217,7 +218,7 @@ export const ServiceAreaSix = () => {
             </div>
             <div className="td-service-6-content">
               <h3 className="td-service-6-title mb-25">
-                <Link to="/service-details">Distributors</Link>
+                <Link to={`/service-details/${"distributors"}`}>Distributors</Link>
               </h3>
               <p>Building a Strong Portfolio & Maximizing Profits.</p>
             </div>
@@ -233,7 +234,7 @@ export const ServiceAreaSix = () => {
             </div>
             <div className="td-service-6-content">
               <h3 className="td-service-6-title mb-25">
-                <Link to="/service-details">Healthcare Providers</Link>
+                <Link to={`/service-details/${"healthcareproviders"}`}>Healthcare Providers</Link>
               </h3>
               <p>Cost-Effective Rehabilitation & Physio Solutions.</p>
             </div>
