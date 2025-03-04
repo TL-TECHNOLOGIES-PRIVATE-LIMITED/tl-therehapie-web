@@ -2,7 +2,7 @@ import React from "react";
 import { ServiceNavigation } from "../components/service/ServiceNavigation";
 import { ServiceSidebar } from "../components/service/ServiceSidebar";
 
-export const ServiceLayout = ({ children }) => {
+export const ServiceLayout = ({ children,serviceData }) => {
   return (
     <div className="td-seervice-details-area pt-140">
       <div className="container">
@@ -12,7 +12,7 @@ export const ServiceLayout = ({ children }) => {
 
           {/* sidebar */}
           <div className="col-lg-4">
-            <ServiceSidebar />
+            <ServiceSidebar serviceData={serviceData} />
           </div>
         </div>
 
