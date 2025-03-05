@@ -66,7 +66,7 @@ export const ServiceAreaFive = () => {
               </div>
               <div className="td-service-5-content">
                 <h2 className="td-service-5-title mb-20">
-                  <Link to="/service-details">Manufacturers</Link>
+                  <Link to="/service-details/manufactures">Manufacturers</Link>
                 </h2>
                 <p>Expanding Market Reach & Increasing Sales.</p>
               </div>
@@ -129,7 +129,7 @@ export const ServiceAreaFive = () => {
               </div>
               <div className="td-service-5-content">
                 <h2 className="td-service-5-title mb-20">
-                  <Link to="/service-details">Distributors</Link>
+                  <Link to="/service-details/distributors">Distributors</Link>
                 </h2>
                 <p> Building a Strong Portfolio & Maximizing Profits.</p>
               </div>
@@ -212,7 +212,7 @@ export const ServiceAreaFive = () => {
               </div>
               <div className="td-service-5-content">
                 <h2 className="td-service-5-title mb-20">
-                  <Link to="/service-details">Healthcare Providers</Link>
+                  <Link to="/service-details/healthcareproviders">Healthcare Providers</Link>
                 </h2>
                 <p>Cost-Effective Rehabilitation & Physio Solutions.</p>
               </div>
