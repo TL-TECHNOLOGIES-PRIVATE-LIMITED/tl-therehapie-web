@@ -47,7 +47,7 @@ export const BlogTwo = () => {
       imgSrc: img01,
       author: "heREHApie Consultants",
       date: "June 21, 2024",
-      href: "/blog-details",
+      href: "/blog-details/1",
       title: "The Future of Rehabilitation",
       tagline: " How Technology is Transforming Patient Recovery"
     },
@@ -55,7 +55,7 @@ export const BlogTwo = () => {
       imgSrc: img02,
       author: "heREHApie Consultants",
       date: "March 5, 2024",
-      href: "/blog-details",
+      href: "/blog-details/2",
       title: "Choosing the Right Rehabilitation Equipment",
      tagline: " A Buyer’s Guide for Healthcare Providers "
     },
@@ -63,7 +63,7 @@ export const BlogTwo = () => {
       imgSrc: img03,
       author: "heREHApie Consultants",
       date: "March 10, 2024",
-      href: "/blog-details",
+      href: "/blog-details/3",
       title: "The Middle East: A Growing Market for Rehabilitation Technology",
      tagline: "Unlocking Opportunities: Navigating the Middle East Rehab Tech Market "
     },
@@ -71,7 +71,7 @@ export const BlogTwo = () => {
       imgSrc: img04,
       author: "heREHApie Consultants",
       date: "March 15, 2024",
-      href: "/blog-details",
+      href: "/blog-details/4",
       title: "How to Optimize Your Rehabilitation Product Distribution Strategy",
      tagline: " Maximizing Reach, Enhancing Care: Optimize Your Rehab Product Distribution"
     },
@@ -79,7 +79,7 @@ export const BlogTwo = () => {
       imgSrc: img05,
       author: "heREHApie Consultants",
       date: "March 20, 2024",
-      href: "/blog-details",
+      href: "/blog-details/5",
       title: "Overcoming Challenges in the Rehabilitation Industry",
      tagline: " A Manufacturer’s Perspective "
     },
