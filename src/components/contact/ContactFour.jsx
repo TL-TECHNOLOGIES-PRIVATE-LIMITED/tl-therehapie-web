@@ -1,8 +1,67 @@
-import React from "react";
+import React, { useState } from "react";
 import bgImage from "../../assets/img/contact/contact4/bg.jpg";
 import bg2Image from "../../assets/img/contact/contact4/bg2.jpg";
+import { contact } from "../../api/api";
+import toast, { Toaster } from "react-hot-toast";
 
 export const ContactFour = () => {
+  const [name, setName] = useState("")
+  const [email, setEmail] = useState("")
+  const [subject, setSubject] = useState("")
+  const [message, setMessage] = useState("")
+  const [errors, setErrors] = useState({});
+
+  const validateForm = () => {
+    let errors = {};
+  
+    if (!name.trim()) errors.name = "Name is required";
+    
+    if (!email.trim()) {
+      errors.email = "Email is required";
+    } else if (!/\S+@\S+\.\S+/.test(email)) {
+      errors.email = "Invalid email format";
+    }
+    
+    if (!subject.trim()) errors.subject = "Subject is required";
+  
+    if (!message.trim()) {
+      errors.message = "Message is required";
+    } else if (message.trim().length < 10) {
+      errors.message = "Message must be at least 10 characters";
+    }
+  
+    setErrors(errors);
+    return Object.keys(errors).length === 0;
+  };
+  ;
+
+  const handleContact = async (e) => {
+    e.preventDefault();
+    if (!validateForm()) {
+      return; 
+    }
+    try {
+      
+      const data = {
+        name: name,
+        email: email,
+        subject: subject,
+        message: message,
+
+      }
+      const response = await contact(data)
+      if(response.data){
+        toast.success(response.data.message)
+        setEmail("")
+        setMessage("")
+        setName("")
+        setSubject("")
+      }
+    } catch (error) {
+      console.error(error);
+
+    }
+  }
   return (
     <div className="td-contact-area pt-140 pb-105">
       <div className="container">
@@ -25,7 +84,7 @@ export const ContactFour = () => {
 
                       <div className="col-xl-5 col-lg-6 col-md-6 col-sm-7">
                         <div className="td-contact-4-content">
-                        {/* <h3 className="td-contact-4-title mb-30">Address</h3> */}
+                          {/* <h3 className="td-contact-4-title mb-30">Address</h3> */}
                           <h3 className="td-contact-4-title mb-30">Dubai</h3>
                           <ul>
                             <li>
@@ -109,30 +168,51 @@ export const ContactFour = () => {
                     <div className="td-contact-form">
                       <form
                         id="contact-form"
-                        action="assets/mail.php"
-                        method="POST"
+                        onSubmit={handleContact}
                       >
                         <input
                           className="mb-10"
                           type="text"
                           name="name"
+                          value={name}
+                          onChange={(e) => setName(e.target.value)}
                           placeholder="Your name"
-                          required
+
                         />
+                        {errors.name && <p style={{ color: "red" }}>{errors.name}</p>}
+
                         <input
                           className="mb-10"
                           type="email"
                           name="email"
+                          onChange={(e) => setEmail(e.target.value)}
+                          value={email}
                           placeholder="Your email"
-                          required
+
                         />
+                        {errors.email && <p style={{ color: "red" }}>{errors.email}</p>}
+
+                        <input
+                          className="mb-10"
+                          type="text"
+                          name="subject"
+                          onChange={(e) => setSubject(e.target.value)}
+                          value={subject}
+                          placeholder="Your subject"
+
+                        />
+                        {errors.subject && <p style={{ color: "red" }}>{errors.subject}</p>}
+
                         <textarea
                           className="mb-30"
                           name="message"
-                          placeholder="Massage"
+                          onChange={(e) => setMessage(e.target.value)}
+                          value={message}
+                          placeholder="Message"
                         ></textarea>
-                        <button type="submit">Send Messages</button>
-                        <p className="ajax-response pt-20"></p>
+                        {errors.message && <p style={{ color: "red" }}>{errors.message}</p>}
+
+                        <button type="submit">Send Message</button>  {/* Corrected to singular "Message" */}
                       </form>
                     </div>
                   </div>
@@ -142,6 +222,10 @@ export const ContactFour = () => {
           </div>
         </div>
       </div>
+      <Toaster
+  position="top-right"
+  reverseOrder={false}
+/>
     </div>
   );
 };
