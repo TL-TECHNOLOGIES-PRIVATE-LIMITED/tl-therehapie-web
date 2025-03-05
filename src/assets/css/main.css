@@ -5253,17 +5253,20 @@ input[type="color"] {
   line-height: 1.12;
   letter-spacing: -0.02em;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px),
-  only screen and (min-width: 992px) and (max-width: 1199px),
-  only screen and (min-width: 768px) and (max-width: 991px),
-  only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .td-hero-5-title {
     font-size: 75px;
   }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .td-hero-5-bigtext {
+    font-size: 50px;
+  }
+}
 @media (max-width: 575px) {
   .td-hero-5-title {
-    font-size: 60px;
+    font-size: 30px;
   }
 }
 @media (max-width: 575px) {
@@ -5308,17 +5311,17 @@ input[type="color"] {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .td-hero-5-bigtext {
-    font-size: 150px;
+    font-size: 120px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .td-hero-5-bigtext {
-    font-size: 110px;
+    font-size: 64px;
   }
 }
 @media (max-width: 575px) {
   .td-hero-5-bigtext {
-    font-size: 72px;
+    font-size: 47px;
   }
 }
 .td-hero-5-bigtext::after {
@@ -6602,7 +6605,7 @@ input[type="color"] {
 }
 .td-cta-big-title {
   font-weight: 700;
-  font-size: 200px;
+  font-size: 155px;
   line-height: 1;
   letter-spacing: -0.01em;
   text-align: center;
@@ -6614,19 +6617,24 @@ input[type="color"] {
   -webkit-text-stroke-width: 3px;
   text-shadow: 0 60px 120px rgba(0, 0, 0, 0.1);
 }
+@media only screen and (min-width: 1024px) and (max-width: 1410px) {
+  .td-cta-big-title {
+    font-size: 140px;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .td-cta-big-title {
-    font-size: 200px;
+    font-size: 108px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .td-cta-big-title {
-    font-size: 150px;
+    font-size: 58px;
   }
 }
 @media (max-width: 575px) {
   .td-cta-big-title {
-    font-size: 110px;
+    font-size: 45px;
   }
 }
 .td-cta-count-2 {
