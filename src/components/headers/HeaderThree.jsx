@@ -3,7 +3,7 @@ import { useHeaderLang, useHeaderSticky } from "./useHeader";
 import { Navbar } from "./Navbar";
 import { Link } from "react-router-dom";
 import LOGO_WHITE from "../../assets/img/logo/logo-white.png";
-import LOGO from "../../assets/img/logo/logo.jpg";
+import LOGO from "../../assets/img/logo/logo1.jpg";
 
 
 export const HeaderThree = () => {
