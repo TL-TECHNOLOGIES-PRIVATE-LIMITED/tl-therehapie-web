@@ -1,7 +1,48 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
-
+import { newsLetter } from "../../api/api.js";
+import toast, { Toaster } from "react-hot-toast";
 export const SubscribeTwo = () => {
+  const [email, setEmail] = useState("")
+  const [error, setError] = useState("")
+  const validateEmail = () => {
+    if (!email.trim()) {
+      setError("Email is required");
+      return false;
+    }
+
+    const emailRegex = /\S+@\S+\.\S+/;
+    if (!emailRegex.test(email)) {
+      setError("Invalid email format");
+      return false;
+    }
+
+    return true;
+  };
+  const handleSubscribe = async (e) => {
+    e.preventDefault();
+    
+    if (!validateEmail()) return;
+
+    try {
+        const response = await newsLetter(email);
+
+        if (response.data) {
+            toast.success(response.data.message);
+            setEmail("");
+            setError("")
+        }
+    } catch (error) {
+                if (error.response && error.response.data && error.response.data.message) {
+          setError("")  
+          toast.error(error.response.data.message);
+        } else {
+          setError("")
+            toast.error("Subscription failed. Please try again.");
+        }
+    }
+};
+
   return (
     <div className="td-subscribe-area">
       <div className="container">
@@ -201,20 +242,23 @@ export const SubscribeTwo = () => {
               </h2>
               <p>A weekly digest of latest news, articles and resources.</p>
               <div className="td-subscribe-5-form-wrap">
-                <form action="#">
+                <form onSubmit={handleSubscribe}>
                   <div className="td-subscribe-5-form">
                     <div className="td-subscribe-5-input">
                       <input
                         type="email"
                         id="email"
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
                         placeholder="Email adress"
                       />
+
                       <label htmlFor="email">
                         <i className="fa-solid fa-envelope-open"></i>
                       </label>
                     </div>
                     <div className="td-subscribe-5-btn">
-                      <button type="button" className="td-btn td-left-right">
+                      <button type="submit" className="td-btn td-left-right">
                         Subscribe
                         <span className="td-arrow-angle ml-10">
                           <svg
@@ -232,11 +276,16 @@ export const SubscribeTwo = () => {
                     </div>
                   </div>
                 </form>
+                {error && <p style={{ color: "red", paddingTop: "5px" }}>{error}</p>}
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+      <Toaster
+        position="top-right"
+        reverseOrder={false}
+      />  
+        </div>
   );
 };
