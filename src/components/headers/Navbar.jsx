@@ -5,7 +5,7 @@ export const Navbar = ({ hidePortfolio = false }) => {
   return (
     <nav className="td-main-menu-content  " style={{textAlign:"center"}}>
       <ul>
-        <li className="has-dropdown">
+        <li className="">
           <Link to="/"> Home</Link>
           {/* <ul className="td-submenu submenu">
             <li>
@@ -25,12 +25,12 @@ export const Navbar = ({ hidePortfolio = false }) => {
             </li>
           </ul> */}
         </li>
-        <li className="has-dropdown">
+        <li className="">
           <Link to="/about"> About</Link>
           
         </li>
 
-        {/* <li className="has-dropdown">
+        {/* <li className="">
           <a href="#">Pages</a>
           <ul className="td-submenu submenu">
            
@@ -55,7 +55,7 @@ export const Navbar = ({ hidePortfolio = false }) => {
           <li>
               <Link to="/blog">Blog</Link>
             </li>
-        {/* <li className="has-dropdown">
+        {/* <li className="">
           <Link to="/blog">Blog</Link>
           <ul className="td-submenu submenu">
             <li>
@@ -67,11 +67,11 @@ export const Navbar = ({ hidePortfolio = false }) => {
           </ul>
         </li> */}
 
-        <li className="has-dropdown">
+        <li className="">
           <Link to="/service"> Service</Link>
           
         </li>
-        {/* <li className="has-dropdown">
+        {/* <li className="">
           <Link to="/service">Featured</Link>
           <ul className="td-submenu submenu">
             <li>
@@ -82,13 +82,13 @@ export const Navbar = ({ hidePortfolio = false }) => {
             </li>
           </ul>
         </li> */}
-        <li className="has-dropdown">
+        <li className="">
           <Link to="/faq"> Faq</Link>
           
         </li>
 
         {hidePortfolio ? null : (
-          <li className="has-dropdown">
+          <li className="">
             <Link to="/portfolio">Portfolio</Link>
             <ul className="td-submenu submenu">
               <li>
