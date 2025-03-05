@@ -1,6 +1,6 @@
 const AboutSection = () => {
     return (
-      <section className="   container">
+      <section className="   container " style={{paddingTop:"30px"}} > 
         {/* Heading */}
         <div className="text-center mt-12">
          
