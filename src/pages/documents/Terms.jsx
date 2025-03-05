@@ -1,7 +1,9 @@
 import React from 'react';
+import { Layout } from '../../layouts/Layout';
 
 export const Terms = () => {
   return (
+    <Layout breadcrumbTitle={"Terms and conditions"} breadcrumbSubtitle={"Terms and conditions"}>
     <div className="container-fluid py-5 bg-white">
       <div className="container">
         <div className="card border-0 shadow-sm">
@@ -188,5 +190,6 @@ export const Terms = () => {
         </div>
       </div>
     </div>
+    </Layout>
   );
 }

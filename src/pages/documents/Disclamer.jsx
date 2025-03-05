@@ -1,7 +1,9 @@
 import React from 'react';
+import { Layout } from '../../layouts/Layout';
 
 export const Disclaimer = () => {
   return (
+    <Layout breadcrumbTitle={"Disclaimer"} breadcrumbSubtitle={"Disclaimer"}>
     <div className="container-fluid py-5 bg-white">
       <div className="container">
         <div className="card border-0 shadow-sm">
@@ -138,5 +140,6 @@ export const Disclaimer = () => {
         </div>
       </div>
     </div>
+    </Layout>
   );
 };

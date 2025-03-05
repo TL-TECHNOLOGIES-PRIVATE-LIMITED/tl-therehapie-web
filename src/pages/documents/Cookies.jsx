@@ -1,7 +1,10 @@
 import React from 'react';
+import { Layout } from '../../layouts/Layout';
 
 export const CookiePolicy = () => {
   return (
+    <Layout breadcrumbTitle={"Cookie policy"} breadcrumbSubtitle={"About Us"}>
+
     <div className="container-fluid py-5 bg-white">
       <div className="container">
         <div className="card border-0 shadow-sm">
@@ -157,5 +160,6 @@ export const CookiePolicy = () => {
         </div>
       </div>
     </div>
+    </Layout>
   );
 };
