@@ -6,6 +6,7 @@ import thumbImage3 from "../../assets/img/expreance/03.jpg";
 import thumbImage4 from "../../assets/img/expreance/04.jpg";
 import mission from "../../assets/img/about/about4/mission1.jpg";
 import vision from "../../assets/img/about/about4/vision1.jpg";
+import thumbImage5 from  "../../assets/img/about/about5/thumb5.jpg"
 
 export const ExperienceOne = () => {
   return (
@@ -217,6 +218,68 @@ export const ExperienceOne = () => {
                 </div>
               </div>
             </div>
+            <div className="col-lg-12 wow fadeInUp" data-wow-delay=".4s" data-wow-duration="1s">
+  <div className="td-expreance-content-wrap p-relative">
+  <div className="position-absolute top-0 start-0 w-100 h-100" style={{ background: "rgba(0, 0, 0, 0.6)" }}></div>
+    <div className="td-expreance-thumb">
+      <img className="w-100" src={thumbImage5} alt="thumb" />
+    </div>
+    <div className="td-expreance-item">
+      <div className="row">
+        <div className="col-lg-6 mb-30">
+          <div className="td-expreance-content">
+            <h3 className="td-expreance-title">
+              <span>03</span> Our Commitments
+            </h3>
+          </div>
+        </div>
+        <div className="col-lg-6 mb-30">
+          <div className="td-expreance-btn-wrap">
+          <ul style={{ listStyle: "none", paddingLeft: "20px", color: "white", marginTop: "16px" }}>
+  <li style={{ marginBottom: "8px" }}>
+    ✔ <strong>Strategic Market Expansion</strong> – Facilitating business growth and entry into the Middle East.
+  </li>
+  <li style={{ marginBottom: "8px" }}>
+    ✔ <strong>Regulatory & Compliance Expertise</strong> – Ensuring seamless approvals and adherence to industry standards.
+  </li>
+  <li style={{ marginBottom: "8px" }}>
+    ✔ <strong>Strong Network & Partnerships</strong> – Connecting key players for long-term success.
+  </li>
+  <li>
+    ✔ <strong>Innovative & Cost-Effective Solutions</strong> – Providing top-tier rehabilitation technology at competitive prices.
+  </li>
+</ul>
+            <div className="td-expreance-btn">
+              <a href="#">
+                <svg
+                  width="50"
+                  height="50"
+                  viewBox="0 0 50 50"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M25 50C38.8235 50 50 38.8235 50 25C50 11.1765 38.8235 0 25 0C11.1765 0 0 11.1765 0 25C0 38.8235 11.1765 50 25 50ZM25 2.94118C37.2059 2.94118 47.0588 12.7941 47.0588 25C47.0588 37.2059 37.2059 47.0588 25 47.0588C12.7941 47.0588 2.94118 37.2059 2.94118 25C2.94118 12.7941 12.7941 2.94118 25 2.94118Z"
+                    fill="currentColor"
+                  />
+                  <path
+                    d="M24.5585 39.2638L38.8232 24.9991L24.5585 10.7344L22.4997 12.7932L34.7056 24.9991L22.4997 37.205L24.5585 39.2638Z"
+                    fill="currentColor"
+                  />
+                  <path
+                    d="M36.7646 23.5293H11.7646V26.4705H36.7646V23.5293Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
             {/* <div
               className="col-lg-12 wow fadeInUp"
               data-wow-delay=".5s"
