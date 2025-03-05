@@ -22,13 +22,13 @@ export const HeaderTwo = () => {
                       <div className="td-header-top-social">
                         <ul>
                           <li>
-                            <a href="mailto:abdul.rahiman@therehapie.com">
+                            <a href="mailto:abdul.rahiman@therehapie.com" target="_blank">
                               <i className="fa-regular fa-envelope-open"></i>
                               abdul.rahiman@therehapie.com
                             </a>
                           </li>
                           <li>
-                            <a href="tel:+(971)501361586">
+                            <a href="tel:+(971)501361586" target="_blank">
                               <i className="fa-regular fa-phone-flip"></i>{" "}
                               +(971)501361586
                             </a>
