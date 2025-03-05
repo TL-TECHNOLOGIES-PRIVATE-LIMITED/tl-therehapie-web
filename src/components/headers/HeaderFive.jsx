@@ -1,13 +1,29 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useHeaderSticky } from "./useHeader";
 import { Navbar } from "./Navbar";
 import { Link } from "react-router-dom";
 import LOGO from "../../assets/img/logo/logo1.jpg";
+import LOGOTWO from "../../assets/img/logo/logo.jpg";
 import { NavImgGallery } from "./NavImgGallery";
 
 export const HeaderFive = () => {
   useHeaderSticky();
+  const [logo, setLogo] = useState(LOGO);
 
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 600) {
+        setLogo(LOGOTWO);
+      } else {
+        setLogo(LOGO);
+      }
+    };
+
+    handleResize(); // Check on component mount
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
   return (
     <>
       <header>
@@ -43,7 +59,7 @@ export const HeaderFive = () => {
                 <div className="col-xl-3 col-lg-2 d-none d-lg-block">
                   <div className="td-header-5-logo ml-40">
                     <Link to="/">
-                      <img src={LOGO} alt="logo" width={250} />
+                      <img src={logo} alt="logo"  />
                     </Link>
                   </div>
                 </div>
@@ -83,9 +99,9 @@ export const HeaderFive = () => {
                         <div className="td-main-menu td-main-menu-2 td-main-menu-5 d-none d-lg-block">
                           <Navbar hidePortfolio />
                         </div>
-                        <div className="td-header-5-logo ml-30 d-lg-none">
+                        <div className="td-header-5-logo ml-0 d-lg-none">
                           <Link to="/">
-                            <img src={LOGO} alt="logo" />
+                            <img src={LOGO} alt="logo"  style={{width:"150px",height:"30px"}}/>
                           </Link>
                         </div>
                       </div>
