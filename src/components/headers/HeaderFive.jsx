@@ -90,36 +90,9 @@ export const HeaderFive = () => {
                         </div>
                       </div>
 
-                      {/* <div className="col-lg-4 col-6">
+                      <div className="col-lg-4 col-6">
                         <div className="td-header-5-right">
-                          <div className="td-header-search td-header-5-search d-none d-lg-block">
-                            <form action="#">
-                              <div className="td-header-input p-relative">
-                                <input
-                                  type="email"
-                                  placeholder="Search here..."
-                                />
-                                <button
-                                  className="td-header-search-btn"
-                                  type="button"
-                                >
-                                  <svg
-                                    width="20"
-                                    height="20"
-                                    viewBox="0 0 20 20"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                  >
-                                    <path
-                                      d="M8.1172 0C12.593 0 16.2344 3.64136 16.2344 8.11718C16.2344 10.1445 15.4873 12.0007 14.254 13.4247L19.8284 18.9997C20.0572 19.2286 20.0572 19.5996 19.8284 19.8284C19.5995 20.0572 19.2286 20.0572 18.9997 19.8284L13.4254 14.2534C12.0012 15.4871 10.1448 16.2344 8.1172 16.2344C3.64139 16.2344 2.28882e-05 12.593 2.28882e-05 8.11718C2.28882e-05 3.64136 3.64139 0 8.1172 0ZM8.1172 15.0625C11.9469 15.0625 15.0625 11.9468 15.0625 8.11718C15.0625 4.28753 11.9468 1.17187 8.1172 1.17187C4.28756 1.17187 1.1719 4.28753 1.1719 8.11718C1.1719 11.9468 4.28756 15.0625 8.1172 15.0625Z"
-                                      fill="currentColor"
-                                    />
-                                  </svg>
-                                </button>
-                              </div>
-                            </form>
-                          </div>
-                          <div className="td-header-5-menubar">
+                          <div className="td-header-5-menubar d-lg-none">
                             <button className="td-menu-bar">
                               <svg
                                 width="24"
@@ -136,7 +109,7 @@ export const HeaderFive = () => {
                             </button>
                           </div>
                         </div>
-                      </div> */}
+                      </div>
                     </div>
                   </div>
                 </div>
