@@ -15,10 +15,12 @@ import { BlogThree } from "../../components/blogs/BlogThree";
 import { SubscribeTwo } from "../../components/subscribe/SubscribeTwo";
 import { AboutTwo } from "../../components/about/AboutTwo";
 import { AboutFour } from "../../components/about/AboutFour";
+import HelmetReuse from "../../components/seo/HelmetComponent";
 
 export const HomeFive = () => {
   return (
     <Layout header={5} footer={5} >
+      <HelmetReuse title = "theREHApie Consultants – Bridging Rehabilitation Innovation with the Middle East" />
       {/* hero */}
       <HeroFive />
       {/* About */}

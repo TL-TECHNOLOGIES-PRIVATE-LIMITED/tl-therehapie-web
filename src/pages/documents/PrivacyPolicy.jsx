@@ -1,7 +1,9 @@
 import React from 'react';
+import { Layout } from '../../layouts/Layout';
 
 export const PrivacyPolicy = () => {
   return (
+    <Layout breadcrumbTitle={"About Us"} breadcrumbSubtitle={"About Us"}>
     <div className="container-fluid py-5 bg-white">
       <div className="container">
         <div className="card border-0 shadow-sm">
@@ -209,5 +211,6 @@ export const PrivacyPolicy = () => {
         </div>
       </div>
     </div>
+    </Layout>
   );
 }
