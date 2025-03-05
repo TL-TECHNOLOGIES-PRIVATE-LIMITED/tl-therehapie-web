@@ -1,5 +1,5 @@
 import React from "react";
-import LOGO from "../../assets/img/logo/logo-2.png";
+import LOGO from "../../assets/img/logo/logo.jpg";
 import { useHeaderLang, useHeaderSticky } from "./useHeader";
 import { Navbar } from "./Navbar";
 import { Link } from "react-router-dom";
@@ -22,15 +22,15 @@ export const HeaderTwo = () => {
                       <div className="td-header-top-social">
                         <ul>
                           <li>
-                            <a href="mailto:info@adina.com">
+                            <a href="mailto:abdul.rahiman@therehapie.com">
                               <i className="fa-regular fa-envelope-open"></i>
-                              info@adina.com
+                              abdul.rahiman@therehapie.com
                             </a>
                           </li>
                           <li>
                             <a href="tel:+(971)501361586">
                               <i className="fa-regular fa-phone-flip"></i>{" "}
-                              +(123) 456 789 00
+                              +(971)501361586
                             </a>
                           </li>
                         </ul>
@@ -40,13 +40,13 @@ export const HeaderTwo = () => {
                   <div className="col-xl-4 d-none d-xl-block">
                     <div className="td-header-endeavos text-center">
                       <p>
-                        Adina - for All <a href="#"> your business</a> endeavors
+                        theREHApie - for All <a href="#"> your business</a> endeavors
                       </p>
                     </div>
                   </div>
                   <div className="col-xl-4 col-lg-6 col-md-6">
                     <div className="td-header-right d-flex align-items-center justify-content-end">
-                      <div className="td-header-lang p-relative">
+                      {/* <div className="td-header-lang p-relative">
                         <span
                           className="td-header-lang-toggle"
                           id="td-header-lang-toggle"
@@ -58,13 +58,13 @@ export const HeaderTwo = () => {
                           <li>English</li>
                           <li>Canada</li>
                         </ul>
-                      </div>
-                      <div className="td-header-time td-header-right-border">
+                      </div> */}
+                      {/* <div className="td-header-time td-header-right-border">
                         <span>
                           <i className="fa-sharp fa-light fa-clock"></i> 10:00am
                           - 06:00pm
                         </span>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
@@ -85,11 +85,11 @@ export const HeaderTwo = () => {
                         <Link className="mr-30" to="/">
                           <img src={LOGO} alt="logo" />
                         </Link>
-                        <div className="td-header-btn d-none d-xl-block">
+                        {/* <div className="td-header-btn d-none d-xl-block">
                           <a className="td-btn-4" href="#">
                             We're hearing!
                           </a>
-                        </div>
+                        </div> */}
                       </div>
                     </div>
 

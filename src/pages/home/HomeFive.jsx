@@ -18,7 +18,7 @@ import { AboutFour } from "../../components/about/AboutFour";
 
 export const HomeFive = () => {
   return (
-    <Layout header={5} footer={5}>
+    <Layout header={5} footer={5} >
       {/* hero */}
       <HeroFive />
       {/* About */}

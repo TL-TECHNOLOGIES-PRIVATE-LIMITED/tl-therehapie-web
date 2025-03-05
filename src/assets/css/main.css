@@ -5283,9 +5283,9 @@ input[type="color"] {
 }
 .td-hero-5-bigtext {
   font-weight: 600;
-  font-size: 300px;
+  font-size: 200px;
   line-height: 1;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
   color: var(--td-common-white);
   opacity: 0.4;
   position: relative;
@@ -6602,9 +6602,9 @@ input[type="color"] {
 }
 .td-cta-big-title {
   font-weight: 700;
-  font-size: 300px;
+  font-size: 200px;
   line-height: 1;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
   text-align: center;
   color: var(--td-common-white);
   background-clip: text;

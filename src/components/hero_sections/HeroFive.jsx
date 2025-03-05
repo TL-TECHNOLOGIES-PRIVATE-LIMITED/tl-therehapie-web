@@ -66,7 +66,7 @@ export const HeroFive = () => {
             <div className="col-xl-7 col-lg-6">
               <div className="td-hero-5-thumb pt-55 p-relative">
                 <img className="w-100" src={thumbImg} alt="thumb" />
-                <img className="td-hero-5-shape" src={shapeImg} alt="shape" />
+                {/* <img className="td-hero-5-shape" src={shapeImg} alt="shape" /> */}
               </div>
             </div>
           </div>
