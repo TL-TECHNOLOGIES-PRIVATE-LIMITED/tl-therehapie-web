@@ -12,6 +12,7 @@ import { FooterFour } from "../components/footers/FooterFour";
 import { HeaderFive } from "../components/headers/HeaderFive";
 import { FooterFive } from "../components/footers/FooterFive";
 import { Breadcrumb } from "../components/breadcrumb/Breadcrumb";
+import CookiesConsent from "../components/cookieConcent/CookieConcent";
 
 export const Layout = ({
   children,
@@ -24,7 +25,7 @@ export const Layout = ({
     <>
       {/* Scroll-top  */}
       <ScrollToTopButton />
-
+<CookiesConsent/>
       {/* headers */}
       {header === 1 && <HeaderOne />}
       {header === 2 && <HeaderTwo />}{/* select1 */}
