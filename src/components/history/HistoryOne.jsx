@@ -22,9 +22,7 @@ export const HistoryOne = () => {
         <div className="row">
           <div className="col-lg-6">
             <div className="td-history-title-wrap mb-80">
-              <span className="td-section-title-pre mb-10">
-                Started From 1972
-              </span>
+             
               <h2 className="td-section-title">
               What We Do
               </h2>
