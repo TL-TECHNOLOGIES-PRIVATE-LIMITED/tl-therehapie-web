@@ -28,6 +28,12 @@ export const Faq = () => {
 
     const faqItems = [
       {
+        question: "How do  we reduce cost of manufactures?",
+        images: [thumbImg, thumb2Img],
+        answer:
+          "They don't have to hire a full time sales manager here,we do everything for them.",
+      },
+      {
         question: "How do you select the right distributors for manufacturers?",
         images: [thumbImg, thumb2Img],
         answer:
@@ -73,7 +79,7 @@ export const Faq = () => {
         question: "Do you provide after-sales support and maintenance?",
         images: [thumb15Img, thumb16Img],
         answer:
-          "Yes, we offer long-term maintenance, servicing, and troubleshooting assistance to ensure equipment longevity and seamless operation.",
+          "We don't provide derectly,We coordinate with manufacturers and distributors to make sure that equipments are well taken care of.",
       },
       {
         question: "How do you assist with logistics and supply chain management?",
