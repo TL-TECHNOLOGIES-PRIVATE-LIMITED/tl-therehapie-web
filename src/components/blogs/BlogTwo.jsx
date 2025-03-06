@@ -1,21 +1,30 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { Swiper, SwiperSlide } from "../swiper/SwiperRoot";
+import SwiperCore, { Autoplay } from 'swiper'; // Import Autoplay module
+import { Link } from "react-router-dom";
 
 import img01 from "../../assets/img/blog/blog2/blog1.jpg";
 import img02 from "../../assets/img/blog/blog2/blog2.jpg";
 import img03 from "../../assets/img/blog/blog2/blog3.jpg";
 import img04 from "../../assets/img/blog/blog2/blog4.jpg";
 import img05 from "../../assets/img/blog/blog2/blog5.jpg";
-// import img06 from "../../assets/img/blog/blog2/blg6.jpg";
-import { Link } from "react-router-dom";
+
+// Initialize Swiper modules
+SwiperCore.use([Autoplay]);
 
 export const BlogTwo = () => {
+  const swiperRef = useRef(null);
+
   const swiper_blog_settings = {
     slidesPerView: 1,
     speed: 1500,
     spaceBetween: 60,
     loop: true,
     freeMode: true,
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
     breakpoints: {
       1400: {
         slidesPerView: 4,
@@ -40,12 +49,15 @@ export const BlogTwo = () => {
         spaceBetween: 30,
       },
     },
+    onSwiper: (swiper) => {
+      swiperRef.current = swiper;
+    },
   };
 
   const blogPosts = [
     {
       imgSrc: img01,
-      author: "heREHApie Consultants",
+      author: "theREHApie Consultants",
       date: "June 21, 2024",
       href: "/blog-details/1",
       title: "The Future of Rehabilitation",
@@ -53,15 +65,15 @@ export const BlogTwo = () => {
     },
     {
       imgSrc: img02,
-      author: "heREHApie Consultants",
+      author: "theREHApie Consultants",
       date: "March 5, 2024",
       href: "/blog-details/2",
       title: "Choosing the Right Rehabilitation Equipment",
-     tagline: " A Buyer’s Guide for Healthcare Providers "
+     tagline: " A Buyer's Guide for Healthcare Providers "
     },
     {
       imgSrc: img03,
-      author: "heREHApie Consultants",
+      author: "theREHApie Consultants",
       date: "March 10, 2024",
       href: "/blog-details/3",
       title: "The Middle East: A Growing Market for Rehabilitation Technology",
@@ -69,7 +81,7 @@ export const BlogTwo = () => {
     },
     {
       imgSrc: img04,
-      author: "heREHApie Consultants",
+      author: "theREHApie Consultants",
       date: "March 15, 2024",
       href: "/blog-details/4",
       title: "How to Optimize Your Rehabilitation Product Distribution Strategy",
@@ -77,40 +89,45 @@ export const BlogTwo = () => {
     },
     {
       imgSrc: img05,
-      author: "heREHApie Consultants",
+      author: "theREHApie Consultants",
       date: "March 20, 2024",
       href: "/blog-details/5",
       title: "Overcoming Challenges in the Rehabilitation Industry",
-     tagline: " A Manufacturer’s Perspective "
+     tagline: " A Manufacturer's Perspective "
     },
-    // {
-    //   imgSrc: img06,
-    //   author: "heREHApie Consultants",
-    //   date: "June 21, 2024",
-    //   href: "/blog-details",
-    //   title: "The essential steps for business success",
-    //  tagline: "Master the fundamentals of business success.Follow these essential steps to grow and thrive! "
-    // },
   ];
+
+  // Optional: Pause autoplay on hover
+  const handleMouseEnter = () => {
+    if (swiperRef.current) swiperRef.current.autoplay.stop();
+  };
+
+  const handleMouseLeave = () => {
+    if (swiperRef.current) swiperRef.current.autoplay.start();
+  };
 
   return (
     <div className="td-blog-area pt-135 pb-130 fix">
       <div className="container">
         <div className="row">
           {/* header */}
-          <div className="col-12">
+          <div className="col-12 ">
             <div
               className="td-blog-title-wrap mb-75 text-center wow fadeInUp"
               data-wow-delay=".3s"
               data-wow-duration="1s"
             >
               <span className="td-section-title-pre mb-10">Our Blogs</span>
-              <h2 className="td-section-title mb-30">Insights That Matter</h2>
+              <h2 className="td-section-title mb-30" style={{lineHeight:"1.28"}}>Insights That Matter</h2>
             </div>
           </div>
 
           <div className="col-12">
-            <div className="td-blog-slider-wrap">
+            <div 
+              className="td-blog-slider-wrap"
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
+            >
               <div className="swiper-container td-blog-slider-active">
                 <div className="swiper-wrapper">
                   <Swiper {...swiper_blog_settings}>

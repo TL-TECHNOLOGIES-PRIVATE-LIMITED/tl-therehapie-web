@@ -14,7 +14,12 @@ export const ContactFour = () => {
   const validateForm = () => {
     let errors = {};
   
-    if (!name.trim()) errors.name = "Name is required";
+    // if (!name.trim()) errors.name = "Name is required";
+    if (!name.trim()) {
+      errors.name = "Name is required";
+    } else if (/\d/.test(name)) { // Checks if the name contains a number
+      errors.name = "Name should not contain numbers";
+    }
     
     if (!email.trim()) {
       errors.email = "Email is required";
@@ -33,7 +38,7 @@ export const ContactFour = () => {
     setErrors(errors);
     return Object.keys(errors).length === 0;
   };
-  ;
+  
 
   const handleContact = async (e) => {
     e.preventDefault();

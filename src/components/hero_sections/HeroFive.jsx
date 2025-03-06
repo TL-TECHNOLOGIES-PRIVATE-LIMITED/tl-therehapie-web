@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
-import thumbImg from "../../assets/img/hero/hero5/thumb3.png";
+import thumbImg from "../../assets/img/hero/hero5/thumb7.png";
 import shapeImg from "../../assets/img/hero/hero5/shapeimage.png";
 import $ from "jquery";
 
