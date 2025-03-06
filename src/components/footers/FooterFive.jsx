@@ -18,7 +18,7 @@ export const FooterFive = () => {
                     <ul>
                       <li>
                         <a href="mailto:abdul.rahiman@therehapie.com">
-                        abdul.rahiman@therehapie.com
+                          abdul.rahiman@therehapie.com
                         </a>
                       </li>
                       <li className="mb-20">
@@ -29,11 +29,11 @@ export const FooterFive = () => {
                           href="https://www.google.com/maps/@41.6758525,-86.2531698,18.17z"
                           target="_blank"
                         >
-              Building 9WA - 138 - SO - 23
+                          Building 9WA - 138 - SO - 23
 
                           <br />
                           Dubai Airport Freezone
-                          <br/>
+                          <br />
                           Dubai, UAE
                         </a>
                       </li>
@@ -76,7 +76,7 @@ export const FooterFive = () => {
                       <li>
                         <Link to="/about">About Us</Link>
                       </li>
-      
+
                       <li>
                         <Link to="/contact">Contact us</Link>
                       </li>
@@ -101,8 +101,8 @@ export const FooterFive = () => {
                       {/* <li>
                         <a href="#">Careers</a>
                       </li> */}
-                  
-               
+
+
                       <li>
                         <a href="/terms">Terms & Condition</a>
                       </li>
@@ -151,9 +151,17 @@ export const FooterFive = () => {
             <div className="row">
               <div className="col-12">
                 <div className="td-footer-5-bottom-content text-center">
-                <p>
-                          © 2025 <a href="https://www.tltechnologies.net/" style={{color:"red"}}>TL TECHNOLOGIES PRIVATE LIMITED</a>, All rights reserved.
-                        </p>
+                  <p>
+                    © 2025 <a
+                      href="https://www.tltechnologies.net/"
+                      style={{ color: "red" }}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      TL TECHNOLOGIES PRIVATE LIMITED
+                    </a>, All rights reserved.
+                  </p>
+
                 </div>
               </div>
             </div>

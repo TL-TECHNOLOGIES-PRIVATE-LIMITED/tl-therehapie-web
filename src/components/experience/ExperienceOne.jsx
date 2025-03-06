@@ -62,7 +62,7 @@ export const ExperienceOne = () => {
                     </defs>
                   </svg>
                 </span>
-                <span>
+                <span >
                   Years of <br />
                   Experience
                 </span>

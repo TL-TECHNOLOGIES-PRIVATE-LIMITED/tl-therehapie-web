@@ -20,7 +20,7 @@ export const FooterThree = () => {
                 <div className="td-footer-3-top-content">
                   <p>
                     Looking for collaboration? Send an email to
-                    <a href="mailto:abdul.rahiman@therehapie.com">abdul.rahiman@therehapie.com</a> for
+                    <a href="mailto:abdul.rahiman@therehapie.com"> abdul.rahiman@therehapie.com</a> for
                     valuable enquires and collaborations.
                   </p>
                 </div>
@@ -45,7 +45,7 @@ export const FooterThree = () => {
                       <h2 className="td-footer-3-widget-title mb-20">Menu</h2>
                       <ul>
                         <li>
-                         
+
                           <a href="/blog">Our Blog</a>
                           <a href="/service">Service</a>
                           <a href="/faq">FAQ</a>
@@ -65,7 +65,7 @@ export const FooterThree = () => {
                       </h2>
                       <div className="td-footer-3-link">
                         <a href="mailto:abdul.rahiman@therehapie.com">
-                        abdul.rahiman@therehapie.com
+                          abdul.rahiman@therehapie.com
                         </a>
                         <a href="tel: +971 50 136 1586"> +971 50 136 1586</a>
                       </div>
@@ -79,11 +79,11 @@ export const FooterThree = () => {
                           href="https://www.google.com/maps/@41.6758525,-86.2531698,18.17z"
                           target="_blank"
                         >
-                                Building 9WA - 138 - SO - 23
-                                <br />
-                                Dubai Airport Freezone
-                                <br/>
-                                Dubai, UAE
+                          Building 9WA - 138 - SO - 23
+                          <br />
+                          Dubai Airport Freezone
+                          <br />
+                          Dubai, UAE
                         </a>
                       </div>
                     </div>
@@ -102,14 +102,22 @@ export const FooterThree = () => {
                     <div className="col-lg-6 mb-15">
                       <div className="td-footer-3-bottom-copyright">
                         <p>
-                          © 2025 <a href="https://www.tltechnologies.net/" style={{color:"red"}}>TL TECHNOLOGIES PRIVATE LIMITED</a>, All rights reserved.
+                          © 2025 <a
+                            href="https://www.tltechnologies.net/"
+                            style={{ color: "red" }}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            TL TECHNOLOGIES PRIVATE LIMITED
+                          </a>, All rights reserved.
                         </p>
+
                       </div>
                     </div>
                     <div className="col-lg-6 mb-15">
                       <div className="td-footer-3-bottom-social text-right">
                         <ul>
-                          <li>
+                          {/* <li>
                             <a href="#">
                               <i className="fa-brands fa-facebook-f"></i>
                             </a>
@@ -133,7 +141,18 @@ export const FooterThree = () => {
                             <a href="#">
                               <i className="fa-brands fa-behance"></i>
                             </a>
+                          </li> */}
+                          <li>
+                            <a
+                              href="https://www.linkedin.com/in/abdul-rahiman-beyaram-kunhali-698a971b6/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="flex items-center gap-2"
+                            >
+                              <i className="fab fa-linkedin text-blue-600"></i>
+                            </a>
                           </li>
+
                         </ul>
                       </div>
                     </div>
