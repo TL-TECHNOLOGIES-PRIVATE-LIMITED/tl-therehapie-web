@@ -1133,6 +1133,7 @@ input[type="color"] {
 }
 .td-btn:hover {
   color: var(--td-common-white);
+  
 }
 .td-btn-2 {
   background: var(--td-common-white);

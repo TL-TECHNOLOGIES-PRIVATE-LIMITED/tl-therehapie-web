@@ -70,7 +70,7 @@ export const ServiceAreaFour = () => {
                         </div>
                         <div className="td-service-4-content">
                           <h3 className="td-service-4-title">
-                            <Link to="/service-details"> Market Misalignment</Link>
+                            <Link> Market Misalignment</Link>
                           </h3>
                           <p>
                           Inaccurate insights and unrealistic expectations create uncertainty.
@@ -129,7 +129,7 @@ export const ServiceAreaFour = () => {
                         </div>
                         <div className="td-service-4-content">
                           <h3 className="td-service-4-title">
-                            <Link to="/service-details"> Distributor & Communication Gaps</Link>
+                            <Link > Distributor & Communication Gaps</Link>
                           </h3>
                           <p>
                           Limited priority, time zone differences, and work schedule mismatches hinder growth.
@@ -181,7 +181,7 @@ export const ServiceAreaFour = () => {
                         </div>
                         <div className="td-service-4-content">
                           <h3 className="td-service-4-title">
-                            <Link to="/service-details">Regulatory & Competitive Hurdles</Link>
+                            <Link >Regulatory & Competitive Hurdles</Link>
                           </h3>
                           <p>
                           Complex approvals, compliance issues, and pricing pressures.
@@ -241,7 +241,7 @@ export const ServiceAreaFour = () => {
                         </div>
                         <div className="td-service-4-content">
                           <h3 className="td-service-4-title">
-                            <Link to="/service-details">Lack of Local Presence</Link>
+                            <Link >Lack of Local Presence</Link>
                           </h3>
                           <p>
                           High costs prevent on-ground support, leading to missed opportunities.

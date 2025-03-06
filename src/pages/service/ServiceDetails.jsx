@@ -23,6 +23,7 @@ export const ServiceDetails = () => {
   useEffect(() => {
     if (category === "manufactures") {
       setData({
+        heading: "Manufactures",
         title: " Expanding Market Reach & Increasing Sales",
         img: Manufacture,
         description:
@@ -52,6 +53,7 @@ export const ServiceDetails = () => {
       });
     } else if (category === "distributors") {
       setData({
+        heading: "Distributors",
         title: "Building a Strong Portfolio & Maximizing Profits",
         img: Distributions,
         description:
@@ -81,6 +83,7 @@ export const ServiceDetails = () => {
       });
     } else if (category === "healthcareproviders") {
       setData({
+        heading: "Healthcare Providers",
         title: " Cost-Effective Rehabilitation & Physio Solutions",
         img: Health,
         description:
@@ -113,7 +116,7 @@ export const ServiceDetails = () => {
   
   return (
     <Layout
-      breadcrumbTitle={data.title}
+      breadcrumbTitle={data.heading}
       breadcrumbSubtitle={"Service Details"}
     >
       <ServiceLayout serviceData={serviceData}>
