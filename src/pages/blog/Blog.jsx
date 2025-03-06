@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Layout } from "../../layouts/Layout";
 import { BlogLayout } from "../../layouts/BlogLayout";
 import { BlogItem } from "../../components/blogs/BlogItem";
@@ -7,7 +7,7 @@ import blogImage2 from "../../assets/img/blog/blogsidebar/blog-2.jpg";
 import blogImage3 from "../../assets/img/blog/blogsidebar/blog-3.jpg";
 import blogImage4 from "../../assets/img/blog/blogsidebar/blog-4.jpg";
 import blogImage5 from "../../assets/img/blog/blogsidebar/blog-5.jpg";
-import userImage1 from "../../assets/img/blog/blogsidebar/06.jpg";
+import userImage1 from "../../assets/img/blog/blogsidebar/logo.png";
 
 export const Blog = () => {
   const blogs = [
@@ -15,7 +15,7 @@ export const Blog = () => {
       id:1,
          src: blogImage1,
          userImage: userImage1,
-         author: "heREHApie Consultants",
+         author: "theREHApie Consultants",
          date: "June 21, 2024",
          href: "/blog-details/1",
          title: "The Future of Rehabilitation",
@@ -35,7 +35,7 @@ export const Blog = () => {
         id:2,
          src: blogImage2,
          userImage: userImage1,
-         author: "heREHApie Consultants",
+         author: "theREHApie Consultants",
          date: "March 5, 2024",
          href: "/blog-details/2",
          title: "Choosing the Right Rehabilitation Equipment",
@@ -56,7 +56,7 @@ export const Blog = () => {
         id:3,
          src: blogImage3,
          userImage: userImage1,
-         author: "heREHApie Consultants",
+         author: "theREHApie Consultants",
          date: "March 10, 2024",
          href: "/blog-details/3",
          title: "The Middle East: A Growing Market for Rehabilitation Technology",
@@ -77,7 +77,7 @@ export const Blog = () => {
         id:4,
          src: blogImage4,
          userImage: userImage1,
-         author: "heREHApie Consultants",
+         author: "theREHApie Consultants",
          date: "March 15, 2024",
          href: "/blog-details/4",
          title: "How to Optimize Your Rehabilitation Product Distribution Strategy",
@@ -97,7 +97,7 @@ export const Blog = () => {
         id:5,
          src: blogImage5,
          userImage: userImage1,
-         author: "heREHApie Consultants",
+         author: "theREHApie Consultants",
          date: "March 20, 2024",
          href: "/blog-details/5",
          title: "Overcoming Challenges in the Rehabilitation Industry",
@@ -176,9 +176,15 @@ export const Blog = () => {
   const paginatedBlogs = blogs.slice(startIndex, endIndex);
 
   const handleNextPage = () => {
-    if (currentPage < totalPages) setCurrentPage(currentPage + 1);
+    if (currentPage < totalPages) {
+      setCurrentPage(currentPage + 1);
+      
+      
+    }
   };
-
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, [currentPage]);
   const handlePrevPage = () => {
     if (currentPage > 1) setCurrentPage(currentPage - 1);
   };
