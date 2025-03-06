@@ -126,9 +126,9 @@ export const Faq = () => {
     ];
 
   const services = [
-    { name: "Manufacturers", link: "#" },
-    { name: "Distributors", link: "#" },
-    { name: "Healthcare Providers", link: "#" },
+    { name: "Manufacturers", link: "/service-details/manufactures" },
+    { name: "Distributors", link: "/service-details/distributors" },
+    { name: "Healthcare Providers", link: "/service-details/healthcareproviders" },
   ];
 
   return (

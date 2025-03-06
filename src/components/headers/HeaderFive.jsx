@@ -58,9 +58,9 @@ export const HeaderFive = () => {
                 </div>
                 <div className="col-xl-3 col-lg-2 d-none d-lg-block">
                   <div className="td-header-5-logo ml-40">
-                    <Link to="/">
+                    <a href="/">
                       <img src={logo} alt="logo"  />
-                    </Link>
+                    </a>
                   </div>
                 </div>
                 <div className="col-lg-4 col-md-4">
