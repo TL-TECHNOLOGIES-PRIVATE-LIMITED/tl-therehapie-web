@@ -9,32 +9,42 @@ export const ErrorPage = () => {
       <HeaderThree />
 
       <div
-        className="td-error-area td-error-spacing fix bg-position"
-        style={{ backgroundImage: `url(${errorImage})` }}
+        className="td-error-area td-error-spacing fix bg-position d-flex align-items-center"
+        style={{
+          backgroundImage: `url(${errorImage})`,
+          minHeight: "100vh",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          color: "#fff",
+          textAlign: "start",
+        }}
       >
         <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <div className="td-error-content text-center">
-                <h2 className="td-error-title mb-5">404</h2>
-                <h5 className="td-error-text mb-50">
-                  Looks like this website broken
-                </h5>
-                <div className="td-error-btn td-hero-4-btn">
-                  <Link to="/" className="td-btn td-btn-7 td-left-right">
-                    <span className="td-arrow-angle mr-10">
-                      <svg
-                        className="td-arrow-svg-top-right"
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="10"
-                        height="10"
-                        viewBox="0 0 10.00 10.00"
-                      >
-                        <path d="M1.018 10.009 0 8.991l7.569-7.582H1.723L1.737 0h8.26v8.274H8.574l.013-5.847Z" />
-                        <path d="M1.018 10.009 0 8.991l7.569-7.582H1.723L1.737 0h8.26v8.274H8.574l.013-5.847Z" />
-                      </svg>
-                    </span>
-                    Go Back Home
+          <div className="row justify-content-start">
+            <div className="col-lg-8">
+              <div className="">
+                <h2 className="td-error-title mb-4" style={{ fontSize: "80px", fontWeight: "bold" }}>
+                  404
+                </h2>
+                <h3 className="mb-4" style={{color:"white"}}>Oops! We couldn't find that page.</h3>
+                <p className="mb-4">
+                  It looks like the page you're searching for has been moved, renamed, or is temporarily unavailable.
+                </p>
+
+                <h5 className="mb-3" style={{color:"white"}}>Don’t worry, here’s what you can do:</h5>
+                <ul className="list-unstyled text-start d-inline-block">
+                  <li>✅ Double-check the URL you entered.</li>
+                  <li>✅ Navigate back to our homepage to start fresh.</li>
+                  <li>✅ Use the search bar to find what you’re looking for.</li>
+                </ul>
+
+                <p className="mt-4">
+                  If you still need help, feel free to <Link to="/contact" className="text-primary">contact us</Link>.
+                </p>
+
+                <div className="td-error-btn mt-4">
+                  <Link to="/" className="td-btn td-btn-7 td-left-right btn btn-light px-4 py-2 rounded">
+                    Go to Homepage
                   </Link>
                 </div>
               </div>
