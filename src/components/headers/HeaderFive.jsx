@@ -65,24 +65,25 @@ export const HeaderFive = () => {
                 </div>
                 <div className="col-lg-4 col-md-4">
                   <div className="td-header-5-btn text-right">
-                    <Link
-                      className="td-btn td-btn-3 td-left-right"
-                      to="/contact"
-                    >
-                      Let's Talk
-                      <span className="td-arrow-angle ml-10">
-                        <svg
-                          className="td-arrow-svg-top-right"
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="10"
-                          height="10"
-                          viewBox="0 0 10.00 10.00"
-                        >
-                          <path d="M1.018 10.009 0 8.991l7.569-7.582H1.723L1.737 0h8.26v8.274H8.574l.013-5.847Z" />
-                          <path d="M1.018 10.009 0 8.991l7.569-7.582H1.723L1.737 0h8.26v8.274H8.574l.013-5.847Z" />
-                        </svg>
-                      </span>
-                    </Link>
+                  <Link
+  className="td-btn td-btn-3 td-left-right hide-between-1024-1430"
+  to="/contact"
+>
+  Let's Talk
+  <span className="td-arrow-angle ml-10">
+    <svg
+      className="td-arrow-svg-top-right"
+      xmlns="http://www.w3.org/2000/svg"
+      width="10"
+      height="10"
+      viewBox="0 0 10.00 10.00"
+    >
+      <path d="M1.018 10.009 0 8.991l7.569-7.582H1.723L1.737 0h8.26v8.274H8.574l.013-5.847Z" />
+      <path d="M1.018 10.009 0 8.991l7.569-7.582H1.723L1.737 0h8.26v8.274H8.574l.013-5.847Z" />
+    </svg>
+  </span>
+</Link>
+
                   </div>
                 </div>
               </div>
@@ -95,7 +96,7 @@ export const HeaderFive = () => {
                 <div className="col-12">
                   <div className="td-header-5-bg" id="header-sticky">
                     <div className="row align-items-center" style={{justifyContent:'center'}}>
-                      <div className="col-lg-8 col-6">
+                      <div className="col-lg-9 col-6" >
                         <div className="td-main-menu td-main-menu-2 td-main-menu-5 d-none d-lg-block">
                           <Navbar hidePortfolio />
                         </div>

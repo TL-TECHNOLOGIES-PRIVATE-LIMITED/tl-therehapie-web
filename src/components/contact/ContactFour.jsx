@@ -97,7 +97,7 @@ export const ContactFour = () => {
                                 className="td-contact-4-email"
                                 href="mailto:info@adina-design.com"
                               >
-                                Building 9WA - 138 - SO - 23
+                                Building 9W - 138 - SO - 23
                                 Dubai Airport Freezone
                                 Dubai, UAE
 
