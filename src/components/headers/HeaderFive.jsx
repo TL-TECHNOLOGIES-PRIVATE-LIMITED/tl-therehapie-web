@@ -8,22 +8,9 @@ import { NavImgGallery } from "./NavImgGallery";
 
 export const HeaderFive = () => {
   useHeaderSticky();
-  const [logo, setLogo] = useState(LOGO);
 
-  useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth < 600) {
-        setLogo(LOGOTWO);
-      } else {
-        setLogo(LOGO);
-      }
-    };
 
-    handleResize(); // Check on component mount
-    window.addEventListener("resize", handleResize);
 
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
   return (
     <>
       <header>
@@ -57,9 +44,9 @@ export const HeaderFive = () => {
                   </div>
                 </div>
                 <div className="col-xl-3 col-lg-2 d-none d-lg-block">
-                  <div className="td-header-5-logo ml-40">
+                  <div className=" ml-40">
                     <a href="/">
-                      <img src={logo} alt="logo"  />
+                      <img src={LOGO} alt="logo"   />
                     </a>
                   </div>
                 </div>
@@ -102,7 +89,7 @@ export const HeaderFive = () => {
                         </div>
                         <div className="td-header-5-logo ml-0 d-lg-none">
                           <Link to="/">
-                            <img src={LOGO} alt="logo"  style={{width:"150px",height:"30px"}}/>
+                            <img src={LOGO} alt="logo"  style={{width:"100%",height:"auto"}}/>
                           </Link>
                         </div>
                       </div>
