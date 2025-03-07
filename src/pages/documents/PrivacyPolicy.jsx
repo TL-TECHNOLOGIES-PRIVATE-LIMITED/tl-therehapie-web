@@ -19,7 +19,7 @@ export const PrivacyPolicy = () => {
               <p className="text-secondary">
                 At <strong>theREHApie Consultants</strong>, we are committed to protecting your privacy. 
                 This <strong>Privacy Policy</strong> explains how we collect, use, and safeguard your 
-                personal information when you visit our website <a href='https://www.therehapie.com/'>www.theREHApie.com</a> and 
+                personal information when you visit our website <a href='https://www.therehapie.com/'style={{color:"blue"}} target='_blank'>www.theREHApie.com</a> and 
                 use our services.
               </p>
               <p className="text-secondary">
@@ -36,15 +36,15 @@ export const PrivacyPolicy = () => {
                   <ul className="text-secondary">
                     <li>
                       <strong>Personal Information:</strong> Name, email address, phone number, 
-                      company details, and any information provided through contact forms
+                      company details, and any information provided through contact forms.
                     </li>
                     <li>
                       <strong>Technical Data:</strong> IP address, browser type, device information, 
-                      and website usage statistics
+                      and website usage statistics.
                     </li>
                     <li>
                       <strong>Cookies & Tracking Data:</strong> To enhance your browsing experience, 
-                      we may use cookies and analytics tools to track user activity
+                      we may use cookies and analytics tools to track user activity.
                     </li>
                   </ul>
                 </div>
@@ -57,12 +57,12 @@ export const PrivacyPolicy = () => {
                 <div className="card-body">
                   <p className="text-secondary">We collect and use your data for the following purposes:</p>
                   <ul className="text-secondary">
-                    <li>To provide and improve our services</li>
-                    <li>To communicate with you regarding inquiries, partnerships, and business opportunities</li>
-                    <li>To analyze website traffic and improve user experience</li>
-                    <li>To comply with legal and regulatory requirements</li>
+                    <li>To provide and improve our services.</li>
+                    <li>To communicate with you regarding inquiries, partnerships, and business opportunities.</li>
+                    <li>To analyze website traffic and improve user experience.</li>
+                    <li>To comply with legal and regulatory requirements.</li>
                   </ul>
-                  <p className="text-secondary">
+                  <p className="text-secondary mt-3">
                     We <strong>do not</strong> sell or share your personal data with third parties 
                     for marketing purposes.
                   </p>
@@ -79,11 +79,11 @@ export const PrivacyPolicy = () => {
                     misuse, or loss of data. These include:
                   </p>
                   <ul className="text-secondary">
-                    <li>Encrypted data transmission using SSL technology</li>
-                    <li>Secure storage and restricted access to sensitive information</li>
-                    <li>Regular security audits and vulnerability assessments</li>
+                    <li>Encrypted data transmission using SSL technology.</li>
+                    <li>Secure storage and restricted access to sensitive information.</li>
+                    <li>Regular security audits and vulnerability assessments.</li>
                   </ul>
-                  <p className="text-secondary">
+                  <p className="text-secondary mt-3">
                     Despite our best efforts, no online transmission is 100% secure. 
                     By using our website, you acknowledge this risk.
                   </p>
@@ -103,11 +103,11 @@ export const PrivacyPolicy = () => {
                   <ul className="text-secondary">
                     <li>
                       We may use third-party analytics tools (e.g., Google Analytics) 
-                      to monitor website traffic
+                      to monitor website traffic.
                     </li>
                     <li>
                       We do not control or assume responsibility for third-party 
-                      content or data handling
+                      content or data handling.
                     </li>
                   </ul>
                 </div>
@@ -120,13 +120,13 @@ export const PrivacyPolicy = () => {
                 <div className="card-body">
                   <p className="text-secondary">You have the right to:</p>
                   <ul className="text-secondary">
-                    <li>Request access to the personal data we hold about you</li>
-                    <li>Request corrections or updates to inaccurate information</li>
-                    <li>Request deletion of your data, subject to legal obligations</li>
-                    <li>Opt-out of marketing communications at any time</li>
+                    <li>Request access to the personal data we hold about you.</li>
+                    <li>Request corrections or updates to inaccurate information.</li>
+                    <li>Request deletion of your data, subject to legal obligations.</li>
+                    <li>Opt-out of marketing communications at any time.</li>
                   </ul>
-                  <p className="text-secondary">
-                    To exercise these rights, contact us at <strong>abdul.rahiman@therehapie.com</strong>.
+                  <p className="text-secondary mt-3">
+                    To exercise these rights, contact us at <strong><a href="mailto:abdul.rahiman@therehapie.com" style={{color:"blue"}}>abdul.rahiman@therehapie.com</a></strong>.
                   </p>
                 </div>
               </div>
@@ -138,11 +138,11 @@ export const PrivacyPolicy = () => {
                 <div className="card-body">
                   <p className="text-secondary">We use cookies to:</p>
                   <ul className="text-secondary">
-                    <li>Remember user preferences and settings</li>
-                    <li>Improve website performance and user experience</li>
-                    <li>Track and analyze website traffic for optimization</li>
+                    <li>Remember user preferences and settings.</li>
+                    <li>Improve website performance and user experience.</li>
+                    <li>Track and analyze website traffic for optimization.</li>
                   </ul>
-                  <p className="text-secondary">
+                  <p className="text-secondary mt-3 ">
                     You can disable cookies through your browser settings, but this 
                     may impact your browsing experience.
                   </p>
@@ -156,11 +156,11 @@ export const PrivacyPolicy = () => {
                 <div className="card-body">
                   <p className="text-secondary">We retain personal information only as long as necessary for:</p>
                   <ul className="text-secondary">
-                    <li>Providing our services and fulfilling business purposes</li>
-                    <li>Complying with legal, tax, and regulatory obligations</li>
-                    <li>Resolving disputes and enforcing agreements</li>
+                    <li>Providing our services and fulfilling business purposes.</li>
+                    <li>Complying with legal, tax, and regulatory obligations.</li>
+                    <li>Resolving disputes and enforcing agreements.</li>
                   </ul>
-                  <p className="text-secondary">
+                  <p className="text-secondary mt-3">
                     Once data is no longer required, it is securely deleted or anonymized.
                   </p>
                 </div>
@@ -185,18 +185,19 @@ export const PrivacyPolicy = () => {
             <section className="mb-4">
               <h2 className="h4 mb-3 text-dark">9. Contact Us</h2>
               <div className="card border-light">
+                <span>For any questions regarding our Privacy Policy, please contact:</span>
               <div className="card-body">
                   <div className="d-flex align-items-center mb-2">
                     <span className="me-3">📧</span>
-                    <span className="text-secondary">Email: <a href="mailt0:abdul.rahiman@therehapie.com">abdul.rahiman@therehapie.com</a></span>
+                    <span className="text-secondary">Email: <a href="mailt0:abdul.rahiman@therehapie.com"  target='_blank'>abdul.rahiman@therehapie.com</a></span>
                   </div>
                   <div className="d-flex align-items-center mb-2">
                     <span className="me-3">📞</span>
-                    <span className="text-secondary">Phone: <a href="tel:+971501361586">+971 50 136 1586</a></span>
+                    <span className="text-secondary">Phone: <a href="tel:+971501361586"  target='_blank'>+971 50 136 1586</a></span>
                   </div>
                   <div className="d-flex align-items-center">
                     <span className="me-3">🌍</span>
-                    <span className="text-secondary">Website: <a href="https://www.therehapie.com/">https://www.therehapie.com/</a></span>
+                    <span className="text-secondary">Website: <a href="https://www.therehapie.com/" style={{color:"blue"}} target='_blank'>https://www.therehapie.com/</a></span>
                   </div>
                 </div>
               </div>

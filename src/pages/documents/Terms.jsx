@@ -1,6 +1,8 @@
 import React from 'react';
 import { Layout } from '../../layouts/Layout';
 
+
+
 export const Terms = () => {
   return (
     <Layout breadcrumbTitle={"Terms and conditions"} breadcrumbSubtitle={"Terms and conditions"}>
@@ -13,8 +15,8 @@ export const Terms = () => {
               <span className="text-muted small">Last Updated: March 4, 2025</span>
             </div>
           </div>
-          <p className="text-secondary">
-          Welcome to theREHApie Consultants! These Terms & Conditions govern your use of our website <a href='https://www.therehapie.com/'>www.theREHApie.com</a> and any related services. By accessing or using our website, you agree to comply with and be bound by these terms.
+          <p className="text-secondary pt-5 ">
+          Welcome to theREHApie Consultants! These Terms & Conditions govern your use of our website <a href='https://www.therehapie.com/'style={{color:"blue"}} target='_blank'>www.theREHApie.com</a> and any related services. By accessing or using our website, you agree to comply with and be bound by these terms.
               </p>
           <div className="card-body">
             <section className="mb-4">
@@ -88,9 +90,9 @@ export const Terms = () => {
               <div className="card border-light">
                 <div className="card-body">
                   <ul className="text-secondary">
-                    <li>Payments for consulting services must be made as per the agreed contract terms</li>
-                    <li>Invoices must be cleared within the specified timeframe to avoid service delays</li>
-                    <li>Refunds are only applicable as per the refund policy in individual service agreements</li>
+                    <li>Payments for consulting services must be made as per the agreed contract terms.</li>
+                    <li>Invoices must be cleared within the specified timeframe to avoid service delays.</li>
+                    <li>Refunds are only applicable as per the refund policy in individual service agreements.</li>
                   </ul>
                 </div>
               </div>
@@ -102,8 +104,8 @@ export const Terms = () => {
                 <div className="card-body">
                   <p className="text-secondary">Our website may contain links to external sites. We are not responsible for:</p>
                   <ul className="text-secondary">
-                    <li>The accuracy or reliability of third-party content</li>
-                    <li>Transactions or agreements made with third-party businesses</li>
+                    <li>The accuracy or reliability of third-party content.</li>
+                    <li>Transactions or agreements made with third-party businesses.</li>
                   </ul>
                   <p className="text-secondary">Users must review the privacy policies and terms of third-party sites before engaging.</p>
                 </div>
@@ -116,9 +118,9 @@ export const Terms = () => {
                 <div className="card-body">
                   <p className="text-secondary"><strong>theREHApie Consultants</strong> is not liable for:</p>
                   <ul className="text-secondary">
-                    <li>Any direct, indirect, or incidental damages arising from website use</li>
-                    <li>Any loss of business, profits, or data due to service disruptions</li>
-                    <li>Any unauthorized access or security breaches beyond our control</li>
+                    <li>Any direct, indirect, or incidental damages arising from website use.</li>
+                    <li>Any loss of business, profits, or data due to service disruptions.</li>
+                    <li>Any unauthorized access or security breaches beyond our control.</li>
                   </ul>
                 </div>
               </div>
@@ -130,10 +132,10 @@ export const Terms = () => {
                 <div className="card-body">
                   <p className="text-secondary">We prioritize data security. Any information collected will be handled as per our <strong>Privacy Policy</strong>.</p>
                   <ul className="text-secondary">
-                    <li>Personal data is used only for business and communication purposes</li>
-                    <li>We do not sell or share user data without consent, except as required by law</li>
+                    <li>Personal data is used only for business and communication purposes.</li>
+                    <li>We do not sell or share user data without consent, except as required by law.</li>
                   </ul>
-                  <p className="text-secondary">For more details, please refer to our <strong>Privacy Policy</strong> [here].</p>
+                  <p className="text-secondary">For more details, please refer to our <strong>Privacy Policy</strong> <a href='/privacy'  style={{color:"blue"}}>[here]</a> .</p>
                 </div>
               </div>
             </section>
@@ -165,18 +167,20 @@ export const Terms = () => {
             <section className="mb-4">
               <h2 className="h4 mb-3 text-dark">11. Contact Us</h2>
               <div className="card border-light">
+                <span className=''>For any inquiries or concerns regarding these Terms & Conditions, please contact us:
+                </span>
               <div className="card-body">
                   <div className="d-flex align-items-center mb-2">
                     <span className="me-3">📧</span>
-                    <span className="text-secondary">Email: <a href="mailt0:abdul.rahiman@therehapie.com">abdul.rahiman@therehapie.com</a></span>
+                    <span className="text-secondary">Email: <a href="mailto:abdul.rahiman@therehapie.com" target='_blank'>abdul.rahiman@therehapie.com</a></span>
                   </div>
                   <div className="d-flex align-items-center mb-2">
                     <span className="me-3">📞</span>
-                    <span className="text-secondary">Phone: <a href="tel:+971501361586">+971 50 136 1586</a></span>
+                    <span className="text-secondary">Phone: <a href="tel:+971501361586"  target='_blank'>+971 50 136 1586</a></span>
                   </div>
                   <div className="d-flex align-items-center">
                     <span className="me-3">🌍</span>
-                    <span className="text-secondary">Website: <a href="https://www.therehapie.com/">https://www.therehapie.com/</a></span>
+                    <span className="text-secondary">Website: <a href="https://www.therehapie.com/" target='_blank' style={{color:"blue"}}>https://www.therehapie.com/</a></span>
                   </div>
                 </div>
               </div>

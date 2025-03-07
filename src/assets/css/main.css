@@ -144,6 +144,7 @@ li,
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  line-height: 1.5;
 }
 
 /*---------------------------------
@@ -2272,10 +2273,18 @@ input[type="color"] {
   font-weight: 500;
   font-size: 64px;
   line-height: 1.16;
-  background: linear-gradient(90deg, #2e7a7f, #9f73b1d1); /* Adjust colors as needed */
+  background: linear-gradient(90deg, #2e7a7f, #9f73b1d1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+/* Fix text color on selection */
+.td-section-title::selection {
+  background: #9f73b1;  /* Highlight color */
+  -webkit-text-fill-color: white; /* Selected text color */
+  color: white;
+}
+
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .td-section-title {
     font-size: 60px;

@@ -79,7 +79,7 @@ export const Faq = () => {
         question: "Do you provide after-sales support and maintenance?",
         images: [thumb15Img, thumb16Img],
         answer:
-          "We don't provide derectly,We coordinate with manufacturers and distributors to make sure that equipments are well taken care of.",
+          "We don't provide directly,We coordinate with manufacturers and distributors to make sure that equipments are well taken care of.",
       },
       {
         question: "How do you assist with logistics and supply chain management?",
