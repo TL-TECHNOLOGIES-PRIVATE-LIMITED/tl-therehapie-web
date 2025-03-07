@@ -11,7 +11,7 @@ import thumbImage5 from  "../../assets/img/about/about5/thumb5.jpg"
 export const ExperienceOne = () => {
   return (
     <div className="td-expreance-area">
-      <div className="td-expreance-top">
+      {/* <div className="td-expreance-top">
         <div className="container">
           <div className="row">
             <div className="col-12">
@@ -70,7 +70,7 @@ export const ExperienceOne = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div
         className="td-expreance-main bg-position z-index-11 pt-135 pb-140"
@@ -84,13 +84,13 @@ export const ExperienceOne = () => {
                 data-wow-delay=".3s"
                 data-wow-duration="1s"
               >
-                <h2 className="td-expreance-main-title">
-                  Recent works and success stories
-                </h2>
+                {/* <h2 className="td-expreance-main-title ">
+                WE are experts in rehabilitation technology
+                </h2> */}
               </div>
             </div>
             <div className="col-lg-6 mb-30">
-              <div
+              {/* <div
                 className="td-expreance-main-title-pre wow fadeInUp"
                 data-wow-delay=".4s"
                 data-wow-duration="1s"
@@ -100,7 +100,7 @@ export const ExperienceOne = () => {
                   generation of products, brands and services from a hybrid
                   perspective. The <b>unthinkable</b> today becomes inevitable.
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
 
