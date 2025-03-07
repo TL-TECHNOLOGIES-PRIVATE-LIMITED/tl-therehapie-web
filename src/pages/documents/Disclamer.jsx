@@ -115,7 +115,7 @@ export const Disclaimer = () => {
               <div className="card-body">
                   <div className="d-flex align-items-center mb-2">
                     <span className="me-3">📧</span>
-                    <span className="text-secondary">Email: <a href="mailt0:abdul.rahiman@therehapie.com" target='_blank'>abdul.rahiman@therehapie.com</a></span>
+                    <span className="text-secondary">Email: <a href=" mailto:abdul.rahiman@therehapie.com" target='_blank'>abdul.rahiman@therehapie.com</a></span>
                   </div>
                   <div className="d-flex align-items-center mb-2">
                     <span className="me-3">📞</span>
