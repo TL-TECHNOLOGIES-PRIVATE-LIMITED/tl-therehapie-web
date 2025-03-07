@@ -19,7 +19,7 @@ export const PrivacyPolicy = () => {
               <p className="text-secondary">
                 At <strong>theREHApie Consultants</strong>, we are committed to protecting your privacy. 
                 This <strong>Privacy Policy</strong> explains how we collect, use, and safeguard your 
-                personal information when you visit our website <strong>www.theREHApie.com</strong> and 
+                personal information when you visit our website <a href='https://www.therehapie.com/'>www.theREHApie.com</a> and 
                 use our services.
               </p>
               <p className="text-secondary">
@@ -185,18 +185,18 @@ export const PrivacyPolicy = () => {
             <section className="mb-4">
               <h2 className="h4 mb-3 text-dark">9. Contact Us</h2>
               <div className="card border-light">
-                <div className="card-body">
+              <div className="card-body">
+                  <div className="d-flex align-items-center mb-2">
+                    <span className="me-3">📧</span>
+                    <span className="text-secondary">Email: <a href="mailt0:abdul.rahiman@therehapie.com">abdul.rahiman@therehapie.com</a></span>
+                  </div>
                   <div className="d-flex align-items-center mb-2">
                     <span className="me-3">📞</span>
-                    <span className="text-secondary">+971 50 136 1586</span>
-                  </div>
-                  <div className="d-flex align-items-center mb-2">
-                    <span className="me-3">✉️</span>
-                    <span className="text-secondary">abdul.rahiman@therehapie.com</span>
+                    <span className="text-secondary">Phone: <a href="tel:+971501361586">+971 50 136 1586</a></span>
                   </div>
                   <div className="d-flex align-items-center">
-                    <span className="me-3">🌐</span>
-                    <span className="text-secondary">www.theREHApie.com</span>
+                    <span className="me-3">🌍</span>
+                    <span className="text-secondary">Website: <a href="https://www.therehapie.com/">https://www.therehapie.com/</a></span>
                   </div>
                 </div>
               </div>
@@ -204,7 +204,7 @@ export const PrivacyPolicy = () => {
 
             <div className="text-center mt-4 pt-3 border-top">
               <p className="text-muted">
-                Your privacy is important to us. Thank you for trusting <strong>theREHApie Consultants</strong>. 🚀
+                Your privacy is important to us. Thank you for trusting <strong>theREHApie Consultants</strong>.  
               </p>
             </div>
           </div>

@@ -17,7 +17,7 @@ export const CookiePolicy = () => {
           
           <div className="card-body">
             <p className="text-secondary mb-4">
-              <strong>theREHApie Consultants</strong> ("we," "us," or "our") uses cookies and similar tracking technologies on <strong>www.theREHApie.com</strong>. 
+              <strong>theREHApie Consultants</strong> ("we," "us," or "our") uses cookies and similar tracking technologies on <a href='https://www.therehapie.com/'>www.theREHApie.com</a>. 
               This Cookie Policy explains how and why we use cookies and how you can manage your cookie preferences.
             </p>
 
@@ -136,15 +136,15 @@ export const CookiePolicy = () => {
                 <div className="card-body">
                   <div className="d-flex align-items-center mb-2">
                     <span className="me-3">📧</span>
-                    <span className="text-secondary">Email: abdul.rahiman@therehapie.com</span>
+                    <span className="text-secondary">Email: <a href="mailt0:abdul.rahiman@therehapie.com">abdul.rahiman@therehapie.com</a></span>
                   </div>
                   <div className="d-flex align-items-center mb-2">
                     <span className="me-3">📞</span>
-                    <span className="text-secondary">Phone: +971 50 136 1586</span>
+                    <span className="text-secondary">Phone: <a href="tel:+971501361586">+971 50 136 1586</a></span>
                   </div>
                   <div className="d-flex align-items-center">
                     <span className="me-3">🌍</span>
-                    <span className="text-secondary">Website: www.theREHApie.com</span>
+                    <span className="text-secondary">Website: <a href="https://www.therehapie.com/">https://www.therehapie.com/</a></span>
                   </div>
                 </div>
               </div>

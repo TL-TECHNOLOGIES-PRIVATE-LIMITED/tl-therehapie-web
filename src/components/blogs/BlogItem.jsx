@@ -14,53 +14,37 @@ export const BlogItem = ({
   // shares,
 }) => {
   return (
-    <article className="td-postbox-item mb-60">
-      <div className="td-postbox-thumb p-relative mb-40">
-        <img className="w-100" src={src} alt="thumb" />
-        {/* <span className="td-postbox-badge">{tag}</span> */}
-      </div>
-      <div className="td-postbox-content">
-        <h2 className="td-postbox-title mb-25">
-          <Link to={href}>{title}</Link>
-        </h2>
+    <article className="mb-60 p-3 border border-secondary rounded shadow-sm" style={{height:"100%",display:"flex",flexDirection:"column",justifyContent:"space-between"}}>
+    <div className="td-postbox-thumb position-relative mb-3">
+      <img className="w-100 rounded" src={src} alt="thumb" />
+    </div>
+    <div className="td-postbox-content">
+      <h2 className="td-postbox-title mb-3">
+        <Link to={href} className="text-decoration-none text-dark">
+          {title}
+        </Link>
+      </h2>
 
-        <div className="td-postbox-text mb-20 pb-15">
-          <p>{description}</p>
+      <div className="td-postbox-text mb-3">
+        <p>{description}</p>
+      </div>
+
+      <div className="td-postbox-meta d-flex justify-content-between align-items-center">
+        <div className="td-postbox-user d-flex align-items-center">
+          <img src={userImage} alt="user" className="rounded-circle me-2" width="40" height="40" />
+          <a href="#" className="text-decoration-none text-muted">
+            By <span>{author}</span>
+          </a>
         </div>
 
-        <div className="td-postbox-meta">
-          <div className="td-postbox-user">
-            <a href="#">
-              <img src={userImage} alt="uder" />
-              By <span>{author}</span>
-            </a>
-          </div>
-
-          <div className="td-postbox-meta-here">
-            <span>
-              <i className="fa-light fa-calendar-days"></i>
-              {date}
-            </span>
-
-            {/* <span>
-              <a href="#">
-                <i className="fa-regular fa-thumbs-up"></i>
-              </a>
-              <a href="#">
-                <i className="fa-sharp fa-regular fa-thumbs-down"></i>
-              </a>
-              {likes} Likes
-            </span> */}
-
-            {/* <span>
-              <a href="#">
-                <i className="fa-solid fa-share"></i>
-                {shares} Share
-              </a>
-            </span> */}
-          </div>
+        <div className="td-postbox-meta-here">
+          <span className="text-muted">
+            <i className="fa-light fa-calendar-days me-1"></i>
+            {date}
+          </span>
         </div>
       </div>
-    </article>
+    </div>
+  </article>
   );
 };
