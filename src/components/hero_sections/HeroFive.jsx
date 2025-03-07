@@ -30,7 +30,7 @@ export const HeroFive = () => {
                 Revolutionizing Rehab, Bridging Innovation & Care.                
                 </h2>
                 <div className="td-hero-5-btn">
-                  <Link to="/" className="td-btn mr-20 td-left-right">
+                  <Link to="/" className="td-btn mr-20 td-left-right" style={{color: "white"}}>
                     View Products
                     <span className="td-arrow-angle ml-10">
                       <svg

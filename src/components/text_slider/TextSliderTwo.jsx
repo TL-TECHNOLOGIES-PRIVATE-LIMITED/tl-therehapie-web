@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "../swiper/SwiperRoot";
 export const TextSliderTwo = () => {
   const swiper_settings = {
     loop: true,
-    speed: 400000,
+    speed: 100000,
     allowTouchMove: false,
     slidesPerView: "auto",
     slidesPerGroup: 10,

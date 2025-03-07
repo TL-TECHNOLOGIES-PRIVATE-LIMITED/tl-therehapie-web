@@ -14,7 +14,7 @@ export const Service = () => {
       <TextSliderTwo />
 
       {/* contact */}
-      <ContactTwo />
+      {/* <ContactTwo /> */}
     </Layout>
   );
 };

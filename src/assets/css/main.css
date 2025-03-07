@@ -1135,6 +1135,12 @@ input[type="color"] {
   color: var(--td-common-white);
   
 }
+@media (min-width: 1024px) and (max-width: 1430px) {
+  .hide-between-1024-1430 {
+    display: none !important;
+  }
+}
+
 .td-btn-2 {
   background: var(--td-common-white);
   color: var(--td-theme-primary);
@@ -2702,6 +2708,7 @@ input[type="color"] {
 /*----------------------------------------*/
 .td-main-menu {
   text-align: right;
+  width: 100%;
 }
 @media only screen and (min-width: 1700px) and (max-width: 1800px),
   only screen and (min-width: 1600px) and (max-width: 1700px),

@@ -37,7 +37,7 @@ export const BrandTwo = () => {
               {brands.slice(0, 2).map((brand, index) => (
                 <div key={index} className={`col-lg-${brand.cols} col-md-6 col-sm-6 `}>
                   <div className="td-brand-logo-wrap-2 td-brand-logo-border p-relative  text-center">
-                    <a href="#">
+                    <a >
                       <img className="td-brand-logo-2 " src={brand.src} alt="brand" height={250} />
                     </a>
                   </div>
@@ -50,7 +50,7 @@ export const BrandTwo = () => {
               {brands.slice(2).map((brand, index) => (
                 <div key={index} className={`col-lg-${brand.cols} col-md-6 col-sm-6 `}>
                   <div className="td-brand-logo-wrap-2 td-brand-logo-border p-relative text-center ">
-                    <a href="#">
+                    <a >
                       <img className="td-brand-logo-2 " src={brand.src} alt="brand" height={250} />
                     </a>
                   </div>

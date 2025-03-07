@@ -79,7 +79,7 @@ export const FooterThree = () => {
                           href="https://www.google.com/maps/@41.6758525,-86.2531698,18.17z"
                           target="_blank"
                         >
-                          Building 9WA - 138 - SO - 23
+                          Building 9W - 138 - SO - 23
                           <br />
                           Dubai Airport Freezone
                           <br />
@@ -109,7 +109,7 @@ export const FooterThree = () => {
                             rel="noopener noreferrer"
                           >
                             TL TECHNOLOGIES PRIVATE LIMITED
-                          </a>, All rights reserved.
+                          </a> All rights reserved.
                         </p>
 
                       </div>
