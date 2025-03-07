@@ -43,7 +43,7 @@ export const HomeFive = () => {
       {/* <PortfolioFour /> */}
 
       {/* testimonial */}
-      <TestimonialFive />
+      {/* <TestimonialFive /> */}
 
       {/* faq */}
       <FaqTwo />
