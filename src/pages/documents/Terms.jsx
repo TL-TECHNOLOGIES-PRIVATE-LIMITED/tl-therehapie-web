@@ -13,7 +13,9 @@ export const Terms = () => {
               <span className="text-muted small">Last Updated: March 4, 2025</span>
             </div>
           </div>
-          
+          <p className="text-secondary">
+          Welcome to theREHApie Consultants! These Terms & Conditions govern your use of our website <a href='https://www.therehapie.com/'>www.theREHApie.com</a> and any related services. By accessing or using our website, you agree to comply with and be bound by these terms.
+              </p>
           <div className="card-body">
             <section className="mb-4">
               <h2 className="h4 mb-3 text-dark">1. Introduction</h2>
@@ -163,18 +165,18 @@ export const Terms = () => {
             <section className="mb-4">
               <h2 className="h4 mb-3 text-dark">11. Contact Us</h2>
               <div className="card border-light">
-                <div className="card-body">
+              <div className="card-body">
+                  <div className="d-flex align-items-center mb-2">
+                    <span className="me-3">📧</span>
+                    <span className="text-secondary">Email: <a href="mailt0:abdul.rahiman@therehapie.com">abdul.rahiman@therehapie.com</a></span>
+                  </div>
                   <div className="d-flex align-items-center mb-2">
                     <span className="me-3">📞</span>
-                    <span className="text-secondary">+971 50 136 1586</span>
-                  </div>
-                  <div className="d-flex align-items-center mb-2">
-                    <span className="me-3">✉️</span>
-                    <span className="text-secondary">abdul.rahiman@therehapie.com</span>
+                    <span className="text-secondary">Phone: <a href="tel:+971501361586">+971 50 136 1586</a></span>
                   </div>
                   <div className="d-flex align-items-center">
-                    <span className="me-3">🌐</span>
-                    <span className="text-secondary">www.theREHApie.com</span>
+                    <span className="me-3">🌍</span>
+                    <span className="text-secondary">Website: <a href="https://www.therehapie.com/">https://www.therehapie.com/</a></span>
                   </div>
                 </div>
               </div>
@@ -183,7 +185,7 @@ export const Terms = () => {
             <div className="text-center mt-4 pt-3 border-top">
               <p className="text-muted">
                 By using our website and services, you acknowledge that you have read, 
-                understood, and agreed to these <strong>Terms & Conditions</strong>. 🚀
+                understood, and agreed to these <strong>Terms & Conditions</strong>.  
               </p>
             </div>
           </div>

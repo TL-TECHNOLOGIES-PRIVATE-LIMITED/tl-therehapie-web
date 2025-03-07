@@ -16,7 +16,7 @@ export const Disclaimer = () => {
           
           <div className="card-body">
             <p className="text-secondary mb-4">
-              The information provided on <strong>theREHApie Consultants</strong> website (<strong>www.theREHApie.com</strong>) is for general informational and educational purposes only. By using this website, you acknowledge and agree to the terms outlined in this disclaimer.
+              The information provided on <strong>theREHApie Consultants</strong> website (<a href='https://www.therehapie.com/'>www.theREHApie.com</a>) is for general informational and educational purposes only. By using this website, you acknowledge and agree to the terms outlined in this disclaimer.
             </p>
 
             <section className="mb-4">
@@ -113,18 +113,18 @@ export const Disclaimer = () => {
             <section className="mb-4">
               <h2 className="h4 mb-3 text-dark">Contact Information</h2>
               <div className="card border-light">
-                <div className="card-body">
+              <div className="card-body">
                   <div className="d-flex align-items-center mb-2">
                     <span className="me-3">📧</span>
-                    <span className="text-secondary">Email: abdul.rahiman@therehapie.com</span>
+                    <span className="text-secondary">Email: <a href="mailt0:abdul.rahiman@therehapie.com">abdul.rahiman@therehapie.com</a></span>
                   </div>
                   <div className="d-flex align-items-center mb-2">
                     <span className="me-3">📞</span>
-                    <span className="text-secondary">Phone: +971 50 136 1586</span>
+                    <span className="text-secondary">Phone: <a href="tel:+971501361586">+971 50 136 1586</a></span>
                   </div>
                   <div className="d-flex align-items-center">
                     <span className="me-3">🌍</span>
-                    <span className="text-secondary">Website: www.theREHApie.com</span>
+                    <span className="text-secondary">Website: <a href="https://www.therehapie.com/">https://www.therehapie.com/</a></span>
                   </div>
                 </div>
               </div>
