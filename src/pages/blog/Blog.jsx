@@ -167,7 +167,7 @@ export const Blog = () => {
   //   },
   // ];
 
-  const blogsPerPage = 3;
+  const blogsPerPage = 4;
   const [currentPage, setCurrentPage] = useState(1);
   const totalPages = Math.ceil(blogs.length / blogsPerPage);
 
@@ -193,11 +193,15 @@ export const Blog = () => {
     <Layout breadcrumbTitle={"Our Blogs"} breadcrumbSubtitle={"Blog"}>
       <BlogLayout>
         {/* Blogs Section */}
-        <div  className="td-postbox-wrapper td-postbox-wrapper-space flex justify-center">
-          {paginatedBlogs.map((blog, index) => (
-            <BlogItem key={index} {...blog} />
-          ))}
-        </div>
+        <div className="container">
+      <div className="row">
+        {paginatedBlogs.map((blog, index) => (
+          <div key={index} className="col-12 col-md-6 mb-4">
+            <BlogItem {...blog} />
+          </div>
+        ))}
+      </div>
+    </div>
 
         {/* Professional Pagination */}
         <div className="pagination-container">
