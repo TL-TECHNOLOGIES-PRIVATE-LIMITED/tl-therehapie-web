@@ -39,15 +39,15 @@ export const HeaderThree = () => {
               <div className="col-12">
                 <div className="td-header-mobile-space">
                   <div className="row align-items-center">
-                    <div className="col-xl-1 col-lg-2 col-6">
+                    <div className="col-xl-1 col-lg-2 col-6" >
                       <div className="td-header-logo mr-90">
                         <Link to="/">
                       <img src={LOGO} alt="logo" width={200} />
                         </Link>
                       </div>
                     </div>
-
-                    <div className="col-xl-8 col-lg-8 col-6">
+{/* <h1>hello</h1> */}
+                    <div className="col-xl-9 col-lg-8 col-6" >
                       <div className="td-main-menu td-main-menu-3 d-none d-lg-block">
                         <Navbar hidePortfolio />
                       </div>
@@ -62,7 +62,7 @@ export const HeaderThree = () => {
                       </div>
                     </div>
 
-                    <div className="col-xl-3 col-lg-2 d-none d-lg-block">
+                    <div className="col-xl-2 col-lg-2 d-none d-lg-block" >
                       <div className="td-header-3-btn text-right">
                         <Link
                           className="td-btn td-btn-7 td-left-right"
