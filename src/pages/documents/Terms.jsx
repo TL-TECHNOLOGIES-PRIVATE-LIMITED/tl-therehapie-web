@@ -34,9 +34,9 @@ export const Terms = () => {
                 <div className="card-body">
                   <p>By using this website, you agree to:</p>
                   <ul className="list-unstyled">
-                    <li>✔ Access and use the site only for lawful purposes</li>
-                    <li>✔ Not distribute, modify, or reproduce content without prior permission</li>
-                    <li>✔ Not attempt to interfere with the website's functionality or security</li>
+                    <li>✔ Access and use the site only for lawful purposes.</li>
+                    <li>✔ Not distribute, modify, or reproduce content without prior permission.</li>
+                    <li>✔ Not attempt to interfere with the website's functionality or security.</li>
                   </ul>
                   <p className="card-text mt-3 text-muted fst-italic">
                     We reserve the right to modify or discontinue the website at any time without notice.
@@ -51,9 +51,9 @@ export const Terms = () => {
                 <div className="card-body">
                   <p className="text-secondary">We strive to provide accurate, up-to-date information, but we do not guarantee:</p>
                   <ul className="text-secondary">
-                    <li>That the information is always complete, accurate, or free from errors</li>
-                    <li>That our services will meet all client expectations or business outcomes</li>
-                    <li>Any liability for external partnerships, distributor relationships, or business risks</li>
+                    <li>That the information is always complete, accurate, or free from errors.</li>
+                    <li>That our services will meet all client expectations or business outcomes.</li>
+                    <li>Any liability for external partnerships, distributor relationships, or business risks.</li>
                   </ul>
                   <p className="card-text mt-3 text-danger">
                     <strong>Medical Disclaimer:</strong> We do not provide medical treatment or diagnosis. 
