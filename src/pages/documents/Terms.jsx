@@ -107,7 +107,7 @@ export const Terms = () => {
                     <li>The accuracy or reliability of third-party content.</li>
                     <li>Transactions or agreements made with third-party businesses.</li>
                   </ul>
-                  <p className="text-secondary">Users must review the privacy policies and terms of third-party sites before engaging.</p>
+                  <p className="text-secondary mt-3">Users must review the privacy policies and terms of third-party sites before engaging.</p>
                 </div>
               </div>
             </section>
@@ -135,7 +135,7 @@ export const Terms = () => {
                     <li>Personal data is used only for business and communication purposes.</li>
                     <li>We do not sell or share user data without consent, except as required by law.</li>
                   </ul>
-                  <p className="text-secondary">For more details, please refer to our <strong>Privacy Policy</strong> <a href='/privacy'  style={{color:"blue"}}>[here]</a> .</p>
+                  <p className="text-secondary mt-3">For more details, please refer to our <strong>Privacy Policy</strong> <a href='/privacy'  style={{color:"blue"}}>[here]</a> .</p>
                 </div>
               </div>
             </section>

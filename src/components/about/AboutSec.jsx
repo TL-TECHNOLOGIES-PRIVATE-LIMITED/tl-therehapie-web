@@ -32,6 +32,10 @@ const AboutSection = () => {
               high-quality products and building a strong portfolio. Healthcare providers
               need cost-effective, efficient rehab solutions that enhance patient outcomes.
             </p>
+            <p className="text-gray-700  leading-relaxed" style={{lineHeight:"1.8",fontSize:"18px"}}>
+            Cost manufacturers have to spend to have a full time employee to manage the business here also, different time zones, weekends, festival holidays etc delays the sales cycle eventually losses a sales, someone who has local presence gets an edge with quick presence.
+
+            </p>
             <p className="text-gray-700 leading-relaxed mt-4" style={{lineHeight:"1.8",fontSize:"18px"}}>
               That’s where we step in. We simplify the process, connect the right players,
               and ensure innovative rehabilitation solutions reach the{" "}
