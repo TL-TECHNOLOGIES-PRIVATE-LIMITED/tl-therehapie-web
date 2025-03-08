@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 export const Navbar = ({ hidePortfolio = false }) => {
   return (
-    <nav className="td-main-menu-content  " style={{textAlign:"start"}}>
-      <ul className="">
-        <li className="">
+    <nav className="td-main-menu-content  " style={{textAlign:"start",width:"100%"}}>
+      <ul className="" style={{marginLeft:"10px",width:"100%",display:"flex",justifyContent:"center"}}>
+        <li className="" >
           <Link to="/"> Home</Link>
           {/* <ul className="td-submenu submenu">
             <li>
