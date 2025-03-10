@@ -28,7 +28,7 @@ export const HeaderTwo = () => {
                             </a>
                           </li>
                           <li>
-                            <a href="tel:+(971)501361586" target="_blank">
+                            <a href="tel:+971501361586" target="_blank">
                               <i className="fa-regular fa-phone-flip"></i>{" "}
                               +(971)501361586
                             </a>

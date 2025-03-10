@@ -43,7 +43,7 @@ export const ContactThree = () => {
                             <li className="mb-10">
                               <a
                                 className="td-contact-4-phone"
-                                href="tel:+(971)501361586"
+                                href="tel:+971501361586"
                               >
                                 +(123) 456 789 00
                               </a>
@@ -88,7 +88,7 @@ export const ContactThree = () => {
                             <li className="mb-10">
                               <a
                                 className="td-contact-4-phone"
-                                href="tel:+(971)501361586"
+                                href="tel:+971501361586"
                               >
                                 +(123) 456 789 00
                               </a>

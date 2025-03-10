@@ -136,7 +136,7 @@ export const ContactFour = () => {
                             <li className="mb-10">
                               <a
                                 className="td-contact-4-phone"
-                                href="tel:+(971)501361586"
+                                href="tel:+971501361586"
                                 target="_blank"
                                 rel="noreferrer"
 
