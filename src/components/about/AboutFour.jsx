@@ -109,7 +109,7 @@ export const AboutFour = () => {
                       </span>
                       <div className="td-about-4-contact-info">
                         <span>Get In Touch</span>
-                        <a href="tel:+(971)501361586" target="_blank" rel="noreferrer">+971 50 136 1586</a>
+                        <a href="tel:+971501361586" target="_blank" rel="noreferrer">+971 50 136 1586</a>
                       </div>
                     </div>
                   </div>

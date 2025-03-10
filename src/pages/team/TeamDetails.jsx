@@ -29,7 +29,7 @@ export const TeamDetails = () => {
                     </a>
                   </span>
                   <span className="mb-10">
-                    <a href="tel:+(971)501361586">
+                    <a href="tel:+971501361586">
                       <i className="fa-solid fa-phone-flip"></i> +(123) 456 789
                       00
                     </a>

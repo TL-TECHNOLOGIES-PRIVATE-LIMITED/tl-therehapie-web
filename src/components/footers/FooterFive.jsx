@@ -22,7 +22,7 @@ export const FooterFive = () => {
                         </a>
                       </li>
                       <li className="mb-20">
-                        <a href="tel:+(971)501361586"> +971 50 136 1586</a>
+                        <a href="tel:+971501361586"> +971 50 136 1586</a>
                       </li>
                       <li>
                         <a
@@ -52,7 +52,7 @@ export const FooterFive = () => {
                         </a>
                       </li>
                       <li className="mb-20">
-                        <a href="tel:+(971)501361586">+(123) 456 789 00</a>
+                        <a href="tel:+971501361586">+(123) 456 789 00</a>
                       </li>
                       <li>
                         <a
