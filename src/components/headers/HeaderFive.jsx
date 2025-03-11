@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import { useHeaderSticky } from "./useHeader";
 import { Navbar } from "./Navbar";
 import { Link } from "react-router-dom";
-import LOGO from "../../assets/img/logo/logo1.jpg";
-import LOGOTWO from "../../assets/img/logo/logo.jpg";
+import LOGO from "../../assets/img/logo/logo-small-new.png";
+// import LOGOTWO from "../../assets/img/logo/logo.jpg";
 import { NavImgGallery } from "./NavImgGallery";
 
 export const HeaderFive = () => {
@@ -46,7 +46,7 @@ export const HeaderFive = () => {
                 <div className="col-xl-3 col-lg-2 d-none d-lg-block">
                   <div className=" ml-40">
                     <a href="/">
-                      <img src={LOGO} alt="logo" />
+                      <img src={LOGO} alt="logo" width={500} />
                     </a>
                   </div>
                 </div>
