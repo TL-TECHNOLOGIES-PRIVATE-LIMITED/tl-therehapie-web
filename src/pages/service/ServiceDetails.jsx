@@ -135,7 +135,7 @@ export const ServiceDetails = () => {
 
           <div className="td-service-help-list mb-60">
             <h4 className="mb-30">How We Can Help:{category}</h4>
-            <div className="row">
+            <div className="row td-service-details-content">
               {data.helpList.map((item, index) => (
                 <div className="col-lg-12 mb-4" key={index}>
                   <div className="help-list-item">

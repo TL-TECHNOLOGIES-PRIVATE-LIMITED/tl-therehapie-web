@@ -88,9 +88,9 @@ export const HeaderFive = () => {
                           <Navbar hidePortfolio />
                         </div>
                         <div className="td-header-5-logo ml-0 d-lg-none">
-                          <Link to="/">
+                          <a href="/">
                             <img src={LOGO} alt="logo" style={{ width: "100%", height: "auto" }} />
-                          </Link>
+                          </a>
                         </div>
                       </div>
 

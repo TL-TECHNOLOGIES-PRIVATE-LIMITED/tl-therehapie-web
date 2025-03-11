@@ -26,8 +26,9 @@ export const FooterFive = () => {
                       </li>
                       <li>
                         <a
-                          href="https://www.google.com/maps/@41.6758525,-86.2531698,18.17z"
-                          target="_blank"
+                         // href="https://www.google.com/maps/@41.6758525,-86.2531698,18.17z"
+                         target="_blank"
+                         className="td-footer-3-link"
                         >
                           Building 9W - 138 - SO - 23
 

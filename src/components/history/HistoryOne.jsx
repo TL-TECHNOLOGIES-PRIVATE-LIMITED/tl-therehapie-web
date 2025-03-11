@@ -17,7 +17,7 @@ export const HistoryOne = () => {
   }, []);
 
   return (
-    <div className="td-history-area pb-60 pt-65">
+    <div className="td-history-area pt-65">
       <div className="container">
         <div className="row">
           <div className="col-lg-6">
