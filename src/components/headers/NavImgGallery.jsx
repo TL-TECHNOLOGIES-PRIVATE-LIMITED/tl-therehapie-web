@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../../assets/img/logo/logo.jpg";
+import logo from "../../assets/img/logo/logo-small-new.png";
 import sidebar01 from "../../assets/img/sidebar/01.jpg";
 import sidebar02 from "../../assets/img/sidebar/02.jpg";
 import sidebar03 from "../../assets/img/sidebar/03.jpg";
@@ -36,9 +36,9 @@ export const NavImgGallery = () => {
             </button>
           </div>
           <div className="tdoffcanvas__logo">
-            <Link to="/">
-              <img src={logo} alt="logo" />
-            </Link>
+            <a href="/">
+              <img src={logo} alt="logo" width={250} />
+            </a>
           </div>
 
           <div className="td-main-menu-mobile d-lg-none"></div>

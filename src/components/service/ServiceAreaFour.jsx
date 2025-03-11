@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logoImage from "../../assets/img/logo/logo1.jpg";
+import logoImage from "../../assets/img/logo/logo-new-service.png";
 
 export const ServiceAreaFour = () => {
   return (
