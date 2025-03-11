@@ -146,7 +146,7 @@ export const BlogDetails = () => {
 
             {/* Blog Content */}
             <div className="td-postbox-content-2">
-              <h2 className="mb-3">{blog?.title}</h2>
+              <h2 className="mb-3 td-blog-title-new" style={{fontWeight:"bolder"}}>{blog?.title}</h2>
               <p><strong>By {blog?.author} | {blog?.date}</strong></p>
               <p className="mb-4">{blog?.introduction}</p>
 
