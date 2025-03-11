@@ -825,6 +825,12 @@ input[type="color"] {
     padding-top: 95px;
   }
 }
+@media only screen and (min-width: 376px) and (max-width: 1020px),
+  (max-width: 375px) {
+  .pt-135 {
+    padding-top: 0px;
+  }
+}
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px),
   only screen and (min-width: 992px) and (max-width: 1199px),
@@ -5887,6 +5893,12 @@ input[type="color"] {
 .td-testimonial-qoute-thumb {
   display: inline-block;
 }
+@media only screen and (min-width: 376px) and (max-width: 700px),
+  (max-width: 375px) {
+    .td-testimonial-qoute-thumb {
+    display: none;
+  }
+}
 @media only screen and (min-width: 576px) and (max-width: 767px),
   (max-width: 575px) {
   .td-testimonial-main {
@@ -8830,6 +8842,17 @@ input[type="color"] {
   animation-delay: 0.7s;
 }
 
+.td-pulse-image{
+  width: 30rem;
+  padding-bottom: 40px;
+}
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
+    .td-pulse-image {
+      width: 20rem;
+    }
+}
+
 /*----------------------------------------*/
 /*  7.19 subscribe css
 /*----------------------------------------*/
@@ -11546,6 +11569,15 @@ input[type="color"] {
     font-size: 50px;
     position: relative;
     z-index: 1;
+  }
+}
+
+.td-history-area{
+  padding-bottom: 60px;
+}
+@media only screen and (min-width: 310px) and (max-width: 767px) {
+  .td-history-area {
+    padding-bottom:0px
   }
 }
 .td-expreance-main-title-pre p {

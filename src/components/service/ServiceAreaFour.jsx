@@ -141,9 +141,9 @@ export const ServiceAreaFour = () => {
                 </div>
                 <div className="col-lg-2">
                   <div className="td-service-4-logo td-video-4-logo">
-                    <Link className="td-pulse-border" to="/">
-                      <img src={logoImage} alt="logo" />
-                    </Link>
+                    <a className="td-pulse-border" href="/">
+                      <img src={logoImage} alt="logo" className="td-pulse-image" />
+                    </a>
                   </div>
                 </div>
                 <div

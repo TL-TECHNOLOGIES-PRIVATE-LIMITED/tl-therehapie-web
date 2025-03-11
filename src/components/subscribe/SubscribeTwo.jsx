@@ -242,41 +242,70 @@ export const SubscribeTwo = () => {
               </h2>
               <p>A weekly digest of latest news, articles and resources.</p>
               <div className="td-subscribe-5-form-wrap">
-                <form onSubmit={handleSubscribe}>
-                  <div className="td-subscribe-5-form">
-                    <div className="td-subscribe-5-input">
-                      <input
-                        type="email"
-                        id="email"
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
-                        placeholder="Email adress"
-                      />
-
-                      <label htmlFor="email">
-                        <i className="fa-solid fa-envelope-open"></i>
-                      </label>
-                    </div>
-                    <div className="td-subscribe-5-btn">
-                      <button type="submit" className="td-btn td-left-right">
-                        Subscribe
-                        <span className="td-arrow-angle ml-10">
-                          <svg
-                            className="td-arrow-svg-top-right"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="10"
-                            height="10"
-                            viewBox="0 0 10.00 10.00"
-                          >
-                            <path d="M1.018 10.009 0 8.991l7.569-7.582H1.723L1.737 0h8.26v8.274H8.574l.013-5.847Z" />
-                            <path d="M1.018 10.009 0 8.991l7.569-7.582H1.723L1.737 0h8.26v8.274H8.574l.013-5.847Z" />
-                          </svg>
-                        </span>
-                      </button>
-                    </div>
-                  </div>
-                </form>
-                {error && <p style={{ color: "red", paddingTop: "5px" }}>{error}</p>}
+              <form onSubmit={handleSubscribe}>
+      <div className="td-subscribe-5-form">
+        <div className="td-subscribe-5-input position-relative">
+          <input
+            type="email"
+            id="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            placeholder="Email adress"
+          />
+          <label htmlFor="email">
+            <i className="fa-solid fa-envelope-open"></i>
+          </label>
+          {/* Mobile error message - only visible on screens below 650px */}
+          {error && (
+            <p 
+              className="d-block d-sm-none" 
+              style={{ 
+                color: "red", 
+                position: "absolute", 
+                bottom: "-18px", 
+                left: "0",
+                width: "100%",
+                textAlign: "left",
+                fontSize: "14px",
+                margin: "0"
+              }}
+            >
+              {error}
+            </p>
+          )}
+        </div>
+        <div className="td-subscribe-5-btn">
+          <button type="submit" className="td-btn td-left-right  ">
+            Subscribe
+            <span className="td-arrow-angle ml-10">
+              <svg
+                className="td-arrow-svg-top-right"
+                xmlns="http://www.w3.org/2000/svg"
+                width="10"
+                height="10"
+                viewBox="0 0 10.00 10.00"
+              >
+                <path d="M1.018 10.009 0 8.991l7.569-7.582H1.723L1.737 0h8.26v8.274H8.574l.013-5.847Z" />
+                <path d="M1.018 10.009 0 8.991l7.569-7.582H1.723L1.737 0h8.26v8.274H8.574l.013-5.847Z" />
+              </svg>
+            </span>
+          </button>
+        </div>
+      </div>
+      {/* Tablet/Desktop error message - only visible on screens 650px and above */}
+      {error && (
+        <p 
+          className="d-none d-sm-block" 
+          style={{ 
+            color: "red", 
+            paddingTop: "5px" 
+          }}
+        >
+          {error}
+        </p>
+      )}
+    </form>
+                {/* {error && <p style={{ color: "red", paddingTop: "5px" }}>{error}</p>} */}
               </div>
             </div>
           </div>

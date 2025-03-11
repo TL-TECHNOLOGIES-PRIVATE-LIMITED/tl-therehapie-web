@@ -95,7 +95,7 @@ export const ContactFour = () => {
                             <li>
                               <a
                                 className="td-contact-4-email"
-                                href="#"
+                                href="#map"
                               >
                                 Building 9W - 138 - SO - 23
                                 Dubai Airport Freezone

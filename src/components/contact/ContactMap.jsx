@@ -2,7 +2,7 @@ import React from "react";
 
 export const ContactMap = () => {
   return (
-    <div className="td-map-area fix">
+    <div id="map" className="td-map-area fix">
       <div className="container-fluid p-0">
         <div className="row">
           <div className="col-lg-12">
