@@ -10,8 +10,8 @@ export const Terms = () => {
       <div className="container">
         <div className="card border-0 shadow-sm">
           <div className="card-header bg-white border-bottom py-4">
-            <div className="d-flex align-items-center justify-content-between">
-              <h1 className="mb-0 text-dark">Terms & Conditions</h1>
+            <div className=" d-flex-col align-items-center justify-content-between">
+              <h1 className="td-document-title-new mb-0 text-dark">Terms & Conditions</h1>
               <span className="text-muted small">Last Updated: March 4, 2025</span>
             </div>
           </div>
@@ -169,7 +169,7 @@ export const Terms = () => {
               <div className="card border-light">
                 <span className=''>For any inquiries or concerns regarding these Terms & Conditions, please contact us:
                 </span>
-              <div className="card-body">
+              <div className="pt-2">
                   <div className="d-flex align-items-center mb-2">
                     <span className="me-3">📧</span>
                     <span className="text-secondary">Email: <a href="mailto:abdul.rahiman@therehapie.com" target='_blank'>abdul.rahiman@therehapie.com</a></span>

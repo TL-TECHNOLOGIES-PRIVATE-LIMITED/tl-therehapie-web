@@ -3532,19 +3532,7 @@ input[type="color"] {
 /*----------------------------------------*/
 /*  3.1 Blog css
 /*----------------------------------------*/
-.td-blog-title-new{
-  font-size: 60px;
-  line-height: 1.15;
-color: var(--td-theme-primary);
-font-family: var(--td-ff-manrope); 
-}
-@media only screen and (min-width: 367px) and (max-width: 765px),
-  (max-width: 365px) {
-    .td-blog-title-new {
 
-    font-size: 35px;
-  }
-}
 
 .td-blog-qoute {
   color: var(--td-common-white);
@@ -4348,7 +4336,12 @@ font-family: var(--td-ff-manrope);
     font-size: 27px;
   }
 }
-@media (max-width: 375px) {
+@media only screen and (min-width: 375px) and (max-width: 570px) {
+  .td-footer-3-top-content p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 374px) {
   .td-footer-3-top-content p {
     font-size: 15px;
   }
@@ -12222,4 +12215,30 @@ font-family: var(--td-ff-manrope);
   .td_conclusion_content{
     font-size: 12px;
   }
+}
+
+/*----------------------------------------*/
+/* 7.13 documents css
+/*----------------------------------------*/
+
+
+.td-document-title-new{
+  font-size: 60px;
+  line-height: 1.15;
+color: var(--td-theme-primary);
+font-family: var(--td-ff-manrope); 
+}
+@media only screen and (min-width: 367px) and (max-width: 765px),
+  (max-width: 365px) {
+    .td-document-title-new {
+
+    font-size: 35px;
+  }
+}
+
+
+.d-document-contents{
+  font-size: 30px;
+
+  
 }
