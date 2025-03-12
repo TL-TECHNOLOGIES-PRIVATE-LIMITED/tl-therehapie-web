@@ -21,6 +21,8 @@ import thumb17Img from "../../assets/img/faq/details/faq9-0.jpg";
 import thumb18Img from "../../assets/img/faq/details/faq9-1.jpg";
 import thumb19Img from "../../assets/img/faq/details/faq10-0.jpg";
 import thumb20Img from "../../assets/img/faq/details/faq10-1.jpg";
+import thumb21Img from "../../assets/img/faq/details/faq11-0.jpg";
+import thumb22Img from "../../assets/img/faq/details/faq12-1.jpg";
 
 
 
@@ -29,7 +31,7 @@ export const Faq = () => {
     const faqItems = [
       {
         question: "How do  we reduce cost of manufactures?",
-        images: [thumbImg, thumb2Img],
+        images: [thumb21Img, thumb22Img],
         answer:
           "They don't have to hire a full time sales manager here,we do everything for them.",
       },
