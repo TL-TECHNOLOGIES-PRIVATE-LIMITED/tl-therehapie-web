@@ -3532,7 +3532,19 @@ input[type="color"] {
 /*----------------------------------------*/
 /*  3.1 Blog css
 /*----------------------------------------*/
+.td-blog-title-new{
+  font-size: 60px;
+  line-height: 1.15;
+color: var(--td-theme-primary);
+font-family: var(--td-ff-manrope); 
+}
+@media only screen and (min-width: 367px) and (max-width: 765px),
+  (max-width: 365px) {
+    .td-blog-title-new {
 
+    font-size: 35px;
+  }
+}
 
 .td-blog-qoute {
   color: var(--td-common-white);

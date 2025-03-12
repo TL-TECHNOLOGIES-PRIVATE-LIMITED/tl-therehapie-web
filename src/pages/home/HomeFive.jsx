@@ -30,20 +30,8 @@ export const HomeFive = () => {
       <ServiceAreaFour />
       <ServiceAreaFive />
 
-      {/* video */}
-      {/* <VideoAreaFour /> */}
-
       {/* cta area */}
       <CtaOne />
-
-      {/* team */}
-      {/* <TeamThree /> */}
-
-      {/* portfolio */}
-      {/* <PortfolioFour /> */}
-
-      {/* testimonial */}
-      {/* <TestimonialFive /> */}
 
       {/* faq */}
       <FaqTwo />

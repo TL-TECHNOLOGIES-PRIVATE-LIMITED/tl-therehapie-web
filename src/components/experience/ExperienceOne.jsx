@@ -118,9 +118,7 @@ export const ExperienceOne = () => {
                   <div className="row">
                     <div className="col-lg-6 mb-30">
                       <div className="td-expreance-content">
-                        {/* <p className="td-expreance-title-pre">
-                          Business, Finance <span>/</span> June 21, 2024
-                        </p> */}
+      
                         <h3 className="td-expreance-title">
                           <span>01</span>Our Mission 
                         </h3>
@@ -132,28 +130,7 @@ export const ExperienceOne = () => {
                         To revolutionize rehabilitation by making advanced recovery solutions more accessible across the Middle East.
                         </p>
                         <div className="td-expreance-btn">
-                          <a href="">
-                            <svg
-                              width="50"
-                              height="50"
-                              viewBox="0 0 50 50"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M25 50C38.8235 50 50 38.8235 50 25C50 11.1765 38.8235 0 25 0C11.1765 0 0 11.1765 0 25C0 38.8235 11.1765 50 25 50ZM25 2.94118C37.2059 2.94118 47.0588 12.7941 47.0588 25C47.0588 37.2059 37.2059 47.0588 25 47.0588C12.7941 47.0588 2.94118 37.2059 2.94118 25C2.94118 12.7941 12.7941 2.94118 25 2.94118Z"
-                                fill="currentColor"
-                              />
-                              <path
-                                d="M24.5585 39.2638L38.8232 24.9991L24.5585 10.7344L22.4997 12.7932L34.7056 24.9991L22.4997 37.205L24.5585 39.2638Z"
-                                fill="currentColor"
-                              />
-                              <path
-                                d="M36.7646 23.5293H11.7646V26.4705H36.7646V23.5293Z"
-                                fill="currentColor"
-                              />
-                            </svg>
-                          </a>
+                    
                         </div>
                       </div>
                     </div>
@@ -174,9 +151,7 @@ export const ExperienceOne = () => {
                   <div className="row">
                     <div className="col-lg-6 mb-30">
                       <div className="td-expreance-content">
-                        {/* <p className="td-expreance-title-pre">
-                          Business, Finance <span>/</span> June 21, 2024
-                        </p> */}
+  
                         <h3 className="td-expreance-title">
                           <span>02</span>Our Vision 
                         </h3>
@@ -189,28 +164,7 @@ export const ExperienceOne = () => {
 
                         </p>
                         <div className="td-expreance-btn">
-                          <a href="">
-                            <svg
-                              width="50"
-                              height="50"
-                              viewBox="0 0 50 50"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M25 50C38.8235 50 50 38.8235 50 25C50 11.1765 38.8235 0 25 0C11.1765 0 0 11.1765 0 25C0 38.8235 11.1765 50 25 50ZM25 2.94118C37.2059 2.94118 47.0588 12.7941 47.0588 25C47.0588 37.2059 37.2059 47.0588 25 47.0588C12.7941 47.0588 2.94118 37.2059 2.94118 25C2.94118 12.7941 12.7941 2.94118 25 2.94118Z"
-                                fill="currentColor"
-                              />
-                              <path
-                                d="M24.5585 39.2638L38.8232 24.9991L24.5585 10.7344L22.4997 12.7932L34.7056 24.9991L22.4997 37.205L24.5585 39.2638Z"
-                                fill="currentColor"
-                              />
-                              <path
-                                d="M36.7646 23.5293H11.7646V26.4705H36.7646V23.5293Z"
-                                fill="currentColor"
-                              />
-                            </svg>
-                          </a>
+               
                         </div>
                       </div>
                     </div>
@@ -250,28 +204,7 @@ export const ExperienceOne = () => {
   </li>
 </ul>
             <div className="td-expreance-btn">
-              <a href="">
-                <svg
-                  width="50"
-                  height="50"
-                  viewBox="0 0 50 50"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M25 50C38.8235 50 50 38.8235 50 25C50 11.1765 38.8235 0 25 0C11.1765 0 0 11.1765 0 25C0 38.8235 11.1765 50 25 50ZM25 2.94118C37.2059 2.94118 47.0588 12.7941 47.0588 25C47.0588 37.2059 37.2059 47.0588 25 47.0588C12.7941 47.0588 2.94118 37.2059 2.94118 25C2.94118 12.7941 12.7941 2.94118 25 2.94118Z"
-                    fill="currentColor"
-                  />
-                  <path
-                    d="M24.5585 39.2638L38.8232 24.9991L24.5585 10.7344L22.4997 12.7932L34.7056 24.9991L22.4997 37.205L24.5585 39.2638Z"
-                    fill="currentColor"
-                  />
-                  <path
-                    d="M36.7646 23.5293H11.7646V26.4705H36.7646V23.5293Z"
-                    fill="currentColor"
-                  />
-                </svg>
-              </a>
+          
             </div>
           </div>
         </div>
