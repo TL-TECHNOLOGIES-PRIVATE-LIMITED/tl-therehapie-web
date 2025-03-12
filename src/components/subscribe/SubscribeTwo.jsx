@@ -297,6 +297,7 @@ export const SubscribeTwo = () => {
         <p 
           className="d-none d-sm-block" 
           style={{ 
+            textAlign: "center",
             color: "red", 
             paddingTop: "5px" 
           }}

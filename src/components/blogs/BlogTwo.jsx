@@ -1,6 +1,6 @@
-import React, { useEffect, useRef } from "react";
+import React, { useRef } from "react";
 import { Swiper, SwiperSlide } from "../swiper/SwiperRoot";
-import SwiperCore, { Autoplay } from 'swiper'; // Import Autoplay module
+import SwiperCore, { Autoplay } from "swiper"; // Import Autoplay module
 import { Link } from "react-router-dom";
 
 import img01 from "../../assets/img/blog/blog2/blog1.jpg";
@@ -61,7 +61,7 @@ export const BlogTwo = () => {
       date: "June 21, 2024",
       href: "/blog-details/1",
       title: "The Future of Rehabilitation",
-      tagline: " How Technology is Transforming Patient Recovery"
+      tagline: " How Technology is Transforming Patient Recovery",
     },
     {
       imgSrc: img02,
@@ -69,7 +69,7 @@ export const BlogTwo = () => {
       date: "March 5, 2024",
       href: "/blog-details/2",
       title: "Choosing the Right Rehabilitation Equipment",
-     tagline: " A Buyer's Guide for Healthcare Providers "
+      tagline: " A Buyer's Guide for Healthcare Providers ",
     },
     {
       imgSrc: img03,
@@ -77,7 +77,7 @@ export const BlogTwo = () => {
       date: "March 10, 2024",
       href: "/blog-details/3",
       title: "The Middle East: A Growing Market for Rehabilitation Technology",
-     tagline: "Unlocking Opportunities: Navigating the Middle East Rehab Tech Market "
+      tagline: "Unlocking Opportunities: Navigating the Middle East Rehab Tech Market ",
     },
     {
       imgSrc: img04,
@@ -85,7 +85,7 @@ export const BlogTwo = () => {
       date: "March 15, 2024",
       href: "/blog-details/4",
       title: "How to Optimize Your Rehabilitation Product Distribution Strategy",
-     tagline: " Maximizing Reach, Enhancing Care: Optimize Your Rehab Product Distribution"
+      tagline: " Maximizing Reach, Enhancing Care: Optimize Your Rehab Product Distribution",
     },
     {
       imgSrc: img05,
@@ -93,18 +93,9 @@ export const BlogTwo = () => {
       date: "March 20, 2024",
       href: "/blog-details/5",
       title: "Overcoming Challenges in the Rehabilitation Industry",
-     tagline: " A Manufacturer's Perspective "
+      tagline: " A Manufacturer's Perspective ",
     },
   ];
-
-  // Optional: Pause autoplay on hover
-  const handleMouseEnter = () => {
-    if (swiperRef.current) swiperRef.current.autoplay.stop();
-  };
-
-  const handleMouseLeave = () => {
-    if (swiperRef.current) swiperRef.current.autoplay.start();
-  };
 
   return (
     <div className="td-blog-area pt-135 pb-130 fix">
@@ -118,16 +109,14 @@ export const BlogTwo = () => {
               data-wow-duration="1s"
             >
               <span className="td-section-title-pre mb-10">Our Blogs</span>
-              <h2 className="td-section-title mb-30" style={{lineHeight:"1.28"}}>Insights That Matter</h2>
+              <h2 className="td-section-title mb-30" style={{ lineHeight: "1.28" }}>
+                Insights That Matter
+              </h2>
             </div>
           </div>
 
           <div className="col-12">
-            <div 
-              className="td-blog-slider-wrap"
-              onMouseEnter={handleMouseEnter}
-              onMouseLeave={handleMouseLeave}
-            >
+            <div className="td-blog-slider-wrap">
               <div className="swiper-container td-blog-slider-active">
                 <div className="swiper-wrapper">
                   <Swiper {...swiper_blog_settings}>
@@ -140,11 +129,7 @@ export const BlogTwo = () => {
                         >
                           <div className="td-blog-content">
                             <div className="td-blog-thumb mb-30">
-                              <img
-                                className="w-100"
-                                src={post.imgSrc}
-                                alt="blog"
-                              />
+                              <img className="w-100" src={post.imgSrc} alt="blog" />
                             </div>
                             <div className="td-blog-meta-2 mb-15">
                               <span className="td-blog-2-tag">{post.author}</span>
