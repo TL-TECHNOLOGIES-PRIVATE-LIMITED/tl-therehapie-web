@@ -27,7 +27,7 @@ export const BrandTwo = () => {
         <div className="row gx-0 wow slideInDown">
           <div className="col-lg-6">
             <div className="td-brand-title-wrap p-relative">
-              <span className="td-section-title-pre mb-10">Meet our clients</span>
+              <span className="td-section-title-pre mb-10">Our Trusted Partners</span>
               <h2 className="td-section-title mb-30">All around <br /> the world</h2>
               <img className="td-brand-map d-none d-lg-block" src={mapImg} alt="map" />
             </div>

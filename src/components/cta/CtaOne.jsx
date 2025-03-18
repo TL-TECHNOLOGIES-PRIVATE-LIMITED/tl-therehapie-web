@@ -81,7 +81,7 @@ export const CtaOne = () => {
               </div>
               <div className="col-xl-6">
                 <div className="td-cta-para">
-                  <p>Join the 98.8% satisfied customers who trust us.</p>
+                  <p>Delivering trusted, results-driven rehab solutions.</p>
                 </div>
               </div>
             </div>
@@ -154,7 +154,7 @@ export const CtaOne = () => {
               <div className="col-xl-6">
                 <div className="td-cta-para">
                   <p>
-                    Knowledge gained over 15 years in the insurance industry.
+                  Extensive experience across MENAT, GCC, and international markets.
                   </p>
                 </div>
               </div>
@@ -215,7 +215,7 @@ export const CtaOne = () => {
               </div>
               <div className="col-xl-6">
                 <div className="td-cta-para">
-                  <p>Policies Sold who trust us to protect their futures.</p>
+                  <p>Individuals Empowered Delivering advanced rehabilitation solutions to enhance mobility and recovery.</p>
                 </div>
               </div>
             </div>
@@ -263,19 +263,19 @@ export const CtaOne = () => {
                     <h3 className="td-cta-count-title">
                       <span
                         data-purecounter-duration="1"
-                        data-purecounter-end="4"
+                        data-purecounter-end="30"
                         className="purecounter"
                       >
                         0
                       </span>
-                      <span className="td-cta-count-title-pre">million+</span>
+                      <span className="td-cta-count-title-pre">+Brands</span>
                     </h3>
                   </div>
                 </div>
               </div>
               <div className="col-xl-6">
                 <div className="td-cta-para">
-                  <p>We've efficiently resolved 4 million+ claims.</p>
+                  <p>Powering over 4 million recoveries with cutting-edge technology.</p>
                 </div>
               </div>
             </div>

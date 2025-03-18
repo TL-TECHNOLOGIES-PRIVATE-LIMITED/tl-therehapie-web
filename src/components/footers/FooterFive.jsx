@@ -17,8 +17,8 @@ export const FooterFive = () => {
                   <div className="td-footer-5-widget-content">
                     <ul>
                       <li>
-                        <a href="mailto:abdul.rahiman@therehapie.com">
-                          abdul.rahiman@therehapie.com
+                        <a href="mailto:info@therehapie.com">
+                          info@therehapie.com
                         </a>
                       </li>
                       <li className="mb-20">
@@ -30,12 +30,23 @@ export const FooterFive = () => {
                          target="_blank"
                          className="td-footer-3-link"
                         >
-                          Building 9W - 138 - SO - 23
+                          {/* Building 9W - 138 - SO - 23
 
                           <br />
                           Dubai Airport Freezone
                           <br />
-                          Dubai, UAE
+                          Dubai, UAE */}
+
+DAFZ Head Office
+<br />
+
+                                Building 9W - 1st Floor
+                          <br />
+
+                                Dubai Airport Free Zone - Dubai 
+                          <br />
+
+                                United Arab Emirates
                         </a>
                       </li>
                     </ul>

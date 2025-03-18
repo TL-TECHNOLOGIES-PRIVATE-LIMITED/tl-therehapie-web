@@ -23,10 +23,10 @@ export const HeaderFive = () => {
                   <div className="td-header-5-info-wrap">
                     <ul>
                       <li className="borders">
-                        <a href="mailto:abdul.rahiman@therehapie.com" target="_blank" rel="noreferrer">
+                        <a href="mailto:info@therehapie.com" target="_blank" rel="noreferrer">
                           <i className="fa-regular fa-envelope-open"></i>
                           <div className="td-header-5-info">
-                            <p>abdul.rahiman@therehapie.com</p>
+                            <p>info@therehapie.com</p>
                             <span>Drop us a line</span>
                           </div>
                         </a>

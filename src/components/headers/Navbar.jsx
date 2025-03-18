@@ -21,7 +21,7 @@ export const Navbar = ({ hidePortfolio = false }) => {
           
         </li>
         <li className="">
-          <Link to="/faq"> Faq</Link>
+          <Link to="/faq"> FAQ</Link>
           
         </li>
 

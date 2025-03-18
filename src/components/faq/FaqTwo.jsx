@@ -54,7 +54,7 @@ export const FaqTwo = () => {
                   >
                     <div className="accordion-body td-faq-para">
                       <p>
-                        We offer a wide range of cutting-edge rehabilitation solutions, including physiotherapy devices, mobility aids, neurotherapy equipment, and AI-powered rehab technology tailored to different patient needs.
+                      We offer a wide range of cutting-edge rehabilitation solutions, including physiotherapy devices, mobility aids, AI-powered robotics, and advanced rehab technology tailored to diverse patient needs.
                       </p>
                     </div>
                   </div>
@@ -126,8 +126,7 @@ export const FaqTwo = () => {
                   >
                     <div className="accordion-body td-faq-para">
                       <p>
-                        Yes, we offer comprehensive product training, installation guidance, and technical support to ensure healthcare professionals can maximize the benefits of our rehabilitation equipment.
-
+                      We are here to support you every step of the way. For technical support and installation, we connect directly with the manufacturers to ensure precise solutions and seamless assistance.
                       </p>
                     </div>
                   </div>

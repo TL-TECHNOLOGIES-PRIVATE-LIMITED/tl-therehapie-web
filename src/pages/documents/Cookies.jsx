@@ -139,7 +139,7 @@ export const CookiePolicy = () => {
                 <div className="pt-2">
                   <div className="d-flex align-items-center mb-2">
                     <span className="me-3">📧</span>
-                    <span className="text-secondary">Email: <a href=" mailto:abdul.rahiman@therehapie.com" target='_blank'>abdul.rahiman@therehapie.com</a></span>
+                    <span className="text-secondary">Email: <a href=" mailto:info@therehapie.com" target='_blank'>info@therehapie.com</a></span>
                   </div>
                   <div className="d-flex align-items-center mb-2">
                     <span className="me-3">📞</span>

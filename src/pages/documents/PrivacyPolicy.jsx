@@ -126,7 +126,7 @@ export const PrivacyPolicy = () => {
                     <li>Opt-out of marketing communications at any time.</li>
                   </ul>
                   <p className="text-secondary mt-3">
-                    To exercise these rights, contact us at <strong><a href="mailto:abdul.rahiman@therehapie.com" style={{color:"blue"}}>abdul.rahiman@therehapie.com</a></strong>.
+                    To exercise these rights, contact us at <strong><a href="mailto:info@therehapie.com" style={{color:"blue"}}>info@therehapie.com</a></strong>.
                   </p>
                 </div>
               </div>
@@ -189,7 +189,7 @@ export const PrivacyPolicy = () => {
               <div className="pt-2">
                   <div className="d-flex align-items-center mb-2">
                     <span className="me-3">📧</span>
-                    <span className="text-secondary">Email: <a href=" mailto:abdul.rahiman@therehapie.com"  target='_blank'>abdul.rahiman@therehapie.com</a></span>
+                    <span className="text-secondary">Email: <a href=" mailto:info@therehapie.com"  target='_blank'>info@therehapie.com</a></span>
                   </div>
                   <div className="d-flex align-items-center mb-2">
                     <span className="me-3">📞</span>

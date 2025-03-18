@@ -22,9 +22,9 @@ export const HeaderTwo = () => {
                       <div className="td-header-top-social">
                         <ul>
                           <li>
-                            <a href="mailto:abdul.rahiman@therehapie.com" target="_blank">
+                            <a href="mailto:info@therehapie.com" target="_blank">
                               <i className="fa-regular fa-envelope-open"></i>
-                              abdul.rahiman@therehapie.com
+                              info@therehapie.com
                             </a>
                           </li>
                           <li>

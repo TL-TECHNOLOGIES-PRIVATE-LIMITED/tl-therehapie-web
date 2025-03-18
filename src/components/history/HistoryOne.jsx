@@ -3,7 +3,7 @@ import $ from "jquery";
 
 export const HistoryOne = () => {
   const historyItems = [
-    { id: "1", year: "1972", title: "For Manufacturers", content:"We help you expand your market reach, identify the right distributors, and navigate complex regulations" },
+    { id: "1", year: "1972", title: "For Manufacturers", content:"We expand your market reach, connect you with the right distributors, and help you navigate complex regulations, ensuring seamless entry and sustained growth in new markets." },
     { id: "2", year: "2000", title: "For Distributors",content:" We connect you with leading manufacturers, optimize your product portfolio, and help you establish a strong foothold in the market." },
     { id: "3", year: "2022", title: " For Healthcare Providers",content:"We assist hospitals, clinics, and rehab centers in acquiring cost-effective, high-quality rehabilitation solutions tailored to their needs." },
     // { id: "4", year: "2024", title: "archive 1000+ awards" },

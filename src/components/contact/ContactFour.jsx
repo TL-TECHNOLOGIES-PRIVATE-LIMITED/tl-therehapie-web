@@ -97,9 +97,10 @@ export const ContactFour = () => {
                                 className="td-contact-4-email"
                                 href="#map"
                               >
-                                Building 9W - 138 - SO - 23
-                                Dubai Airport Freezone
-                                Dubai, UAE
+                                DAFZ Head Office
+                                Building 9W - 1st Floor
+                                Dubai Airport Free Zone - Dubai 
+                                United Arab Emirates
 
                               </a>
                             </li>
@@ -147,10 +148,10 @@ export const ContactFour = () => {
                             <li>
                               <a
                                 className="td-contact-4-addres"
-                                href="mailto:abdul.rahiman@therehapie.com"
+                                href="mailto:info@therehapie.com"
                                 target="_blank"
                               >
-                                abdul.rahiman@therehapie.com
+                                info@therehapie.com
                               </a>
                             </li>
                           </ul>
