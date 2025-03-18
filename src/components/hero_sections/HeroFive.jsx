@@ -30,7 +30,7 @@ export const HeroFive = () => {
                 Revolutionizing Rehab, Bridging Innovation & Care.                
                 </h2>
                 <div className="td-hero-5-btn">
-                  <Link to="/" className="td-btn mr-20 td-left-right" style={{color: "white"}}>
+                  {/* <Link to="/" className="td-btn mr-20 td-left-right" style={{color: "white"}}>
                     View Products
                     <span className="td-arrow-angle ml-10">
                       <svg
@@ -44,7 +44,7 @@ export const HeroFive = () => {
                         <path d="M1.018 10.009 0 8.991l7.569-7.582H1.723L1.737 0h8.26v8.274H8.574l.013-5.847Z" />
                       </svg>
                     </span>
-                  </Link>
+                  </Link> */}
                   <Link to="/contact" className="td-btn td-btn-3 td-left-right">
                     Schedule a call
                     <span className="td-arrow-angle ml-10">
