@@ -12,7 +12,7 @@ const AboutSection = () => {
           <div className="g rounded-lg p-6 md:p-8">
             <h3 className="text-2xl font-semibold text-gray-800  td-section-title">Our Story</h3>
             <p className="text-gray-700 leading-relaxed" style={{lineHeight:"1.8",fontSize:"18px"}}>
-              Founded by <strong>Abdul Rahiman BK</strong>, an industry expert with over{" "}
+              Founded by <strong> <a href="https://www.linkedin.com/in/abdul-rahiman-beyaram-kunhali-698a971b6/" target="_blank">Abdul Rahiman B K</a></strong>, an industry expert with over{" "}
               <strong>15 years of experience</strong> in the healthcare and rehabilitation
               sector, theREHApie Consultants was born out of a passion for enhancing
               patient recovery and mobility. With a deep understanding of market challenges,

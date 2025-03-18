@@ -20,7 +20,7 @@ export const FooterThree = () => {
                 <div className="td-footer-3-top-content">
                   <p>
                     Looking for collaboration? Send an email to
-                    <a href="mailto:abdul.rahiman@therehapie.com"> abdul.rahiman@therehapie.com</a> for
+                    <a href="mailto:info@therehapie.com"> info@therehapie.com</a> for
                     valuable enquires and collaborations.
                   </p>
                 </div>
@@ -64,8 +64,8 @@ export const FooterThree = () => {
                         Contact Us
                       </h2>
                       <div className="td-footer-3-link">
-                        <a href="mailto:abdul.rahiman@therehapie.com">
-                          abdul.rahiman@therehapie.com
+                        <a href="mailto:info@therehapie.com">
+                          info@therehapie.com
                         </a>
                         <a href="tel: +971 50 136 1586"> +971 50 136 1586</a>
                       </div>
@@ -80,11 +80,16 @@ export const FooterThree = () => {
                           target="_blank"
                           className="td-footer-3-link"
                         >
-                          Building 9W - 138 - SO - 23
+                   DAFZ Head Office
+<br />
+
+                                Building 9W - 1st Floor
                           <br />
-                          Dubai Airport Freezone
+
+                                Dubai Airport Free Zone - Dubai 
                           <br />
-                          Dubai, UAE
+
+                                United Arab Emirates
                         </a>
                       </div>
                     </div>

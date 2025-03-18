@@ -46,7 +46,7 @@ export const FooterFour = () => {
                       Dubai, UAE
                     </a>
                     <a href="mailto:info@adina-design.com">
-                      <i className="fa-regular fa-envelope"></i>abdul.rahiman@therehapie.com
+                      <i className="fa-regular fa-envelope"></i>info@therehapie.com
                     </a>
                     <a href="tel:+971 50 136 1586">
                       <span>
