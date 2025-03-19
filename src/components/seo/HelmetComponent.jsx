@@ -5,7 +5,7 @@ const HelmetReuse = ({
   title = "theREHApie Consultants – Bridging Rehabilitation Innovation with the Middle East",
   description = "We help businesses expand in the rehab industry by offering strategic consulting, regulatory support, and distributor connections in the Middle East.",
   url = "https://tl-therehapie-web-peach.vercel.app/",
-  image = "https://opengraph.b-cdn.net/production/images/375a33b4-f07f-4bdb-a1ea-c565cddeae67.png?token=EF9afPuntq4SMqfPjqF2cZxPxnFQbbvBe9KTSsNx73w&height=588&width=1200&expires=33277161238",
+  image = "https://opengraph.b-cdn.net/production/images/3ce1332d-dc0a-4867-ad76-4f7625e71d1f.jpg?token=EWdiWv6KMf8fS-YmpXCiOfV7Zb_1iS84hgPjeHAMx3Q&height=802&width=1200&expires=33278379712",
   keywords = "",
 }) => {
   return (
