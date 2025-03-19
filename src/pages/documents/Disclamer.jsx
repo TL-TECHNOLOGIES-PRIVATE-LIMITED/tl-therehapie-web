@@ -1,9 +1,16 @@
 import React from 'react';
 import { Layout } from '../../layouts/Layout';
+import HelmetReuse from '../../components/seo/HelmetComponent';
 
 export const Disclaimer = () => {
   return (
     <Layout breadcrumbTitle={"Disclaimer"} breadcrumbSubtitle={"Disclaimer"}>
+      <HelmetReuse 
+  title="Disclaimer | theREHApie Consultants - Important Legal Information" 
+  description="Read our disclaimer outlining the limitations of liability, accuracy of information, and terms of use for theREHApie Consultants’ website and services."
+  keywords="website disclaimer, liability limitations, legal information, consulting terms, theREHApie disclaimer"
+/>
+
     <div className="container-fluid py-5 bg-white">
       <div className="container">
         <div className="card border-0 shadow-sm">
