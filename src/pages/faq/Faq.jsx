@@ -23,6 +23,7 @@ import thumb19Img from "../../assets/img/faq/details/faq10-0.jpg";
 import thumb20Img from "../../assets/img/faq/details/faq10-1.jpg";
 import thumb21Img from "../../assets/img/faq/details/faq11-0.jpg";
 import thumb22Img from "../../assets/img/faq/details/faq12-1.jpg";
+import HelmetReuse from "../../components/seo/HelmetComponent";
 
 
 
@@ -141,6 +142,12 @@ export const Faq = () => {
 
   return (
     <Layout breadcrumbTitle={"FAQ Page"} breadcrumbSubtitle={"FAQ"}>
+      <HelmetReuse 
+  title="FAQs | theREHApie Consultants - Your Questions Answered" 
+  description="Find answers to common questions about rehabilitation consulting, distributor sourcing, and business expansion in the Middle East."
+  keywords="rehabilitation consulting FAQs, medical device consulting questions, business expansion help, Middle East healthcare consulting"
+/>
+
       <div className="td-faq-area pt-140 pb-80">
         <div className="container">
           <div className="row">

@@ -1,9 +1,16 @@
 import React from 'react';
 import { Layout } from '../../layouts/Layout';
+import HelmetReuse from '../../components/seo/HelmetComponent';
 
 export const PrivacyPolicy = () => {
   return (
     <Layout breadcrumbTitle={"About Us"} breadcrumbSubtitle={"About Us"}>
+      <HelmetReuse 
+  title="Privacy Policy | theREHApie Consultants - Your Data Protection" 
+  description="Learn how theREHApie Consultants collects, uses, and protects your personal information while providing expert rehabilitation consulting services."
+  keywords="privacy policy, data protection, personal information security, healthcare consulting privacy, theREHApie data policy"
+/>
+
     <div className="container-fluid py-5 bg-white">
       <div className="container">
         <div className="card border-0 shadow-sm">

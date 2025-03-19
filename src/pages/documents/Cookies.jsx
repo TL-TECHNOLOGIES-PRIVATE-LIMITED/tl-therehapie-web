@@ -1,9 +1,16 @@
 import React from 'react';
 import { Layout } from '../../layouts/Layout';
+import HelmetReuse from '../../components/seo/HelmetComponent';
 
 export const CookiePolicy = () => {
   return (
     <Layout breadcrumbTitle={"Cookie policy"} breadcrumbSubtitle={"About Us"}>
+      <HelmetReuse 
+  title="Cookie Policy | theREHApie Consultants - How We Use Cookies" 
+  description="Understand how theREHApie Consultants uses cookies to enhance user experience, track site usage, and improve our services while respecting your privacy."
+  keywords="cookie policy, website cookies, user tracking, data collection, cookie usage, theREHApie cookies"
+/>
+
 
     <div className="container-fluid py-5 bg-white">
       <div className="container">

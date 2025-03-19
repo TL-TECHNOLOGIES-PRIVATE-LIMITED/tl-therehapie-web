@@ -8,6 +8,7 @@ import blogImage3 from "../../assets/img/blog/blogsidebar/blog-3.jpg";
 import blogImage4 from "../../assets/img/blog/blogsidebar/blog-4.jpg";
 import blogImage5 from "../../assets/img/blog/blogsidebar/blog-5.jpg";
 import userImage1 from "../../assets/img/blog/blogsidebar/logo.png";
+import HelmetReuse from "../../components/seo/HelmetComponent";
 
 export const Blog = () => {
   const blogs = [
@@ -191,6 +192,12 @@ export const Blog = () => {
 
   return (
     <Layout breadcrumbTitle={"Our Blogs"} breadcrumbSubtitle={"Blog"}>
+      <HelmetReuse 
+  title="Blog | theREHApie Consultants - Insights on Rehab Consulting" 
+  description="Stay updated with the latest trends, insights, and expert opinions on rehabilitation consulting, healthcare business expansion, and distributor sourcing."
+  keywords="rehabilitation consulting blog, medical device market news, healthcare business insights, distributor sourcing tips, Middle East healthcare consulting"
+/>
+
       <BlogLayout>
         {/* Blogs Section */}
         <div className="container">

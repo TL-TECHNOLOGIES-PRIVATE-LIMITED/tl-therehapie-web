@@ -1,11 +1,18 @@
 import React from 'react';
 import { Layout } from '../../layouts/Layout';
+import HelmetReuse from '../../components/seo/HelmetComponent';
 
 
 
 export const Terms = () => {
   return (
     <Layout breadcrumbTitle={"Terms and conditions"} breadcrumbSubtitle={"Terms and conditions"}>
+      <HelmetReuse 
+  title="Terms & Conditions | theREHApie Consultants - User Agreement" 
+  description="Review the terms and conditions governing the use of theREHApie Consultants' website, services, and business interactions."
+  keywords="terms and conditions, user agreement, service terms, website policies, theREHApie terms"
+/>
+
     <div className="container-fluid py-5 bg-white">
       <div className="container">
         <div className="card border-0 shadow-sm">
