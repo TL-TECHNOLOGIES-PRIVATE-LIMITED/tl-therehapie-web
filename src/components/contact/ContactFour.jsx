@@ -13,40 +13,39 @@ export const ContactFour = () => {
 
   const validateForm = () => {
     let errors = {};
-  
-    // if (!name.trim()) errors.name = "Name is required";
+
     if (!name.trim()) {
       errors.name = "Name is required";
     } else if (/\d/.test(name)) { // Checks if the name contains a number
       errors.name = "Name should not contain numbers";
     }
-    
+
     if (!email.trim()) {
       errors.email = "Email is required";
     } else if (!/\S+@\S+\.\S+/.test(email)) {
       errors.email = "Invalid email format";
     }
-    
+
     if (!subject.trim()) errors.subject = "Subject is required";
-  
+
     if (!message.trim()) {
       errors.message = "Message is required";
     } else if (message.trim().length < 10) {
       errors.message = "Message must be at least 10 characters";
     }
-  
+
     setErrors(errors);
     return Object.keys(errors).length === 0;
   };
-  
+
 
   const handleContact = async (e) => {
     e.preventDefault();
     if (!validateForm()) {
-      return; 
+      return;
     }
     try {
-      
+
       const data = {
         name: name,
         email: email,
@@ -55,7 +54,7 @@ export const ContactFour = () => {
 
       }
       const response = await contact(data)
-      if(response.data){
+      if (response.data) {
         toast.success(response.data.message)
         setEmail("")
         setMessage("")
@@ -86,10 +85,8 @@ export const ContactFour = () => {
                           />
                         </div>
                       </div>
-
                       <div className="col-xl-5 col-lg-6 col-md-6 col-sm-7">
                         <div className="td-contact-4-content">
-                          {/* <h3 className="td-contact-4-title mb-30">Address</h3> */}
                           <h3 className="td-contact-4-title mb-30">Dubai</h3>
                           <ul>
                             <li>
@@ -98,9 +95,31 @@ export const ContactFour = () => {
                                 href="#map"
                               >
                                 DAFZ Head Office
-                                Building 9W - 1st Floor
-                                Dubai Airport Free Zone - Dubai 
-                                United Arab Emirates
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                                className="td-contact-4-email"
+                                href="#map"
+                              >
+                                Building 9W, 1st Floor
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                                className="td-contact-4-email"
+                                href="#map"
+                              >
+                                Dubai Airport Free Zone
+
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                                className="td-contact-4-email"
+                                href="#map"
+                              >
+                                Dubai, United Arab Emirates
 
                               </a>
                             </li>
@@ -109,7 +128,6 @@ export const ContactFour = () => {
                       </div>
                     </div>
                   </div>
-
                   <div className="col-12 mb-40">
                     <div className="row align-items-center">
                       <div className="col-xl-7 col-lg-6 col-md-6 col-sm-5">
@@ -121,19 +139,10 @@ export const ContactFour = () => {
                           />
                         </div>
                       </div>
-
                       <div className="col-xl-5 col-lg-6 col-md-6 col-sm-7">
                         <div className="td-contact-4-content">
                           <h3 className="td-contact-4-title mb-30">Contact Us</h3>
                           <ul>
-                            {/* <li>
-                              <a
-                                className="td-contact-4-email"
-                                href="mailto:info@adina-design.com"
-                              >
-                                info@adina-design.com
-                              </a>
-                            </li> */}
                             <li className="mb-10">
                               <a
                                 className="td-contact-4-phone"
@@ -229,9 +238,9 @@ export const ContactFour = () => {
         </div>
       </div>
       <Toaster
-  position="top-right"
-  reverseOrder={false}
-/>
+        position="top-right"
+        reverseOrder={false}
+      />
     </div>
   );
 };

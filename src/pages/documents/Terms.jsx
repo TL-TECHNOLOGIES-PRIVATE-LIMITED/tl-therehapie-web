@@ -6,7 +6,7 @@ import HelmetReuse from '../../components/seo/HelmetComponent';
 
 export const Terms = () => {
   return (
-    <Layout breadcrumbTitle={"Terms and conditions"} breadcrumbSubtitle={"Terms and conditions"}>
+    <Layout breadcrumbTitle={"Terms & conditions"} breadcrumbSubtitle={"Terms & conditions"}>
       <HelmetReuse 
   title="Terms & Conditions | theREHApie Consultants - User Agreement" 
   description="Review the terms and conditions governing the use of theREHApie Consultants' website, services, and business interactions."

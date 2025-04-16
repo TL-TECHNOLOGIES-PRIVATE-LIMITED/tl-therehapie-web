@@ -4418,7 +4418,7 @@ font-family: var(--td-ff-manrope);
   line-height: 1.62;
   color: #a3b0b8;
   display: block;
-  margin-bottom: 16px;
+  margin-bottom: 5px;
 }
 .td-footer-3-widget ul li a:hover {
   color: var(--td-common-white);

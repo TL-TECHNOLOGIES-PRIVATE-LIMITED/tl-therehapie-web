@@ -191,7 +191,7 @@ export const Blog = () => {
   };
 
   return (
-    <Layout breadcrumbTitle={"Our Blogs"} breadcrumbSubtitle={"Blog"}>
+    <Layout breadcrumbTitle={"Our Blogs"} breadcrumbSubtitle={"Blogs"}>
       <HelmetReuse 
   title="Blog | theREHApie Consultants - Insights on Rehab Consulting" 
   description="Stay updated with the latest trends, insights, and expert opinions on rehabilitation consulting, healthcare business expansion, and distributor sourcing."
