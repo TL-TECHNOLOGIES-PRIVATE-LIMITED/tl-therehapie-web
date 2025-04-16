@@ -13,7 +13,7 @@ export const Navbar = ({ hidePortfolio = false }) => {
         </li>
 
           <li>
-              <Link to="/blog">Blog</Link>
+              <Link to="/blog">Blogs</Link>
             </li>
 
         <li className="">
@@ -21,7 +21,7 @@ export const Navbar = ({ hidePortfolio = false }) => {
           
         </li>
         <li className="">
-          <Link to="/faq"> FAQ</Link>
+          <Link to="/faq"> FAQs</Link>
           
         </li>
 

@@ -141,7 +141,7 @@ export const Faq = () => {
   ];
 
   return (
-    <Layout breadcrumbTitle={"FAQ Page"} breadcrumbSubtitle={"FAQ"}>
+    <Layout breadcrumbTitle={"FAQs"} breadcrumbSubtitle={"FAQs"}>
       <HelmetReuse 
   title="FAQs | theREHApie Consultants - Your Questions Answered" 
   description="Find answers to common questions about rehabilitation consulting, distributor sourcing, and business expansion in the Middle East."

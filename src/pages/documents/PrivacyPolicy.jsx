@@ -4,7 +4,7 @@ import HelmetReuse from '../../components/seo/HelmetComponent';
 
 export const PrivacyPolicy = () => {
   return (
-    <Layout breadcrumbTitle={"About Us"} breadcrumbSubtitle={"About Us"}>
+    <Layout breadcrumbTitle={"Privacy Policy"} breadcrumbSubtitle={"Privacy Policy"}>
       <HelmetReuse 
   title="Privacy Policy | theREHApie Consultants - Your Data Protection" 
   description="Learn how theREHApie Consultants collects, uses, and protects your personal information while providing expert rehabilitation consulting services."

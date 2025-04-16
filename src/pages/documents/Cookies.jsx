@@ -4,7 +4,7 @@ import HelmetReuse from '../../components/seo/HelmetComponent';
 
 export const CookiePolicy = () => {
   return (
-    <Layout breadcrumbTitle={"Cookie policy"} breadcrumbSubtitle={"About Us"}>
+    <Layout breadcrumbTitle={"Cookie policy"} breadcrumbSubtitle={"Cookie policy"}>
       <HelmetReuse 
   title="Cookie Policy | theREHApie Consultants - How We Use Cookies" 
   description="Understand how theREHApie Consultants uses cookies to enhance user experience, track site usage, and improve our services while respecting your privacy."

@@ -46,14 +46,15 @@ export const FooterThree = () => {
                       <ul>
                         <li>
 
-                          <a href="/blog">Our Blog</a>
-                          <a href="/service">Service</a>
-                          <a href="/faq">FAQ</a>
-                          <a href="/contact">Contact</a>
+                          <a href="/blog">Blogs</a>
+                          <a href="/service">Services</a>
+                          <a href="/faq">FAQs</a>
+                          <a href="/faq">About</a>
+                          <a href="/contact">Contact Us</a>
                           <a href="/privacy">Privacy Policy</a>
-                          <a href="/terms">Terms and Condition</a>
+                          <a href="/terms">Terms and Conditions</a>
                           <a href="/disclaimer">Disclaimer</a>
-                          <a href="/cookies">Cookie's Policy</a>
+                          <a href="/cookies">Cookie Policy</a>
                         </li>
                       </ul>
                     </div>
@@ -75,22 +76,48 @@ export const FooterThree = () => {
                         Our Address
                       </h2>
                       <div className="td-footer-3-link">
-                        <a
-                          // href="https://www.google.com/maps/@41.6758525,-86.2531698,18.17z"
-                          target="_blank"
-                          className="td-footer-3-link"
-                        >
-                   DAFZ Head Office
-<br />
+                        <ul>
+                          <li>
+                            <a
+                              // href="https://www.google.com/maps/@41.6758525,-86.2531698,18.17z"
+                              target="_blank"
+                              className="td-footer-3-link"
+                            >
 
-                                Building 9W - 1st Floor
-                          <br />
+                              DAFZ Head Office
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              // href="https://www.google.com/maps/@41.6758525,-86.2531698,18.17z"
+                              target="_blank"
+                              className="td-footer-3-link"
+                            >
+                              Building 9W, 1st Floor
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              // href="https://www.google.com/maps/@41.6758525,-86.2531698,18.17z"
+                              target="_blank"
+                              className="td-footer-3-link"
+                            >
+                              Dubai Airport Free Zone
 
-                                Dubai Airport Free Zone - Dubai 
-                          <br />
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              // href="https://www.google.com/maps/@41.6758525,-86.2531698,18.17z"
+                              target="_blank"
+                              className="td-footer-3-link"
+                            >
 
-                                United Arab Emirates
-                        </a>
+                              Dubai, United Arab Emirates
+
+                            </a>
+                          </li>
+                        </ul>
                       </div>
                     </div>
                   </div>
