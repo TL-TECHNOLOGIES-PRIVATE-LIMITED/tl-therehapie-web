@@ -105,7 +105,7 @@ export const FooterFive = () => {
 
 
                       <li>
-                        <a href="/terms">Terms & Condition</a>
+                        <a href="/terms">Terms & Conditions</a>
                       </li>
                       <li>
                         <a href="/privacy">Privacy Policy</a>
